@@ -30,6 +30,8 @@
     set uiLang(v) { write("uiLang", v); },
     get theme()   { return read("theme", null); },            // light | dark | null (=System)
     set theme(v)  { write("theme", v); },
+    get pinyinOnly()  { return read("pinyinOnly", true); },  // ZH nur mit Pinyin lernen
+    set pinyinOnly(v) { write("pinyinOnly", v); },
     get dailyGoal()  { return read("dailyGoal", 10); },       // Vokabeln pro Tag
     set dailyGoal(v) { write("dailyGoal", v); },
   };

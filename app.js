@@ -39,12 +39,15 @@
     return course.levels.flatMap(l => l.topics.flatMap(tp => tp.words));
   }
 
-  /* Vokabel → Quiz-Item (Bedeutung in der aktuellen Erklärsprache) */
+  /* Vokabel → Quiz-Item (Bedeutung in der aktuellen Erklärsprache).
+     Ist "Nur Pinyin" aktiv, wird bei Chinesisch das Pinyin zum Lernwort –
+     die ID bleibt gleich, damit der Leitner-Fortschritt erhalten bleibt. */
   function toQuizItem(w) {
+    const pinyinOnly = window.Store.Settings.pinyinOnly && w.lang === "zh-CN" && w.sub;
     return {
       id: w.id,
-      target: w.target,
-      sub: w.sub || "",
+      target: pinyinOnly ? w.sub : w.target,
+      sub: pinyinOnly ? "" : (w.sub || ""),
       meaning: pick(w.meaning),
       speakText: w.speak || w.target,
       lang: w.lang,
@@ -165,6 +168,12 @@
         </div>
         <p class="quiz-sub">${pick(level.name)}</p>
 
+        ${code === "zh" ? `
+        <label class="check-pill" style="margin:.4rem 0;display:inline-flex">
+          <input type="checkbox" id="py-only" ${window.Store.Settings.pinyinOnly ? "checked" : ""}>
+          <span>🔤 ${t("zh.onlyPinyin")}</span>
+        </label>` : ""}
+
         <p class="section-label">${t("course.topics")}</p>
         <div class="topic-grid">
           ${level.topics.map(tp => {
@@ -193,6 +202,12 @@
 
     app.querySelectorAll(".level-tab").forEach(btn =>
       btn.addEventListener("click", () => { location.hash = `#/course/${code}/${btn.dataset.level}`; }));
+
+    const pyToggle = document.getElementById("py-only");
+    if (pyToggle) pyToggle.addEventListener("change", () => {
+      window.Store.Settings.pinyinOnly = pyToggle.checked;
+      toast(pyToggle.checked ? t("zh.onlyPinyinOn") : t("zh.onlyPinyinOff"));
+    });
   }
 
   /* ---------- Themen-Seite (Vokabeln) ---------- */
@@ -203,6 +218,7 @@
     if (!topic) return viewCourse(code);
 
     const zh = code === "zh";
+    const pyOnly = zh && window.Store.Settings.pinyinOnly;
     app.innerHTML = `
       <a class="back-link" href="#/course/${code}/${levelId}">← ${pick(course.name)} · ${level.label}</a>
       <h1>${topic.emoji} ${pick(topic.name)}</h1>
@@ -212,8 +228,10 @@
         ${topic.words.map((w, i) => `
           <div class="vocab-row" data-idx="${i}">
             <div class="vocab-main">
-              <span class="vocab-word ${zh ? "hanzi" : ""}">${esc(w.target)}</span>
-              ${w.sub ? `<span class="${zh ? "vocab-pinyin" : "vocab-ipa"}">${esc(w.sub)}</span>` : ""}
+              ${pyOnly
+                ? `<span class="vocab-word py-pinyin">${esc(w.sub)}</span>`
+                : `<span class="vocab-word ${zh ? "hanzi" : ""}">${esc(w.target)}</span>
+                   ${w.sub ? `<span class="${zh ? "vocab-pinyin" : "vocab-ipa"}">${esc(w.sub)}</span>` : ""}`}
               <span class="vocab-meaning">${esc(pick(w.meaning))}</span>
             </div>
             <div class="vocab-actions">
@@ -222,8 +240,10 @@
               <button type="button" class="mini-btn v-fav ${window.Store.isFav(w.id) ? "active" : ""}" aria-label="${t("a11y.fav")}" title="${t("a11y.fav")}" aria-pressed="${window.Store.isFav(w.id)}">★</button>
             </div>
             ${w.ex ? `<div class="vocab-example">
-                <span class="ex-target">${esc(w.ex.target)}</span>
-                ${w.ex.sub ? ` <span class="vocab-pinyin">${esc(w.ex.sub)}</span>` : ""}
+                ${pyOnly
+                  ? `<span class="ex-target py-pinyin">${esc(w.ex.sub || w.ex.target)}</span>`
+                  : `<span class="ex-target">${esc(w.ex.target)}</span>
+                     ${w.ex.sub ? ` <span class="vocab-pinyin">${esc(w.ex.sub)}</span>` : ""}`}
                 <br><span>${esc(pick(w.ex.trans))}</span>
                 <button type="button" class="mini-btn v-play-ex" aria-label="${t("a11y.play")}" style="width:28px;height:28px">🔊</button>
               </div>` : ""}

@@ -588,5 +588,20 @@
     "de": "Alle Niveaus",
     "en": "All levels",
     "zh": "全部级别"
+  },
+  "zh.onlyPinyin": {
+    "de": "Nur Pinyin lernen (Hanzi ausblenden)",
+    "en": "Learn with Pinyin only (hide Hanzi)",
+    "zh": "只用拼音学习（隐藏汉字）"
+  },
+  "zh.onlyPinyinOn": {
+    "de": "Pinyin-Modus aktiv – Vokabeln und Quiz zeigen jetzt Pinyin.",
+    "en": "Pinyin mode on – vocabulary and quizzes now show Pinyin.",
+    "zh": "拼音模式已开启"
+  },
+  "zh.onlyPinyinOff": {
+    "de": "Hanzi wieder aktiv.",
+    "en": "Hanzi mode restored.",
+    "zh": "已恢复汉字模式"
   }
 }
