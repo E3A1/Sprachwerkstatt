@@ -140,6 +140,7 @@
     ];
     if (code === "zh") {
       tools.splice(2, 0,
+        { href: "#/pinyin", emoji: "🔤", name: t("zh.pinyin"), meta: t("zh.pinyinMeta") },
         { href: "#/tones", emoji: "🎵", name: t("zh.tones"), meta: t("zh.tonesMeta") },
         { href: "#/chars", emoji: "✍️", name: t("zh.chars"), meta: t("zh.charsMeta") });
     } else {
@@ -501,6 +502,152 @@
   }
 
   /* ---------- Quiz: Auswahl & Start ---------- */
+  /* ---------- Pinyin-Modus (nur Chinesisch) ----------
+     Alle Vokabeln werden Pinyin-zuerst angezeigt: Das Pinyin ist das
+     Lernwort, die Schriftzeichen sind standardmäßig ausgeblendet und
+     lassen sich global einblenden. Der Übungsmodus startet das Quiz
+     mit vertauschten Feldern (target = Pinyin), sodass alle fünf
+     Quiztypen ohne Hanzi funktionieren. */
+  async function viewPinyin(levelId) {
+    /* Styles für den Pinyin-Modus einmalig injizieren – so funktioniert das
+       Modul auch ohne Änderung an style.css */
+    if (!document.getElementById("pinyin-css")) {
+      const st = document.createElement("style");
+      st.id = "pinyin-css";
+      st.textContent = `
+        .pinyin-toolbar{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin:1rem 0 .4rem}
+        .pinyin-toolbar select{padding:.55rem .8rem;border-radius:10px;border:1px solid var(--border);background:var(--surface);color:var(--text);font:inherit}
+        .btn.ghost{background:transparent;border:1px solid var(--border);color:var(--text)}
+        .btn.ghost:hover{border-color:var(--zh);color:var(--zh)}
+        .py-level-head{margin:1.8rem 0 .2rem;font-size:1.15rem;padding-bottom:.3rem;border-bottom:2px solid var(--zh);display:inline-block}
+        .py-topic-head{margin:1rem 0 .4rem;font-size:1rem;color:var(--muted)}
+        .py-pinyin{font-weight:700;letter-spacing:.01em}
+        .py-hanzi{font-family:"Noto Sans SC",sans-serif;color:var(--muted);transition:opacity .25s ease}
+        .pinyin-mode.hanzi-hidden .py-hanzi{display:none}`;
+      document.head.appendChild(st);
+    }
+    const course = await loadCourse("zh");
+    const lvls = levelId && levelId !== "all"
+      ? course.levels.filter(l => l.id === levelId)
+      : course.levels;
+
+    app.innerHTML = `
+      <div class="course-zh pinyin-mode hanzi-hidden">
+        <a class="back-link" href="#/course/zh">← ${pick(course.name)}</a>
+        <h1>🔤 ${t("zh.pinyin")}</h1>
+        <p class="quiz-sub">${t("pinyin.hint")}</p>
+
+        <div class="pinyin-toolbar">
+          <select id="py-level" aria-label="${t("quiz.level")}">
+            <option value="all">${t("pinyin.allLevels")}</option>
+            ${course.levels.map(l => `<option value="${l.id}" ${l.id === levelId ? "selected" : ""}>${l.label}</option>`).join("")}
+          </select>
+          <button type="button" class="btn ghost" id="py-toggle" aria-pressed="false">👁 ${t("pinyin.showHanzi")}</button>
+          <button type="button" class="btn zh" id="py-practice">🎯 ${t("pinyin.practice")}</button>
+        </div>
+
+        <div id="py-quiz" class="quiz-run" style="margin-top:1rem"></div>
+
+        ${lvls.map(l => `
+          <h2 class="py-level-head">${l.label} · ${pick(l.name)}</h2>
+          ${l.topics.map(tp => `
+            <h3 class="py-topic-head">${tp.emoji} ${pick(tp.name)}</h3>
+            <div class="vocab-list">
+              ${tp.words.map(w => `
+                <div class="vocab-row" data-id="${esc(w.id)}">
+                  <div class="vocab-main">
+                    <span class="vocab-word py-pinyin">${esc(w.sub)}</span>
+                    <span class="hanzi py-hanzi">${esc(w.target)}</span>
+                    <span class="vocab-meaning">${esc(pick(w.meaning))}</span>
+                  </div>
+                  <div class="vocab-actions">
+                    <button type="button" class="mini-btn v-play" aria-label="${t("a11y.play")}" title="${t("a11y.play")}">🔊</button>
+                    ${window.Speech.sttAvailable ? `<button type="button" class="mini-btn v-mic" aria-label="${t("a11y.mic")}" title="${t("a11y.mic")}">🎤</button>` : ""}
+                    <button type="button" class="mini-btn v-fav ${window.Store.isFav(w.id) ? "active" : ""}" aria-label="${t("a11y.fav")}" aria-pressed="${window.Store.isFav(w.id)}">★</button>
+                  </div>
+                  ${w.ex ? `<div class="vocab-example">
+                      <span class="ex-target py-pinyin">${esc(w.ex.sub || "")}</span>
+                      <span class="py-hanzi"> ${esc(w.ex.target)}</span>
+                      <br><span>${esc(pick(w.ex.trans))}</span>
+                    </div>` : ""}
+                  <div class="speech-slot" style="grid-column:1/-1"></div>
+                </div>`).join("")}
+            </div>`).join("")}`).join("")}
+      </div>`;
+
+    const wordById = {};
+    allWords(course).forEach(w => { wordById[w.id] = w; });
+
+    /* Level-Filter */
+    document.getElementById("py-level").addEventListener("change", (e) => {
+      location.hash = `#/pinyin/${e.target.value}`;
+    });
+
+    /* Hanzi global ein-/ausblenden */
+    const wrap = app.querySelector(".pinyin-mode");
+    const tog = document.getElementById("py-toggle");
+    tog.addEventListener("click", () => {
+      const hidden = wrap.classList.toggle("hanzi-hidden");
+      tog.setAttribute("aria-pressed", String(!hidden));
+      tog.innerHTML = hidden ? `👁 ${t("pinyin.showHanzi")}` : `🙈 ${t("pinyin.hideHanzi")}`;
+    });
+
+    /* Übungsmodus: Quiz mit Pinyin als Lernwort starten */
+    document.getElementById("py-practice").addEventListener("click", () => {
+      const sel = document.getElementById("py-level").value;
+      const words = allWords(course).filter(w => sel === "all" || w.levelId === sel);
+      const items = words.map(w => ({
+        id: w.id,                      /* gleicher Leitner-Fortschritt wie im Hanzi-Modus */
+        target: w.sub,                 /* Pinyin ist das Lernwort */
+        sub: "",                       /* keine Hanzi-Hilfe einblenden */
+        meaning: pick(w.meaning),
+        speakText: w.speak || w.target, /* Audio bleibt echtes Chinesisch */
+        lang: w.lang,
+      }));
+      const area = document.getElementById("py-quiz");
+      window.Quiz.start(area, items, {
+        course: "zh",
+        direction: "from",
+        types: ["flash", "mc", "gap", "listen", "match"].filter(x => x !== "listen" || window.Speech.ttsAvailable),
+        count: 10,
+      });
+      area.scrollIntoView({ behavior: "smooth" });
+    });
+
+    /* Zeilen-Interaktionen (Audio, Mikro, Merkliste) */
+    app.querySelectorAll(".vocab-row").forEach(row => {
+      const w = wordById[row.dataset.id];
+      if (!w) return;
+      row.querySelector(".v-play").addEventListener("click", () =>
+        window.Speech.speak(w.speak || w.target, course.speechLang));
+
+      const fav = row.querySelector(".v-fav");
+      fav.addEventListener("click", () => {
+        const on = window.Store.toggleFav(w.id);
+        fav.classList.toggle("active", on);
+        fav.setAttribute("aria-pressed", on);
+        toast(on ? t("topic.favAdded") : t("topic.favRemoved"));
+      });
+
+      const mic = row.querySelector(".v-mic");
+      if (mic) mic.addEventListener("click", () => {
+        const slot = row.querySelector(".speech-slot");
+        mic.classList.add("listening");
+        slot.innerHTML = `<div class="speech-feedback retry">${t("speech.listening")}</div>`;
+        window.Speech.listen(w.target, course.speechLang, (r) => {
+          slot.innerHTML = r.ok
+            ? `<div class="speech-feedback good">✓ ${t("speech.good")} <b>${esc(r.heard)}</b></div>`
+            : r.close
+              ? `<div class="speech-feedback retry">≈ ${t("speech.close")} <b>${esc(r.heard)}</b></div>`
+              : `<div class="speech-feedback error">✗ ${t("speech.retry")} ${r.heard ? "<b>" + esc(r.heard) + "</b>" : ""}</div>`;
+          if (r.ok) window.Store.recordAnswer(w.id, true);
+        }, (err) => {
+          slot.innerHTML = `<div class="speech-feedback error">${t("speech.error")} (${esc(err)})</div>`;
+        }, () => mic.classList.remove("listening"));
+      });
+    });
+  }
+
   async function viewQuizSetup(params) {
     const preCourse = params.get("course") || "en";
     const [en, zh] = await Promise.all([loadCourse("en"), loadCourse("zh")]);
@@ -758,6 +905,7 @@
         case "pron":     await viewPron(parts[1] || "en"); break;
         case "tones":    await viewTones(); break;
         case "chars":    await viewChars(); break;
+        case "pinyin":   await viewPinyin(parts[1]); break;
         case "quiz":     await viewQuizSetup(params); break;
         case "stats":    await viewStats(); break;
         case "search":   await viewSearch(); break;
