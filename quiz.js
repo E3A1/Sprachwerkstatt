@@ -41,6 +41,13 @@
     return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   }
 
+  /* Pinyin-Ziele farbig nach Ton rendern (Helfer kommt aus app.js).
+     Greift nur bei zh-Items ohne Hanzi im Target – also im Pinyin-Modus. */
+  function fmtTarget(it) {
+    const isPinyin = it.lang && it.lang.startsWith("zh") && !/[\u4e00-\u9fff]/.test(it.target);
+    return (window.ToneColor && isPinyin) ? window.ToneColor(it.target) : esc(it.target);
+  }
+
   /* Antwort-Normalisierung für Lückentext (Hanzi ODER Pinyin ohne Töne zulässig) */
   function stripTones(s) {
     return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -102,7 +109,7 @@
               <p class="quiz-prompt">${esc(it.meaning)}</p>`;
     }
     return `<p class="quiz-sub">${t("quiz.translateFrom")}</p>
-            <p class="quiz-prompt ${it.lang.startsWith("zh") ? "hanzi" : ""}">${esc(it.target)}</p>
+            <p class="quiz-prompt ${it.lang.startsWith("zh") ? "hanzi" : ""}">${fmtTarget(it)}</p>
             ${it.sub && !hidden ? `<p class="quiz-sub" style="font-family:var(--f-mono)">${esc(it.sub)}</p>` : ""}`;
   }
 
@@ -197,7 +204,7 @@
         sol.hidden = false;
         sol.innerHTML = correct
           ? `<span style="color:var(--jade);font-weight:700">✓ ${t("quiz.right")}</span>`
-          : `<span style="color:var(--acc-zh);font-weight:700">✗ ${t("quiz.wrongWas")}</span> <b>${esc(q.item.target)}</b>${q.item.sub ? " · " + esc(q.item.sub) : ""}`;
+          : `<span style="color:var(--acc-zh);font-weight:700">✗ ${t("quiz.wrongWas")}</span> <b>${fmtTarget(q.item)}</b>${q.item.sub ? " · " + esc(q.item.sub) : ""}`;
         input.disabled = true;
         container.querySelector(".q-check").disabled = true;
         record(q.item, correct);
@@ -212,9 +219,9 @@
     function renderFlash(q) {
       const it = q.item;
       const dirToTarget = opts.direction === "to";
-      const front = dirToTarget ? esc(it.meaning) : `<span class="${it.lang.startsWith("zh") ? "hanzi" : ""}">${esc(it.target)}</span>`;
+      const front = dirToTarget ? esc(it.meaning) : `<span class="${it.lang.startsWith("zh") ? "hanzi" : ""}">${fmtTarget(it)}</span>`;
       const back = dirToTarget
-        ? `${esc(it.target)}<span class="small">${esc(it.sub || "")}</span>`
+        ? `${fmtTarget(it)}<span class="small">${esc(it.sub || "")}</span>`
         : `${esc(it.meaning)}<span class="small">${esc(it.sub || "")}</span>`;
 
       container.innerHTML = progressHtml() +
@@ -251,7 +258,7 @@
       container.innerHTML = header(q) +
         `<div class="match-cols">
            <div class="col-l">` + left.map(it =>
-             `<button type="button" class="match-btn" data-side="l" data-id="${esc(it.id)}">${esc(it.target)}</button>`).join("") +
+             `<button type="button" class="match-btn" data-side="l" data-id="${esc(it.id)}">${fmtTarget(it)}</button>`).join("") +
          `</div><div class="col-r">` + right.map(it =>
              `<button type="button" class="match-btn" data-side="r" data-id="${esc(it.id)}">${esc(it.meaning)}</button>`).join("") +
         `</div></div><p class="quiz-sub" style="margin-top:.8rem">${t("quiz.matchHint")}</p></div>`;
@@ -307,7 +314,7 @@
            <p>${t("quiz.resultLine", { correct, total })}</p>
            <ul class="result-list">` +
         results.map(r =>
-          `<li class="${r.correct ? "ok" : "no"}">${r.correct ? "✓" : "✗"} ${esc(r.item.target)} — ${esc(r.item.meaning)}</li>`).join("") +
+          `<li class="${r.correct ? "ok" : "no"}">${r.correct ? "✓" : "✗"} ${fmtTarget(r.item)} — ${esc(r.item.meaning)}</li>`).join("") +
         `</ul>
            <div style="display:flex;gap:.7rem;justify-content:center;flex-wrap:wrap;margin-top:1.2rem">
              ${wrong.length ? `<button type="button" class="btn zh q-redo">${t("quiz.repeatWrong")}</button>` : ""}

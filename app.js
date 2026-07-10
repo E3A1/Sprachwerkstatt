@@ -58,6 +58,45 @@
     return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   }
 
+  /* ---------- Pinyin-Tonfarben ----------
+     Färbt Pinyin-Silben nach ihrem Ton ein (Pleco-Konvention):
+     1 = rot (flach), 2 = grün (steigend), 3 = blau (fallend-steigend),
+     4 = violett (fallend), neutral = grau. Die Silben-Erkennung ist
+     heuristisch – da die Tonzeichen auf den Vokalen sitzen, stimmt die
+     Farbe auch bei unscharfen Silbengrenzen. */
+  const TONE_RE = {
+    1: /[āēīōūǖ]/, 2: /[áéíóúǘ]/, 3: /[ǎěǐǒǔǚ]/, 4: /[àèìòùǜ]/,
+  };
+  function toneOf(syl) {
+    for (const t of [1, 2, 3, 4]) if (TONE_RE[t].test(syl)) return t;
+    return 5; /* neutraler Ton */
+  }
+  const SYL_RE = /([bcdfghjklmnpqrstwxyz]*[aeiouüvāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]+(?:ng|n|r)?)/gi;
+  function tonePinyin(str) {
+    if (!str) return "";
+    return esc(str).replace(SYL_RE, m => `<span class="tn tn-${toneOf(m)}">${m}</span>`);
+  }
+
+  window.ToneColor = tonePinyin;  /* für quiz.js exportiert */
+
+  /* Alle "Problemwörter": schon gesehen, aber (wieder) in Box 1 gelandet
+     oder mit Fehlversuchen und noch nicht sicher gelernt (Box < 3). */
+  function problemWords(courseList) {
+    const prog = window.Store.getProgress();
+    const out = [];
+    for (const course of courseList) {
+      for (const w of allWords(course)) {
+        const e = prog[w.id];
+        if (e && e.seen > 0 && (e.box <= 1 || (e.wrong > 0 && e.box < 3))) {
+          out.push({ w, e, course });
+        }
+      }
+    }
+    /* Härteste zuerst: niedrige Box, dann viele Fehler */
+    out.sort((a, b) => (a.e.box - b.e.box) || (b.e.wrong - a.e.wrong));
+    return out;
+  }
+
   function toast(msg) {
     const el = document.getElementById("toast");
     el.textContent = msg;
@@ -137,6 +176,7 @@
     const level = course.levels.find(l => l.id === levelId) || course.levels[0];
 
     const tools = [
+      { href: `#/problems/${code}`, emoji: "🔥", name: t("prob.title"), meta: t("prob.meta"), cls: "prob-tool" },
       { href: `#/grammar/${code}`, emoji: "📖", name: t("nav.grammar"), meta: t("course.grammarMeta") },
       { href: `#/dialogs/${code}`, emoji: "💬", name: t("nav.dialogs"), meta: t("course.dialogsMeta") },
       { href: `#/quiz?course=${code}`, emoji: "🎯", name: t("nav.quiz"), meta: t("course.quizMeta") },
@@ -189,7 +229,7 @@
 
         <p class="section-label">${t("course.explore")}</p>
         <div class="tool-row">
-          ${tools.map(x => `<a class="topic-card" href="${x.href}">
+          ${tools.map(x => `<a class="topic-card ${x.cls || ""}" href="${x.href}">
               <span class="emoji" aria-hidden="true">${x.emoji}</span>
               <span><span class="t-name">${x.name}</span><span class="t-meta">${x.meta}</span></span>
             </a>`).join("")}
@@ -229,7 +269,7 @@
           <div class="vocab-row" data-idx="${i}">
             <div class="vocab-main">
               ${pyOnly
-                ? `<span class="vocab-word py-pinyin">${esc(w.sub)}</span>`
+                ? `<span class="vocab-word py-pinyin">${tonePinyin(w.sub)}</span>`
                 : `<span class="vocab-word ${zh ? "hanzi" : ""}">${esc(w.target)}</span>
                    ${w.sub ? `<span class="${zh ? "vocab-pinyin" : "vocab-ipa"}">${esc(w.sub)}</span>` : ""}`}
               <span class="vocab-meaning">${esc(pick(w.meaning))}</span>
@@ -241,7 +281,7 @@
             </div>
             ${w.ex ? `<div class="vocab-example">
                 ${pyOnly
-                  ? `<span class="ex-target py-pinyin">${esc(w.ex.sub || w.ex.target)}</span>`
+                  ? `<span class="ex-target py-pinyin">${tonePinyin(w.ex.sub || "") || esc(w.ex.target)}</span>`
                   : `<span class="ex-target">${esc(w.ex.target)}</span>
                      ${w.ex.sub ? ` <span class="vocab-pinyin">${esc(w.ex.sub)}</span>` : ""}`}
                 <br><span>${esc(pick(w.ex.trans))}</span>
@@ -528,24 +568,85 @@
      lassen sich global einblenden. Der Übungsmodus startet das Quiz
      mit vertauschten Feldern (target = Pinyin), sodass alle fünf
      Quiztypen ohne Hanzi funktionieren. */
+  /* Zusätzliche Styles einmalig injizieren – unabhängig von style.css */
+  function injectExtraCSS() {
+    if (document.getElementById("extra-css")) return;
+    const st = document.createElement("style");
+    st.id = "extra-css";
+    st.textContent = `
+      /* --- Pinyin-Modus --- */
+      .pinyin-toolbar{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin:1rem 0 .4rem}
+      .pinyin-toolbar select{padding:.55rem .8rem;border-radius:10px;border:1px solid var(--border);background:var(--surface);color:var(--text);font:inherit}
+      .btn.ghost{background:transparent;border:1px solid var(--border);color:var(--text)}
+      .btn.ghost:hover{border-color:var(--zh);color:var(--zh)}
+      .py-level-head{margin:1.8rem 0 .2rem;font-size:1.15rem;padding-bottom:.3rem;border-bottom:2px solid var(--zh);display:inline-block}
+      .py-topic-head{margin:1rem 0 .4rem;font-size:1rem;color:var(--muted)}
+      .py-pinyin{font-weight:700;letter-spacing:.01em}
+      .py-hanzi{font-family:"Noto Sans SC",sans-serif;color:var(--muted);transition:opacity .25s ease}
+      .pinyin-mode.hanzi-hidden .py-hanzi{display:none}
+
+      /* --- Tonfarben (Pleco-Konvention) --- */
+      .tn{font-weight:700}
+      .tn-1{color:#ff4d5e}
+      .tn-2{color:#22c55e}
+      .tn-3{color:#38bdf8}
+      .tn-4{color:#a78bfa}
+      .tn-5{color:var(--muted)}
+      .tone-legend{display:flex;flex-wrap:wrap;gap:.45rem;margin:.7rem 0}
+      .tone-legend span{font-size:.78rem;font-weight:700;padding:.28rem .7rem;border-radius:999px;
+        border:1px solid var(--border);background:var(--surface)}
+      .tone-legend .tl-1{color:#ff4d5e;border-color:#ff4d5e55}
+      .tone-legend .tl-2{color:#22c55e;border-color:#22c55e55}
+      .tone-legend .tl-3{color:#38bdf8;border-color:#38bdf855}
+      .tone-legend .tl-4{color:#a78bfa;border-color:#a78bfa55}
+      .tone-legend .tl-5{color:var(--muted)}
+
+      /* --- Problemwörter: Hero mit animiertem Gradient-Glow --- */
+      @keyframes fireshift{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+      @keyframes flamepulse{0%,100%{transform:scale(1) rotate(-3deg)}50%{transform:scale(1.18) rotate(3deg)}}
+      @keyframes glowpulse{0%,100%{opacity:.55}50%{opacity:1}}
+      .prob-hero{position:relative;border-radius:22px;padding:1.6rem 1.5rem;margin:1rem 0 1.2rem;overflow:hidden;
+        color:#fff;background:linear-gradient(120deg,#ff4d5e,#ff7a18,#a78bfa,#ff4d5e);background-size:300% 300%;
+        animation:fireshift 9s ease infinite;box-shadow:0 10px 40px -12px rgba(255,77,94,.55)}
+      .prob-hero::after{content:"";position:absolute;inset:0;background:
+        radial-gradient(600px 200px at 80% -20%,rgba(255,255,255,.35),transparent 60%);pointer-events:none}
+      .prob-hero .flame{font-size:2.6rem;display:inline-block;animation:flamepulse 1.6s ease-in-out infinite;
+        filter:drop-shadow(0 0 14px rgba(255,200,80,.9))}
+      .prob-hero h1{margin:.2rem 0 .1rem;font-size:clamp(1.5rem,4vw,2.1rem);color:#fff}
+      .prob-hero p{margin:0;opacity:.92;max-width:46ch}
+      .prob-count{font-family:"IBM Plex Mono",monospace;font-size:clamp(2.6rem,8vw,4rem);font-weight:700;
+        line-height:1;text-shadow:0 0 24px rgba(255,255,255,.55)}
+      .prob-cta{margin-top:1rem;display:inline-flex;align-items:center;gap:.5rem;border:0;cursor:pointer;
+        font:inherit;font-weight:700;color:#7a1420;background:#fff;padding:.8rem 1.4rem;border-radius:999px;
+        box-shadow:0 0 0 0 rgba(255,255,255,.8);transition:transform .15s ease}
+      .prob-cta:hover{transform:translateY(-2px) scale(1.03)}
+      .prob-cta .dot{width:10px;height:10px;border-radius:50%;background:#ff4d5e;animation:glowpulse 1.2s infinite}
+
+      /* --- Problemwörter: Karten --- */
+      .prob-list{display:grid;gap:.7rem;margin-top:1rem}
+      .prob-card{position:relative;display:grid;grid-template-columns:auto 1fr auto;gap:.9rem;align-items:center;
+        padding:.9rem 1rem;border-radius:16px;background:var(--surface);border:1px solid var(--border);
+        overflow:hidden;transition:transform .15s ease,box-shadow .15s ease}
+      .prob-card:hover{transform:translateY(-2px);box-shadow:0 8px 28px -12px rgba(255,77,94,.35)}
+      .prob-card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;
+        background:linear-gradient(180deg,#ff4d5e,#ff7a18)}
+      .prob-badge{display:grid;place-items:center;width:46px;height:46px;border-radius:12px;font-weight:700;
+        font-family:"IBM Plex Mono",monospace;color:#fff;background:linear-gradient(135deg,#ff4d5e,#ff7a18);
+        box-shadow:0 4px 14px -4px rgba(255,77,94,.6)}
+      .prob-word{font-size:1.15rem;font-weight:700}
+      .prob-meta{font-size:.8rem;color:var(--muted)}
+      .prob-empty{text-align:center;padding:3rem 1rem}
+      .prob-empty .big{font-size:3.4rem;display:block;margin-bottom:.4rem}
+      .prob-tool .t-name{background:linear-gradient(90deg,#ff4d5e,#ff7a18);-webkit-background-clip:text;
+        background-clip:text;color:transparent;font-weight:700}
+      @media (prefers-reduced-motion: reduce){
+        .prob-hero,.prob-hero .flame,.prob-cta .dot{animation:none}
+      }`;
+    document.head.appendChild(st);
+  }
+
   async function viewPinyin(levelId) {
-    /* Styles für den Pinyin-Modus einmalig injizieren – so funktioniert das
-       Modul auch ohne Änderung an style.css */
-    if (!document.getElementById("pinyin-css")) {
-      const st = document.createElement("style");
-      st.id = "pinyin-css";
-      st.textContent = `
-        .pinyin-toolbar{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin:1rem 0 .4rem}
-        .pinyin-toolbar select{padding:.55rem .8rem;border-radius:10px;border:1px solid var(--border);background:var(--surface);color:var(--text);font:inherit}
-        .btn.ghost{background:transparent;border:1px solid var(--border);color:var(--text)}
-        .btn.ghost:hover{border-color:var(--zh);color:var(--zh)}
-        .py-level-head{margin:1.8rem 0 .2rem;font-size:1.15rem;padding-bottom:.3rem;border-bottom:2px solid var(--zh);display:inline-block}
-        .py-topic-head{margin:1rem 0 .4rem;font-size:1rem;color:var(--muted)}
-        .py-pinyin{font-weight:700;letter-spacing:.01em}
-        .py-hanzi{font-family:"Noto Sans SC",sans-serif;color:var(--muted);transition:opacity .25s ease}
-        .pinyin-mode.hanzi-hidden .py-hanzi{display:none}`;
-      document.head.appendChild(st);
-    }
+    injectExtraCSS();
     const course = await loadCourse("zh");
     const lvls = levelId && levelId !== "all"
       ? course.levels.filter(l => l.id === levelId)
@@ -556,6 +657,9 @@
         <a class="back-link" href="#/course/zh">← ${pick(course.name)}</a>
         <h1>🔤 ${t("zh.pinyin")}</h1>
         <p class="quiz-sub">${t("pinyin.hint")}</p>
+        <div class="tone-legend" aria-hidden="true">
+          <span class="tl-1">ā&nbsp;1</span><span class="tl-2">á&nbsp;2</span><span class="tl-3">ǎ&nbsp;3</span><span class="tl-4">à&nbsp;4</span><span class="tl-5">a&nbsp;·</span>
+        </div>
 
         <div class="pinyin-toolbar">
           <select id="py-level" aria-label="${t("quiz.level")}">
@@ -576,7 +680,7 @@
               ${tp.words.map(w => `
                 <div class="vocab-row" data-id="${esc(w.id)}">
                   <div class="vocab-main">
-                    <span class="vocab-word py-pinyin">${esc(w.sub)}</span>
+                    <span class="vocab-word py-pinyin">${tonePinyin(w.sub)}</span>
                     <span class="hanzi py-hanzi">${esc(w.target)}</span>
                     <span class="vocab-meaning">${esc(pick(w.meaning))}</span>
                   </div>
@@ -586,7 +690,7 @@
                     <button type="button" class="mini-btn v-fav ${window.Store.isFav(w.id) ? "active" : ""}" aria-label="${t("a11y.fav")}" aria-pressed="${window.Store.isFav(w.id)}">★</button>
                   </div>
                   ${w.ex ? `<div class="vocab-example">
-                      <span class="ex-target py-pinyin">${esc(w.ex.sub || "")}</span>
+                      <span class="ex-target py-pinyin">${tonePinyin(w.ex.sub || "")}</span>
                       <span class="py-hanzi"> ${esc(w.ex.target)}</span>
                       <br><span>${esc(pick(w.ex.trans))}</span>
                     </div>` : ""}
@@ -665,6 +769,80 @@
           slot.innerHTML = `<div class="speech-feedback error">${t("speech.error")} (${esc(err)})</div>`;
         }, () => mic.classList.remove("listening"));
       });
+    });
+  }
+
+  /* ---------- Problemwörter ----------
+     Alle Vokabeln, die schon geübt wurden, aber in Leitner-Box 1 hängen
+     oder Fehlversuche haben und noch nicht sicher sitzen. Sortiert nach
+     Schwierigkeit, mit direktem Übungsstart. */
+  async function viewProblems(courseFilter) {
+    injectExtraCSS();
+    const [en, zh] = await Promise.all([loadCourse("en"), loadCourse("zh")]);
+    const courses = courseFilter === "en" ? [en] : courseFilter === "zh" ? [zh] : [en, zh];
+    const probs = problemWords(courses);
+    const pyOnly = window.Store.Settings.pinyinOnly;
+
+    if (!probs.length) {
+      app.innerHTML = `
+        <a class="back-link" href="#/">← ${t("nav.home")}</a>
+        <div class="prob-empty">
+          <span class="big">🎉</span>
+          <h1>${t("prob.emptyTitle")}</h1>
+          <p class="quiz-sub">${t("prob.emptyBody")}</p>
+        </div>`;
+      return;
+    }
+
+    app.innerHTML = `
+      <a class="back-link" href="${courseFilter ? `#/course/${courseFilter}` : "#/"}">← ${t("nav.home")}</a>
+      <div class="prob-hero">
+        <span class="flame" aria-hidden="true">🔥</span>
+        <div class="prob-count">${probs.length}</div>
+        <h1>${t("prob.title")}</h1>
+        <p>${t("prob.lead")}</p>
+        <button type="button" class="prob-cta" id="prob-start"><span class="dot"></span>${t("prob.practice")}</button>
+      </div>
+      <div class="prob-list">
+        ${probs.map(({ w, e }) => {
+          const zhWord = w.lang === "zh-CN";
+          const main = zhWord && pyOnly
+            ? `<span class="py-pinyin">${tonePinyin(w.sub)}</span>`
+            : `<span class="${zhWord ? "hanzi" : ""}">${esc(w.target)}</span>${w.sub ? ` <span class="prob-meta">${zhWord ? tonePinyin(w.sub) : esc(w.sub)}</span>` : ""}`;
+          return `
+          <div class="prob-card" data-id="${esc(w.id)}">
+            <div class="prob-badge" title="Leitner-Box">${e.box}</div>
+            <div>
+              <div class="prob-word">${main}</div>
+              <div class="prob-meta">${esc(pick(w.meaning))} · ✗ ${e.wrong} · ✓ ${e.correct}</div>
+            </div>
+            <div class="vocab-actions">
+              <button type="button" class="mini-btn v-play" aria-label="${t("a11y.play")}">🔊</button>
+            </div>
+          </div>`;
+        }).join("")}
+      </div>
+      <div id="prob-quiz" class="quiz-run" style="margin-top:1.4rem"></div>`;
+
+    const wordById = {};
+    probs.forEach(({ w }) => { wordById[w.id] = w; });
+
+    app.querySelectorAll(".prob-card .v-play").forEach(btn =>
+      btn.addEventListener("click", (ev) => {
+        const w = wordById[ev.target.closest(".prob-card").dataset.id];
+        window.Speech.speak(w.speak || w.target, w.lang);
+      }));
+
+    document.getElementById("prob-start").addEventListener("click", () => {
+      const items = probs.map(({ w }) => toQuizItem(w));
+      const area = document.getElementById("prob-quiz");
+      window.Quiz.start(area, items, {
+        course: courseFilter || "mix",
+        direction: "from",
+        types: ["flash", "mc", "gap"].concat(window.Speech.ttsAvailable ? ["listen"] : []),
+        count: Math.min(15, items.length),
+      });
+      area.scrollIntoView({ behavior: "smooth" });
     });
   }
 
@@ -926,6 +1104,7 @@
         case "tones":    await viewTones(); break;
         case "chars":    await viewChars(); break;
         case "pinyin":   await viewPinyin(parts[1]); break;
+        case "problems": await viewProblems(parts[1]); break;
         case "quiz":     await viewQuizSetup(params); break;
         case "stats":    await viewStats(); break;
         case "search":   await viewSearch(); break;

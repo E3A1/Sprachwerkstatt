@@ -603,5 +603,35 @@
     "de": "Hanzi wieder aktiv.",
     "en": "Hanzi mode restored.",
     "zh": "已恢复汉字模式"
+  },
+  "prob.title": {
+    "de": "Problemwörter",
+    "en": "Problem words",
+    "zh": "难点词汇"
+  },
+  "prob.meta": {
+    "de": "Deine schwierigsten Vokabeln gezielt wiederholen",
+    "en": "Drill your hardest words",
+    "zh": "集中复习最难的词"
+  },
+  "prob.lead": {
+    "de": "Diese Vokabeln haben dich zuletzt geärgert – Box 1 oder mit Fehlversuchen. Räum sie weg! 💪",
+    "en": "These words tripped you up recently – box 1 or with wrong answers. Clear them out! 💪",
+    "zh": "这些词最近难住了你——集中攻克它们！💪"
+  },
+  "prob.practice": {
+    "de": "Jetzt wegtrainieren",
+    "en": "Drill them now",
+    "zh": "立即攻克"
+  },
+  "prob.emptyTitle": {
+    "de": "Keine Problemwörter!",
+    "en": "No problem words!",
+    "zh": "没有难点词汇！"
+  },
+  "prob.emptyBody": {
+    "de": "Stark – aktuell hängt nichts in Box 1. Mach ein Quiz, um neue Vokabeln zu lernen.",
+    "en": "Nice – nothing stuck in box 1 right now. Take a quiz to learn new words.",
+    "zh": "太棒了——目前没有卡住的词。做个测验学习新词吧。"
   }
 }
