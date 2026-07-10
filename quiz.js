@@ -48,18 +48,48 @@
     return (window.ToneColor && isPinyin) ? window.ToneColor(it.target) : esc(it.target);
   }
 
-  /* Antwort-Normalisierung für Lückentext (Hanzi ODER Pinyin ohne Töne zulässig) */
+  /* Antwort-Normalisierung für Lückentext. Akzeptiert:
+     1) exakte Eingabe (Hanzi oder Pinyin mit Tonzeichen),
+     2) Pinyin ohne Töne ("nihao"),
+     3) Pinyin mit Ton-Zahlen ("ni3 hao3") – ideal für Handy-Tastaturen.
+     ü darf als v getippt werden (lǜ → lv4), neutrale Töne optional als 0/5. */
   function stripTones(s) {
     return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  }
+  const GAP_TONE_RE = { 1: /[āēīōūǖ]/, 2: /[áéíóúǘ]/, 3: /[ǎěǐǒǔǚ]/, 4: /[àèìòùǜ]/ };
+  const GAP_SYL_RE = /([bcdfghjklmnpqrstwxyz]*[aeiouüvāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]+(?:ng|n|r)?)/gi;
+  function gapToneOf(syl) {
+    for (const t of [1, 2, 3, 4]) if (GAP_TONE_RE[t].test(syl)) return t;
+    return 5;
+  }
+  /* "nǐ hǎo" → { toneless: "nihao", numbered: "ni3hao3" } */
+  function pinyinForms(pin) {
+    let toneless = "", numbered = "";
+    pin.replace(GAP_SYL_RE, syl => {
+      const n = gapToneOf(syl);
+      const base = stripTones(syl.replace(/[üǖǘǚǜ]/g, "v"));
+      toneless += base;
+      numbered += base + (n === 5 ? "" : n);
+      return syl;
+    });
+    return { toneless, numbered };
+  }
+  function normTyped(s) {
+    return stripTones(s).replace(/[üǖǘǚǜ]/g, "v").replace(/[\s'\u2019.,!?]/g, "").replace(/[05]/g, "");
   }
   function gapMatches(item, typed) {
     const clean = typed.trim().toLowerCase();
     if (!clean) return false;
     const target = item.target.trim().toLowerCase();
     if (clean === target) return true;
-    if (item.sub) { // Pinyin/IPA – Pinyin ohne Tonzeichen akzeptieren
-      const py = stripTones(item.sub).replace(/\s+/g, "");
-      if (stripTones(clean).replace(/\s+/g, "") === py) return true;
+    if (clean.replace(/\s+/g, "") === target.replace(/\s+/g, "")) return true;
+    /* Pinyin-Quellen: sub (Hanzi-Modus) oder target selbst (Pinyin-Modus) */
+    const typedN = normTyped(clean);
+    for (const pin of [item.sub, item.target]) {
+      if (!pin || /[\u4e00-\u9fff]/.test(pin) === true && pin === item.target && item.sub) continue;
+      if (!/[a-zāáǎàēéěèīíǐìōóǒòūúǔùüǖǘǚǜ]/i.test(pin)) continue;
+      const f = pinyinForms(pin);
+      if (typedN === f.toneless || typedN === f.numbered) return true;
     }
     return false;
   }

@@ -144,8 +144,10 @@
           <path d="M180 30 Q200 62 235 24"/>
           <path d="M260 15 Q280 30 305 62"/>
         </svg>
-        <!-- HIGGSFIELD-SLOT: Alternativ/zusätzlich kann hier ein generiertes Hero-Bild oder
-             Maskottchen stehen: <img src="assets/hero.png" alt="" width="320"> -->
+        <!-- HIGGSFIELD-SLOT: Generierte Grafiken – die img-Tags entfernen sich
+             selbst, solange die Dateien noch nicht hochgeladen sind. -->
+        <img src="hero.png" alt="" class="hero-img" loading="lazy" onerror="this.remove()">
+        <img src="mascot.png" alt="" class="mascot-img" loading="lazy" onerror="this.remove()">
       </section>
 
       <div class="lang-cards">
@@ -639,7 +641,15 @@
       .prob-empty .big{font-size:3.4rem;display:block;margin-bottom:.4rem}
       .prob-tool .t-name{background:linear-gradient(90deg,#ff4d5e,#ff7a18);-webkit-background-clip:text;
         background-clip:text;color:transparent;font-weight:700}
+      /* --- Generierte Grafiken (Startseite) --- */
+      .hero-img{display:block;width:min(680px,100%);margin:1.2rem auto 0;border-radius:20px;
+        box-shadow:0 14px 44px -16px rgba(43,89,195,.35)}
+      .hero{position:relative}
+      .mascot-img{position:absolute;right:4%;bottom:-8px;width:clamp(70px,12vw,120px);
+        filter:drop-shadow(0 8px 16px rgba(0,0,0,.18));animation:mascotbob 3.2s ease-in-out infinite}
+      @keyframes mascotbob{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-8px) rotate(2deg)}}
       @media (prefers-reduced-motion: reduce){
+        .mascot-img{animation:none}
         .prob-hero,.prob-hero .flame,.prob-cta .dot{animation:none}
       }`;
     document.head.appendChild(st);
@@ -1157,6 +1167,7 @@
     initTheme();
     initLangSelect();
     initReset();
+    injectExtraCSS();
     window.addEventListener("hashchange", route);
     route();
   }
