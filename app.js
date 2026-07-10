@@ -146,8 +146,12 @@
         </svg>
         <!-- HIGGSFIELD-SLOT: Generierte Grafiken – die img-Tags entfernen sich
              selbst, solange die Dateien noch nicht hochgeladen sind. -->
-        <img src="hero.png" alt="" class="hero-img" loading="lazy" onerror="this.remove()">
-        <img src="mascot.png" alt="" class="mascot-img" loading="lazy" onerror="this.remove()">
+        <img src="hero.png" alt="" class="hero-img" loading="lazy"
+             data-alts="hero.PNG,hero.png.PNG,hero.png.png,hero.jpg,hero.jpeg"
+             onerror="var a=(this.dataset.alts||'').split(',').filter(Boolean);if(a.length){this.dataset.alts=a.slice(1).join(',');this.src=a[0];}else{this.remove();}">
+        <img src="mascot.png" alt="" class="mascot-img" loading="lazy"
+             data-alts="mascot.PNG,mascot.png.png,mascot.png.PNG,mascot.jpg,mascot.jpeg"
+             onerror="var a=(this.dataset.alts||'').split(',').filter(Boolean);if(a.length){this.dataset.alts=a.slice(1).join(',');this.src=a[0];}else{this.remove();}">
       </section>
 
       <div class="lang-cards">
