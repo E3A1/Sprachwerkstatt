@@ -16,7 +16,7 @@
 
   async function loadCourse(code) {
     if (courses[code]) return courses[code];
-    const res = await fetch(`data/${code}.json`);
+    const res = await fetch(`${code}.json`);
     const data = await res.json();
 
     /* Jede Vokabel bekommt eine stabile ID + normalisierte Felder,

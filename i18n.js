@@ -32,7 +32,7 @@
   }
 
   async function load() {
-    const res = await fetch("data/ui.json");
+    const res = await fetch("ui.json");
     dict = await res.json();
     applyStatic();
   }
