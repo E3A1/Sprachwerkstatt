@@ -1,0 +1,3816 @@
+{
+  "code": "zh",
+  "speechLang": "zh-CN",
+  "name": {
+    "de": "Chinesisch (Mandarin)",
+    "en": "Chinese (Mandarin)",
+    "zh": "中文（普通话）"
+  },
+  "desc": {
+    "de": "Pinyin, Töne, Schriftzeichen und Alltagssprache – angelehnt an HSK 1–4.",
+    "en": "Pinyin, tones, characters and everyday language – aligned with HSK 1–4.",
+    "zh": "拼音、声调、汉字与日常用语——对应 HSK 1–4。"
+  },
+  "levels": [
+    {
+      "id": "hsk1",
+      "label": "HSK 1",
+      "name": {
+        "de": "Einstieg: Pinyin, Töne und die ersten 150 Wörter",
+        "en": "Getting started: Pinyin, tones and your first 150 words",
+        "zh": "入门：拼音、声调和最初的 150 个词"
+      },
+      "topics": [
+        {
+          "id": "greetings",
+          "emoji": "👋",
+          "name": {
+            "de": "Begrüßung & Höflichkeit",
+            "en": "Greetings & politeness",
+            "zh": "问候与礼貌"
+          },
+          "words": [
+            {
+              "target": "你好",
+              "sub": "nǐ hǎo",
+              "meaning": {
+                "de": "hallo",
+                "en": "hello"
+              },
+              "ex": {
+                "target": "你好，我叫安娜。",
+                "sub": "Nǐ hǎo, wǒ jiào Ānnà.",
+                "trans": {
+                  "de": "Hallo, ich heiße Anna.",
+                  "en": "Hello, my name is Anna."
+                }
+              }
+            },
+            {
+              "target": "您好",
+              "sub": "nín hǎo",
+              "meaning": {
+                "de": "guten Tag (höflich)",
+                "en": "hello (polite)"
+              },
+              "ex": {
+                "target": "老师，您好！",
+                "sub": "Lǎoshī, nín hǎo!",
+                "trans": {
+                  "de": "Guten Tag, Lehrer/in!",
+                  "en": "Hello, teacher!"
+                }
+              }
+            },
+            {
+              "target": "早上好",
+              "sub": "zǎoshang hǎo",
+              "meaning": {
+                "de": "guten Morgen",
+                "en": "good morning"
+              },
+              "ex": {
+                "target": "早上好！你吃了吗？",
+                "sub": "Zǎoshang hǎo! Nǐ chī le ma?",
+                "trans": {
+                  "de": "Guten Morgen! Hast du schon gegessen?",
+                  "en": "Good morning! Have you eaten?"
+                }
+              }
+            },
+            {
+              "target": "再见",
+              "sub": "zàijiàn",
+              "meaning": {
+                "de": "auf Wiedersehen",
+                "en": "goodbye"
+              },
+              "ex": {
+                "target": "明天见，再见！",
+                "sub": "Míngtiān jiàn, zàijiàn!",
+                "trans": {
+                  "de": "Bis morgen, tschüss!",
+                  "en": "See you tomorrow, bye!"
+                }
+              }
+            },
+            {
+              "target": "谢谢",
+              "sub": "xièxie",
+              "meaning": {
+                "de": "danke",
+                "en": "thank you"
+              },
+              "ex": {
+                "target": "谢谢你的帮助。",
+                "sub": "Xièxie nǐ de bāngzhù.",
+                "trans": {
+                  "de": "Danke für deine Hilfe.",
+                  "en": "Thanks for your help."
+                }
+              }
+            },
+            {
+              "target": "不客气",
+              "sub": "bú kèqi",
+              "meaning": {
+                "de": "gern geschehen",
+                "en": "you're welcome"
+              },
+              "ex": {
+                "target": "谢谢！— 不客气。",
+                "sub": "Xièxie! — Bú kèqi.",
+                "trans": {
+                  "de": "Danke! — Gern geschehen.",
+                  "en": "Thanks! — You're welcome."
+                }
+              }
+            },
+            {
+              "target": "对不起",
+              "sub": "duìbuqǐ",
+              "meaning": {
+                "de": "Entschuldigung",
+                "en": "sorry"
+              },
+              "ex": {
+                "target": "对不起，我来晚了。",
+                "sub": "Duìbuqǐ, wǒ lái wǎn le.",
+                "trans": {
+                  "de": "Entschuldigung, ich bin zu spät gekommen.",
+                  "en": "Sorry, I'm late."
+                }
+              }
+            },
+            {
+              "target": "没关系",
+              "sub": "méi guānxi",
+              "meaning": {
+                "de": "macht nichts",
+                "en": "it doesn't matter"
+              },
+              "ex": {
+                "target": "没关系，别担心。",
+                "sub": "Méi guānxi, bié dānxīn.",
+                "trans": {
+                  "de": "Macht nichts, keine Sorge.",
+                  "en": "No problem, don't worry."
+                }
+              }
+            },
+            {
+              "target": "请",
+              "sub": "qǐng",
+              "meaning": {
+                "de": "bitte",
+                "en": "please"
+              },
+              "ex": {
+                "target": "请坐。",
+                "sub": "Qǐng zuò.",
+                "trans": {
+                  "de": "Bitte setz dich.",
+                  "en": "Please sit down."
+                }
+              }
+            },
+            {
+              "target": "我叫……",
+              "sub": "wǒ jiào …",
+              "speak": "我叫",
+              "meaning": {
+                "de": "ich heiße …",
+                "en": "my name is …"
+              },
+              "ex": {
+                "target": "我叫王明，你呢？",
+                "sub": "Wǒ jiào Wáng Míng, nǐ ne?",
+                "trans": {
+                  "de": "Ich heiße Wang Ming, und du?",
+                  "en": "My name is Wang Ming, and you?"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "numbers",
+          "emoji": "🔢",
+          "name": {
+            "de": "Zahlen",
+            "en": "Numbers",
+            "zh": "数字"
+          },
+          "words": [
+            {
+              "target": "一",
+              "sub": "yī",
+              "meaning": {
+                "de": "eins",
+                "en": "one"
+              },
+              "ex": {
+                "target": "我有一个哥哥。",
+                "sub": "Wǒ yǒu yí ge gēge.",
+                "trans": {
+                  "de": "Ich habe einen älteren Bruder.",
+                  "en": "I have one older brother."
+                }
+              }
+            },
+            {
+              "target": "二",
+              "sub": "èr",
+              "meaning": {
+                "de": "zwei",
+                "en": "two"
+              },
+              "ex": {
+                "target": "现在是二月。",
+                "sub": "Xiànzài shì èr yuè.",
+                "trans": {
+                  "de": "Jetzt ist Februar.",
+                  "en": "It is February now."
+                }
+              }
+            },
+            {
+              "target": "三",
+              "sub": "sān",
+              "meaning": {
+                "de": "drei",
+                "en": "three"
+              },
+              "ex": {
+                "target": "我们三点见。",
+                "sub": "Wǒmen sān diǎn jiàn.",
+                "trans": {
+                  "de": "Wir sehen uns um drei Uhr.",
+                  "en": "See you at three o'clock."
+                }
+              }
+            },
+            {
+              "target": "四",
+              "sub": "sì",
+              "meaning": {
+                "de": "vier",
+                "en": "four"
+              },
+              "ex": {
+                "target": "他家有四口人。",
+                "sub": "Tā jiā yǒu sì kǒu rén.",
+                "trans": {
+                  "de": "Seine Familie hat vier Personen.",
+                  "en": "There are four people in his family."
+                }
+              }
+            },
+            {
+              "target": "五",
+              "sub": "wǔ",
+              "meaning": {
+                "de": "fünf",
+                "en": "five"
+              },
+              "ex": {
+                "target": "现在五点了。",
+                "sub": "Xiànzài wǔ diǎn le.",
+                "trans": {
+                  "de": "Es ist jetzt fünf Uhr.",
+                  "en": "It's five o'clock now."
+                }
+              }
+            },
+            {
+              "target": "六",
+              "sub": "liù",
+              "meaning": {
+                "de": "sechs",
+                "en": "six"
+              },
+              "ex": {
+                "target": "我六点起床。",
+                "sub": "Wǒ liù diǎn qǐchuáng.",
+                "trans": {
+                  "de": "Ich stehe um sechs Uhr auf.",
+                  "en": "I get up at six."
+                }
+              }
+            },
+            {
+              "target": "七",
+              "sub": "qī",
+              "meaning": {
+                "de": "sieben",
+                "en": "seven"
+              },
+              "ex": {
+                "target": "一个星期有七天。",
+                "sub": "Yí ge xīngqī yǒu qī tiān.",
+                "trans": {
+                  "de": "Eine Woche hat sieben Tage.",
+                  "en": "A week has seven days."
+                }
+              }
+            },
+            {
+              "target": "八",
+              "sub": "bā",
+              "meaning": {
+                "de": "acht",
+                "en": "eight"
+              },
+              "ex": {
+                "target": "八是幸运数字。",
+                "sub": "Bā shì xìngyùn shùzì.",
+                "trans": {
+                  "de": "Acht ist eine Glückszahl.",
+                  "en": "Eight is a lucky number."
+                }
+              }
+            },
+            {
+              "target": "九",
+              "sub": "jiǔ",
+              "meaning": {
+                "de": "neun",
+                "en": "nine"
+              },
+              "ex": {
+                "target": "商店九点开门。",
+                "sub": "Shāngdiàn jiǔ diǎn kāimén.",
+                "trans": {
+                  "de": "Der Laden öffnet um neun.",
+                  "en": "The shop opens at nine."
+                }
+              }
+            },
+            {
+              "target": "十",
+              "sub": "shí",
+              "meaning": {
+                "de": "zehn",
+                "en": "ten"
+              },
+              "ex": {
+                "target": "从一数到十。",
+                "sub": "Cóng yī shǔ dào shí.",
+                "trans": {
+                  "de": "Zähle von eins bis zehn.",
+                  "en": "Count from one to ten."
+                }
+              }
+            },
+            {
+              "target": "一百",
+              "sub": "yìbǎi",
+              "meaning": {
+                "de": "hundert",
+                "en": "one hundred"
+              },
+              "ex": {
+                "target": "这本书一百块。",
+                "sub": "Zhè běn shū yìbǎi kuài.",
+                "trans": {
+                  "de": "Dieses Buch kostet hundert Yuan.",
+                  "en": "This book costs 100 yuan."
+                }
+              }
+            },
+            {
+              "target": "多少",
+              "sub": "duōshao",
+              "meaning": {
+                "de": "wie viel(e)",
+                "en": "how many / how much"
+              },
+              "ex": {
+                "target": "你的电话号码是多少？",
+                "sub": "Nǐ de diànhuà hàomǎ shì duōshao?",
+                "trans": {
+                  "de": "Wie lautet deine Telefonnummer?",
+                  "en": "What's your phone number?"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "family",
+          "emoji": "👪",
+          "name": {
+            "de": "Familie",
+            "en": "Family",
+            "zh": "家庭"
+          },
+          "words": [
+            {
+              "target": "妈妈",
+              "sub": "māma",
+              "meaning": {
+                "de": "Mama, Mutter",
+                "en": "mum, mother"
+              },
+              "ex": {
+                "target": "我妈妈是老师。",
+                "sub": "Wǒ māma shì lǎoshī.",
+                "trans": {
+                  "de": "Meine Mutter ist Lehrerin.",
+                  "en": "My mother is a teacher."
+                }
+              }
+            },
+            {
+              "target": "爸爸",
+              "sub": "bàba",
+              "meaning": {
+                "de": "Papa, Vater",
+                "en": "dad, father"
+              },
+              "ex": {
+                "target": "爸爸喜欢做饭。",
+                "sub": "Bàba xǐhuan zuòfàn.",
+                "trans": {
+                  "de": "Papa kocht gern.",
+                  "en": "Dad likes cooking."
+                }
+              }
+            },
+            {
+              "target": "哥哥",
+              "sub": "gēge",
+              "meaning": {
+                "de": "älterer Bruder",
+                "en": "older brother"
+              },
+              "ex": {
+                "target": "我哥哥在北京工作。",
+                "sub": "Wǒ gēge zài Běijīng gōngzuò.",
+                "trans": {
+                  "de": "Mein älterer Bruder arbeitet in Peking.",
+                  "en": "My older brother works in Beijing."
+                }
+              }
+            },
+            {
+              "target": "姐姐",
+              "sub": "jiějie",
+              "meaning": {
+                "de": "ältere Schwester",
+                "en": "older sister"
+              },
+              "ex": {
+                "target": "姐姐比我大两岁。",
+                "sub": "Jiějie bǐ wǒ dà liǎng suì.",
+                "trans": {
+                  "de": "Meine ältere Schwester ist zwei Jahre älter als ich.",
+                  "en": "My older sister is two years older than me."
+                }
+              }
+            },
+            {
+              "target": "弟弟",
+              "sub": "dìdi",
+              "meaning": {
+                "de": "jüngerer Bruder",
+                "en": "younger brother"
+              },
+              "ex": {
+                "target": "弟弟还在上学。",
+                "sub": "Dìdi hái zài shàngxué.",
+                "trans": {
+                  "de": "Mein kleiner Bruder geht noch zur Schule.",
+                  "en": "My younger brother is still at school."
+                }
+              }
+            },
+            {
+              "target": "妹妹",
+              "sub": "mèimei",
+              "meaning": {
+                "de": "jüngere Schwester",
+                "en": "younger sister"
+              },
+              "ex": {
+                "target": "妹妹很喜欢猫。",
+                "sub": "Mèimei hěn xǐhuan māo.",
+                "trans": {
+                  "de": "Meine kleine Schwester mag Katzen sehr.",
+                  "en": "My little sister loves cats."
+                }
+              }
+            },
+            {
+              "target": "孩子",
+              "sub": "háizi",
+              "meaning": {
+                "de": "Kind",
+                "en": "child"
+              },
+              "ex": {
+                "target": "他们有两个孩子。",
+                "sub": "Tāmen yǒu liǎng ge háizi.",
+                "trans": {
+                  "de": "Sie haben zwei Kinder.",
+                  "en": "They have two children."
+                }
+              }
+            },
+            {
+              "target": "家",
+              "sub": "jiā",
+              "meaning": {
+                "de": "Familie; Zuhause",
+                "en": "family; home"
+              },
+              "ex": {
+                "target": "我家有五口人。",
+                "sub": "Wǒ jiā yǒu wǔ kǒu rén.",
+                "trans": {
+                  "de": "Meine Familie hat fünf Personen.",
+                  "en": "There are five people in my family."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "food",
+          "emoji": "🥟",
+          "name": {
+            "de": "Essen & Trinken",
+            "en": "Food & drink",
+            "zh": "饮食"
+          },
+          "words": [
+            {
+              "target": "水",
+              "sub": "shuǐ",
+              "meaning": {
+                "de": "Wasser",
+                "en": "water"
+              },
+              "ex": {
+                "target": "请给我一杯水。",
+                "sub": "Qǐng gěi wǒ yì bēi shuǐ.",
+                "trans": {
+                  "de": "Bitte gib mir ein Glas Wasser.",
+                  "en": "Please give me a glass of water."
+                }
+              }
+            },
+            {
+              "target": "茶",
+              "sub": "chá",
+              "meaning": {
+                "de": "Tee",
+                "en": "tea"
+              },
+              "ex": {
+                "target": "你要喝茶吗？",
+                "sub": "Nǐ yào hē chá ma?",
+                "trans": {
+                  "de": "Möchtest du Tee trinken?",
+                  "en": "Would you like some tea?"
+                }
+              }
+            },
+            {
+              "target": "米饭",
+              "sub": "mǐfàn",
+              "meaning": {
+                "de": "(gekochter) Reis",
+                "en": "cooked rice"
+              },
+              "ex": {
+                "target": "我们中午吃米饭。",
+                "sub": "Wǒmen zhōngwǔ chī mǐfàn.",
+                "trans": {
+                  "de": "Mittags essen wir Reis.",
+                  "en": "We eat rice at lunchtime."
+                }
+              }
+            },
+            {
+              "target": "面条",
+              "sub": "miàntiáo",
+              "meaning": {
+                "de": "Nudeln",
+                "en": "noodles"
+              },
+              "ex": {
+                "target": "这家的面条很好吃。",
+                "sub": "Zhè jiā de miàntiáo hěn hǎochī.",
+                "trans": {
+                  "de": "Die Nudeln hier sind sehr lecker.",
+                  "en": "The noodles here are delicious."
+                }
+              }
+            },
+            {
+              "target": "苹果",
+              "sub": "píngguǒ",
+              "meaning": {
+                "de": "Apfel",
+                "en": "apple"
+              },
+              "ex": {
+                "target": "我买了三个苹果。",
+                "sub": "Wǒ mǎi le sān ge píngguǒ.",
+                "trans": {
+                  "de": "Ich habe drei Äpfel gekauft.",
+                  "en": "I bought three apples."
+                }
+              }
+            },
+            {
+              "target": "吃",
+              "sub": "chī",
+              "meaning": {
+                "de": "essen",
+                "en": "to eat"
+              },
+              "ex": {
+                "target": "你想吃什么？",
+                "sub": "Nǐ xiǎng chī shénme?",
+                "trans": {
+                  "de": "Was möchtest du essen?",
+                  "en": "What would you like to eat?"
+                }
+              }
+            },
+            {
+              "target": "喝",
+              "sub": "hē",
+              "meaning": {
+                "de": "trinken",
+                "en": "to drink"
+              },
+              "ex": {
+                "target": "我不喝咖啡。",
+                "sub": "Wǒ bù hē kāfēi.",
+                "trans": {
+                  "de": "Ich trinke keinen Kaffee.",
+                  "en": "I don't drink coffee."
+                }
+              }
+            },
+            {
+              "target": "好吃",
+              "sub": "hǎochī",
+              "meaning": {
+                "de": "lecker",
+                "en": "tasty, delicious"
+              },
+              "ex": {
+                "target": "饺子真好吃！",
+                "sub": "Jiǎozi zhēn hǎochī!",
+                "trans": {
+                  "de": "Die Teigtaschen sind wirklich lecker!",
+                  "en": "The dumplings are really tasty!"
+                }
+              }
+            },
+            {
+              "target": "咖啡",
+              "sub": "kāfēi",
+              "meaning": {
+                "de": "Kaffee",
+                "en": "coffee"
+              },
+              "ex": {
+                "target": "早上我喝一杯咖啡。",
+                "sub": "Zǎoshang wǒ hē yì bēi kāfēi.",
+                "trans": {
+                  "de": "Morgens trinke ich eine Tasse Kaffee.",
+                  "en": "I have a cup of coffee in the morning."
+                }
+              }
+            },
+            {
+              "target": "饺子",
+              "sub": "jiǎozi",
+              "meaning": {
+                "de": "Jiaozi (Teigtaschen)",
+                "en": "dumplings"
+              },
+              "ex": {
+                "target": "春节我们吃饺子。",
+                "sub": "Chūnjié wǒmen chī jiǎozi.",
+                "trans": {
+                  "de": "Zum Frühlingsfest essen wir Jiaozi.",
+                  "en": "We eat dumplings at Spring Festival."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "colors",
+          "emoji": "🎨",
+          "name": {
+            "de": "Farben",
+            "en": "Colors",
+            "zh": "颜色"
+          },
+          "words": [
+            {
+              "target": "红色",
+              "sub": "hóngsè",
+              "meaning": {
+                "de": "rot",
+                "en": "red"
+              },
+              "ex": {
+                "target": "我喜欢红色。",
+                "sub": "Wǒ xǐhuan hóngsè.",
+                "trans": {
+                  "de": "Ich mag Rot.",
+                  "en": "I like red."
+                }
+              }
+            },
+            {
+              "target": "蓝色",
+              "sub": "lánsè",
+              "meaning": {
+                "de": "blau",
+                "en": "blue"
+              },
+              "ex": {
+                "target": "天是蓝色的。",
+                "sub": "Tiān shì lánsè de.",
+                "trans": {
+                  "de": "Der Himmel ist blau.",
+                  "en": "The sky is blue."
+                }
+              }
+            },
+            {
+              "target": "黄色",
+              "sub": "huángsè",
+              "meaning": {
+                "de": "gelb",
+                "en": "yellow"
+              },
+              "ex": {
+                "target": "香蕉是黄色的。",
+                "sub": "Xiāngjiāo shì huángsè de.",
+                "trans": {
+                  "de": "Die Banane ist gelb.",
+                  "en": "The banana is yellow."
+                }
+              }
+            },
+            {
+              "target": "绿色",
+              "sub": "lǜsè",
+              "meaning": {
+                "de": "grün",
+                "en": "green"
+              },
+              "ex": {
+                "target": "我的书包是绿色的。",
+                "sub": "Wǒ de shūbāo shì lǜsè de.",
+                "trans": {
+                  "de": "Mein Rucksack ist grün.",
+                  "en": "My backpack is green."
+                }
+              }
+            },
+            {
+              "target": "白色",
+              "sub": "báisè",
+              "meaning": {
+                "de": "weiß",
+                "en": "white"
+              },
+              "ex": {
+                "target": "她穿白色的衣服。",
+                "sub": "Tā chuān báisè de yīfu.",
+                "trans": {
+                  "de": "Sie trägt weiße Kleidung.",
+                  "en": "She wears white clothes."
+                }
+              }
+            },
+            {
+              "target": "黑色",
+              "sub": "hēisè",
+              "meaning": {
+                "de": "schwarz",
+                "en": "black"
+              },
+              "ex": {
+                "target": "我有一只黑色的猫。",
+                "sub": "Wǒ yǒu yì zhī hēisè de māo.",
+                "trans": {
+                  "de": "Ich habe eine schwarze Katze.",
+                  "en": "I have a black cat."
+                }
+              }
+            },
+            {
+              "target": "颜色",
+              "sub": "yánsè",
+              "meaning": {
+                "de": "Farbe",
+                "en": "color"
+              },
+              "ex": {
+                "target": "你喜欢什么颜色？",
+                "sub": "Nǐ xǐhuan shénme yánsè?",
+                "trans": {
+                  "de": "Welche Farbe magst du?",
+                  "en": "What color do you like?"
+                }
+              }
+            },
+            {
+              "target": "粉色",
+              "sub": "fěnsè",
+              "meaning": {
+                "de": "rosa",
+                "en": "pink"
+              },
+              "ex": {
+                "target": "她的手机是粉色的。",
+                "sub": "Tā de shǒujī shì fěnsè de.",
+                "trans": {
+                  "de": "Ihr Handy ist rosa.",
+                  "en": "Her phone is pink."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "objects",
+          "emoji": "🎒",
+          "name": {
+            "de": "Alltagsgegenstände",
+            "en": "Everyday objects",
+            "zh": "日常物品"
+          },
+          "words": [
+            {
+              "target": "书",
+              "sub": "shū",
+              "meaning": {
+                "de": "Buch",
+                "en": "book"
+              },
+              "ex": {
+                "target": "这本书很有意思。",
+                "sub": "Zhè běn shū hěn yǒuyìsi.",
+                "trans": {
+                  "de": "Dieses Buch ist sehr interessant.",
+                  "en": "This book is very interesting."
+                }
+              }
+            },
+            {
+              "target": "手机",
+              "sub": "shǒujī",
+              "meaning": {
+                "de": "Handy",
+                "en": "mobile phone"
+              },
+              "ex": {
+                "target": "我的手机没电了。",
+                "sub": "Wǒ de shǒujī méi diàn le.",
+                "trans": {
+                  "de": "Mein Handy ist leer.",
+                  "en": "My phone is out of battery."
+                }
+              }
+            },
+            {
+              "target": "电脑",
+              "sub": "diànnǎo",
+              "meaning": {
+                "de": "Computer",
+                "en": "computer"
+              },
+              "ex": {
+                "target": "他用电脑工作。",
+                "sub": "Tā yòng diànnǎo gōngzuò.",
+                "trans": {
+                  "de": "Er arbeitet am Computer.",
+                  "en": "He works on the computer."
+                }
+              }
+            },
+            {
+              "target": "桌子",
+              "sub": "zhuōzi",
+              "meaning": {
+                "de": "Tisch",
+                "en": "table"
+              },
+              "ex": {
+                "target": "桌子上有一杯茶。",
+                "sub": "Zhuōzi shàng yǒu yì bēi chá.",
+                "trans": {
+                  "de": "Auf dem Tisch steht eine Tasse Tee.",
+                  "en": "There is a cup of tea on the table."
+                }
+              }
+            },
+            {
+              "target": "椅子",
+              "sub": "yǐzi",
+              "meaning": {
+                "de": "Stuhl",
+                "en": "chair"
+              },
+              "ex": {
+                "target": "请坐在椅子上。",
+                "sub": "Qǐng zuò zài yǐzi shàng.",
+                "trans": {
+                  "de": "Bitte setz dich auf den Stuhl.",
+                  "en": "Please sit on the chair."
+                }
+              }
+            },
+            {
+              "target": "杯子",
+              "sub": "bēizi",
+              "meaning": {
+                "de": "Becher, Tasse",
+                "en": "cup"
+              },
+              "ex": {
+                "target": "这个杯子是我的。",
+                "sub": "Zhège bēizi shì wǒ de.",
+                "trans": {
+                  "de": "Diese Tasse gehört mir.",
+                  "en": "This cup is mine."
+                }
+              }
+            },
+            {
+              "target": "伞",
+              "sub": "sǎn",
+              "meaning": {
+                "de": "Regenschirm",
+                "en": "umbrella"
+              },
+              "ex": {
+                "target": "下雨了，带伞吧。",
+                "sub": "Xià yǔ le, dài sǎn ba.",
+                "trans": {
+                  "de": "Es regnet, nimm einen Schirm mit.",
+                  "en": "It is raining, take an umbrella."
+                }
+              }
+            },
+            {
+              "target": "钥匙",
+              "sub": "yàoshi",
+              "meaning": {
+                "de": "Schlüssel",
+                "en": "key"
+              },
+              "ex": {
+                "target": "我的钥匙在哪儿？",
+                "sub": "Wǒ de yàoshi zài nǎr?",
+                "trans": {
+                  "de": "Wo ist mein Schlüssel?",
+                  "en": "Where is my key?"
+                }
+              }
+            },
+            {
+              "target": "眼镜",
+              "sub": "yǎnjìng",
+              "meaning": {
+                "de": "Brille",
+                "en": "glasses"
+              },
+              "ex": {
+                "target": "我的眼镜在桌子上。",
+                "sub": "Wǒ de yǎnjìng zài zhuōzi shàng.",
+                "trans": {
+                  "de": "Meine Brille liegt auf dem Tisch.",
+                  "en": "My glasses are on the table."
+                }
+              }
+            },
+            {
+              "target": "包",
+              "sub": "bāo",
+              "meaning": {
+                "de": "Tasche",
+                "en": "bag"
+              },
+              "ex": {
+                "target": "她的包很漂亮。",
+                "sub": "Tā de bāo hěn piàoliang.",
+                "trans": {
+                  "de": "Ihre Tasche ist sehr schön.",
+                  "en": "Her bag is very beautiful."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk2",
+      "label": "HSK 2",
+      "name": {
+        "de": "Grundstufe: einfache Alltagsgespräche führen",
+        "en": "Elementary: simple everyday conversations",
+        "zh": "基础级：进行简单的日常对话"
+      },
+      "topics": [
+        {
+          "id": "shopping",
+          "emoji": "🛒",
+          "name": {
+            "de": "Einkaufen",
+            "en": "Shopping",
+            "zh": "购物"
+          },
+          "words": [
+            {
+              "target": "买",
+              "sub": "mǎi",
+              "meaning": {
+                "de": "kaufen",
+                "en": "to buy"
+              },
+              "ex": {
+                "target": "我想买一件衣服。",
+                "sub": "Wǒ xiǎng mǎi yí jiàn yīfu.",
+                "trans": {
+                  "de": "Ich möchte ein Kleidungsstück kaufen.",
+                  "en": "I'd like to buy a piece of clothing."
+                }
+              }
+            },
+            {
+              "target": "多少钱",
+              "sub": "duōshao qián",
+              "meaning": {
+                "de": "Wie viel kostet das?",
+                "en": "how much does it cost?"
+              },
+              "ex": {
+                "target": "这个多少钱？",
+                "sub": "Zhège duōshao qián?",
+                "trans": {
+                  "de": "Wie viel kostet das hier?",
+                  "en": "How much is this?"
+                }
+              }
+            },
+            {
+              "target": "贵",
+              "sub": "guì",
+              "meaning": {
+                "de": "teuer",
+                "en": "expensive"
+              },
+              "ex": {
+                "target": "太贵了，便宜一点吧！",
+                "sub": "Tài guì le, piányi yìdiǎn ba!",
+                "trans": {
+                  "de": "Zu teuer, mach es etwas billiger!",
+                  "en": "Too expensive, make it a bit cheaper!"
+                }
+              }
+            },
+            {
+              "target": "便宜",
+              "sub": "piányi",
+              "meaning": {
+                "de": "billig, günstig",
+                "en": "cheap"
+              },
+              "ex": {
+                "target": "这家店的水果很便宜。",
+                "sub": "Zhè jiā diàn de shuǐguǒ hěn piányi.",
+                "trans": {
+                  "de": "Das Obst in diesem Laden ist sehr günstig.",
+                  "en": "The fruit in this shop is very cheap."
+                }
+              }
+            },
+            {
+              "target": "钱",
+              "sub": "qián",
+              "meaning": {
+                "de": "Geld",
+                "en": "money"
+              },
+              "ex": {
+                "target": "我没有带钱。",
+                "sub": "Wǒ méiyǒu dài qián.",
+                "trans": {
+                  "de": "Ich habe kein Geld dabei.",
+                  "en": "I didn't bring any money."
+                }
+              }
+            },
+            {
+              "target": "商店",
+              "sub": "shāngdiàn",
+              "meaning": {
+                "de": "Geschäft, Laden",
+                "en": "shop, store"
+              },
+              "ex": {
+                "target": "商店晚上十点关门。",
+                "sub": "Shāngdiàn wǎnshang shí diǎn guānmén.",
+                "trans": {
+                  "de": "Der Laden schließt abends um zehn.",
+                  "en": "The shop closes at 10 pm."
+                }
+              }
+            },
+            {
+              "target": "衣服",
+              "sub": "yīfu",
+              "meaning": {
+                "de": "Kleidung",
+                "en": "clothes"
+              },
+              "ex": {
+                "target": "这件衣服很漂亮。",
+                "sub": "Zhè jiàn yīfu hěn piàoliang.",
+                "trans": {
+                  "de": "Dieses Kleidungsstück ist sehr hübsch.",
+                  "en": "This piece of clothing is very pretty."
+                }
+              }
+            },
+            {
+              "target": "块",
+              "sub": "kuài",
+              "meaning": {
+                "de": "Yuan (umgangssprachlich)",
+                "en": "yuan (colloquial)"
+              },
+              "ex": {
+                "target": "苹果五块一斤。",
+                "sub": "Píngguǒ wǔ kuài yì jīn.",
+                "trans": {
+                  "de": "Äpfel kosten fünf Yuan pro Pfund.",
+                  "en": "Apples are five yuan per jin."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "emoji": "🧭",
+          "name": {
+            "de": "Reisen & Richtungen",
+            "en": "Travel & directions",
+            "zh": "旅行与方向"
+          },
+          "words": [
+            {
+              "target": "火车站",
+              "sub": "huǒchēzhàn",
+              "meaning": {
+                "de": "Bahnhof",
+                "en": "train station"
+              },
+              "ex": {
+                "target": "火车站离这儿远吗？",
+                "sub": "Huǒchēzhàn lí zhèr yuǎn ma?",
+                "trans": {
+                  "de": "Ist der Bahnhof weit von hier?",
+                  "en": "Is the train station far from here?"
+                }
+              }
+            },
+            {
+              "target": "机场",
+              "sub": "jīchǎng",
+              "meaning": {
+                "de": "Flughafen",
+                "en": "airport"
+              },
+              "ex": {
+                "target": "我们坐出租车去机场。",
+                "sub": "Wǒmen zuò chūzūchē qù jīchǎng.",
+                "trans": {
+                  "de": "Wir fahren mit dem Taxi zum Flughafen.",
+                  "en": "We take a taxi to the airport."
+                }
+              }
+            },
+            {
+              "target": "左边",
+              "sub": "zuǒbian",
+              "meaning": {
+                "de": "links, linke Seite",
+                "en": "left side"
+              },
+              "ex": {
+                "target": "银行在左边。",
+                "sub": "Yínháng zài zuǒbian.",
+                "trans": {
+                  "de": "Die Bank ist auf der linken Seite.",
+                  "en": "The bank is on the left."
+                }
+              }
+            },
+            {
+              "target": "右边",
+              "sub": "yòubian",
+              "meaning": {
+                "de": "rechts, rechte Seite",
+                "en": "right side"
+              },
+              "ex": {
+                "target": "厕所在右边。",
+                "sub": "Cèsuǒ zài yòubian.",
+                "trans": {
+                  "de": "Die Toilette ist rechts.",
+                  "en": "The toilet is on the right."
+                }
+              }
+            },
+            {
+              "target": "一直走",
+              "sub": "yìzhí zǒu",
+              "meaning": {
+                "de": "geradeaus gehen",
+                "en": "go straight ahead"
+              },
+              "ex": {
+                "target": "一直走，然后往左拐。",
+                "sub": "Yìzhí zǒu, ránhòu wǎng zuǒ guǎi.",
+                "trans": {
+                  "de": "Geh geradeaus und bieg dann links ab.",
+                  "en": "Go straight, then turn left."
+                }
+              }
+            },
+            {
+              "target": "地图",
+              "sub": "dìtú",
+              "meaning": {
+                "de": "Karte, Stadtplan",
+                "en": "map"
+              },
+              "ex": {
+                "target": "我们看看地图吧。",
+                "sub": "Wǒmen kànkan dìtú ba.",
+                "trans": {
+                  "de": "Schauen wir mal auf die Karte.",
+                  "en": "Let's look at the map."
+                }
+              }
+            },
+            {
+              "target": "宾馆",
+              "sub": "bīnguǎn",
+              "meaning": {
+                "de": "Hotel",
+                "en": "hotel"
+              },
+              "ex": {
+                "target": "这家宾馆很干净。",
+                "sub": "Zhè jiā bīnguǎn hěn gānjìng.",
+                "trans": {
+                  "de": "Dieses Hotel ist sehr sauber.",
+                  "en": "This hotel is very clean."
+                }
+              }
+            },
+            {
+              "target": "怎么走",
+              "sub": "zěnme zǒu",
+              "meaning": {
+                "de": "Wie kommt man dorthin?",
+                "en": "how do I get there?"
+              },
+              "ex": {
+                "target": "请问，地铁站怎么走？",
+                "sub": "Qǐngwèn, dìtiězhàn zěnme zǒu?",
+                "trans": {
+                  "de": "Entschuldigung, wie komme ich zur U-Bahn-Station?",
+                  "en": "Excuse me, how do I get to the metro station?"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "time",
+          "emoji": "⏰",
+          "name": {
+            "de": "Zeit & Datum",
+            "en": "Time & date",
+            "zh": "时间与日期"
+          },
+          "words": [
+            {
+              "target": "今天",
+              "sub": "jīntiān",
+              "meaning": {
+                "de": "heute",
+                "en": "today"
+              },
+              "ex": {
+                "target": "今天是我的生日。",
+                "sub": "Jīntiān shì wǒ de shēngrì.",
+                "trans": {
+                  "de": "Heute ist mein Geburtstag.",
+                  "en": "Today is my birthday."
+                }
+              }
+            },
+            {
+              "target": "明天",
+              "sub": "míngtiān",
+              "meaning": {
+                "de": "morgen",
+                "en": "tomorrow"
+              },
+              "ex": {
+                "target": "明天见！",
+                "sub": "Míngtiān jiàn!",
+                "trans": {
+                  "de": "Bis morgen!",
+                  "en": "See you tomorrow!"
+                }
+              }
+            },
+            {
+              "target": "昨天",
+              "sub": "zuótiān",
+              "meaning": {
+                "de": "gestern",
+                "en": "yesterday"
+              },
+              "ex": {
+                "target": "昨天下了一天雨。",
+                "sub": "Zuótiān xià le yì tiān yǔ.",
+                "trans": {
+                  "de": "Gestern hat es den ganzen Tag geregnet.",
+                  "en": "It rained all day yesterday."
+                }
+              }
+            },
+            {
+              "target": "星期",
+              "sub": "xīngqī",
+              "meaning": {
+                "de": "Woche",
+                "en": "week"
+              },
+              "ex": {
+                "target": "我一个星期学习五天。",
+                "sub": "Wǒ yí ge xīngqī xuéxí wǔ tiān.",
+                "trans": {
+                  "de": "Ich lerne fünf Tage pro Woche.",
+                  "en": "I study five days a week."
+                }
+              }
+            },
+            {
+              "target": "月",
+              "sub": "yuè",
+              "meaning": {
+                "de": "Monat",
+                "en": "month"
+              },
+              "ex": {
+                "target": "十月是秋天。",
+                "sub": "Shí yuè shì qiūtiān.",
+                "trans": {
+                  "de": "Der Oktober gehört zum Herbst.",
+                  "en": "October is in autumn."
+                }
+              }
+            },
+            {
+              "target": "年",
+              "sub": "nián",
+              "meaning": {
+                "de": "Jahr",
+                "en": "year"
+              },
+              "ex": {
+                "target": "新年快乐！",
+                "sub": "Xīnnián kuàilè!",
+                "trans": {
+                  "de": "Frohes neues Jahr!",
+                  "en": "Happy New Year!"
+                }
+              }
+            },
+            {
+              "target": "点",
+              "sub": "diǎn",
+              "meaning": {
+                "de": "Uhr (Uhrzeit)",
+                "en": "o'clock"
+              },
+              "ex": {
+                "target": "现在几点？— 三点半。",
+                "sub": "Xiànzài jǐ diǎn? — Sān diǎn bàn.",
+                "trans": {
+                  "de": "Wie spät ist es? — Halb vier.",
+                  "en": "What time is it? — Half past three."
+                }
+              }
+            },
+            {
+              "target": "现在",
+              "sub": "xiànzài",
+              "meaning": {
+                "de": "jetzt",
+                "en": "now"
+              },
+              "ex": {
+                "target": "我现在很忙。",
+                "sub": "Wǒ xiànzài hěn máng.",
+                "trans": {
+                  "de": "Ich bin jetzt sehr beschäftigt.",
+                  "en": "I'm very busy right now."
+                }
+              }
+            },
+            {
+              "target": "星期一",
+              "sub": "xīngqīyī",
+              "meaning": {
+                "de": "Montag",
+                "en": "Monday"
+              },
+              "ex": {
+                "target": "课星期一开始。",
+                "sub": "Kè xīngqīyī kāishǐ.",
+                "trans": {
+                  "de": "Der Unterricht beginnt am Montag.",
+                  "en": "Class starts on Monday."
+                }
+              }
+            },
+            {
+              "target": "周末",
+              "sub": "zhōumò",
+              "meaning": {
+                "de": "Wochenende",
+                "en": "weekend"
+              },
+              "ex": {
+                "target": "周末你想做什么？",
+                "sub": "Zhōumò nǐ xiǎng zuò shénme?",
+                "trans": {
+                  "de": "Was möchtest du am Wochenende machen?",
+                  "en": "What do you want to do at the weekend?"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "weather",
+          "emoji": "🌦️",
+          "name": {
+            "de": "Wetter",
+            "en": "Weather",
+            "zh": "天气"
+          },
+          "words": [
+            {
+              "target": "天气",
+              "sub": "tiānqì",
+              "meaning": {
+                "de": "Wetter",
+                "en": "weather"
+              },
+              "ex": {
+                "target": "今天天气怎么样？",
+                "sub": "Jīntiān tiānqì zěnmeyàng?",
+                "trans": {
+                  "de": "Wie ist das Wetter heute?",
+                  "en": "What's the weather like today?"
+                }
+              }
+            },
+            {
+              "target": "下雨",
+              "sub": "xià yǔ",
+              "meaning": {
+                "de": "regnen",
+                "en": "to rain"
+              },
+              "ex": {
+                "target": "外面正在下雨。",
+                "sub": "Wàimiàn zhèngzài xià yǔ.",
+                "trans": {
+                  "de": "Draußen regnet es gerade.",
+                  "en": "It's raining outside."
+                }
+              }
+            },
+            {
+              "target": "下雪",
+              "sub": "xià xuě",
+              "meaning": {
+                "de": "schneien",
+                "en": "to snow"
+              },
+              "ex": {
+                "target": "北京冬天常常下雪。",
+                "sub": "Běijīng dōngtiān chángcháng xià xuě.",
+                "trans": {
+                  "de": "In Peking schneit es im Winter oft.",
+                  "en": "It often snows in Beijing in winter."
+                }
+              }
+            },
+            {
+              "target": "热",
+              "sub": "rè",
+              "meaning": {
+                "de": "heiß",
+                "en": "hot"
+              },
+              "ex": {
+                "target": "夏天太热了！",
+                "sub": "Xiàtiān tài rè le!",
+                "trans": {
+                  "de": "Der Sommer ist zu heiß!",
+                  "en": "Summer is too hot!"
+                }
+              }
+            },
+            {
+              "target": "冷",
+              "sub": "lěng",
+              "meaning": {
+                "de": "kalt",
+                "en": "cold"
+              },
+              "ex": {
+                "target": "今天很冷，多穿一点。",
+                "sub": "Jīntiān hěn lěng, duō chuān yìdiǎn.",
+                "trans": {
+                  "de": "Heute ist es kalt, zieh dich warm an.",
+                  "en": "It's cold today, wear more."
+                }
+              }
+            },
+            {
+              "target": "晴天",
+              "sub": "qíngtiān",
+              "meaning": {
+                "de": "sonniger Tag",
+                "en": "sunny day"
+              },
+              "ex": {
+                "target": "明天是晴天。",
+                "sub": "Míngtiān shì qíngtiān.",
+                "trans": {
+                  "de": "Morgen wird es sonnig.",
+                  "en": "Tomorrow will be sunny."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "hobbies",
+          "emoji": "⚽",
+          "name": {
+            "de": "Hobbys & Sport",
+            "en": "Hobbies & sports",
+            "zh": "爱好与运动"
+          },
+          "words": [
+            {
+              "target": "运动",
+              "sub": "yùndòng",
+              "meaning": {
+                "de": "Sport (treiben)",
+                "en": "sports; to exercise"
+              },
+              "ex": {
+                "target": "我每天运动一个小时。",
+                "sub": "Wǒ měitiān yùndòng yí gè xiǎoshí.",
+                "trans": {
+                  "de": "Ich treibe jeden Tag eine Stunde Sport.",
+                  "en": "I exercise one hour every day."
+                }
+              }
+            },
+            {
+              "target": "跑步",
+              "sub": "pǎobù",
+              "meaning": {
+                "de": "laufen, joggen",
+                "en": "to run, to jog"
+              },
+              "ex": {
+                "target": "他早上去跑步。",
+                "sub": "Tā zǎoshang qù pǎobù.",
+                "trans": {
+                  "de": "Er geht morgens joggen.",
+                  "en": "He goes running in the morning."
+                }
+              }
+            },
+            {
+              "target": "游泳",
+              "sub": "yóuyǒng",
+              "meaning": {
+                "de": "schwimmen",
+                "en": "to swim"
+              },
+              "ex": {
+                "target": "夏天我喜欢游泳。",
+                "sub": "Xiàtiān wǒ xǐhuan yóuyǒng.",
+                "trans": {
+                  "de": "Im Sommer schwimme ich gern.",
+                  "en": "In summer I like to swim."
+                }
+              }
+            },
+            {
+              "target": "踢足球",
+              "sub": "tī zúqiú",
+              "meaning": {
+                "de": "Fußball spielen",
+                "en": "to play football"
+              },
+              "ex": {
+                "target": "周末我们踢足球。",
+                "sub": "Zhōumò wǒmen tī zúqiú.",
+                "trans": {
+                  "de": "Am Wochenende spielen wir Fußball.",
+                  "en": "We play football on weekends."
+                }
+              }
+            },
+            {
+              "target": "打篮球",
+              "sub": "dǎ lánqiú",
+              "meaning": {
+                "de": "Basketball spielen",
+                "en": "to play basketball"
+              },
+              "ex": {
+                "target": "他很会打篮球。",
+                "sub": "Tā hěn huì dǎ lánqiú.",
+                "trans": {
+                  "de": "Er kann sehr gut Basketball spielen.",
+                  "en": "He is good at basketball."
+                }
+              }
+            },
+            {
+              "target": "唱歌",
+              "sub": "chànggē",
+              "meaning": {
+                "de": "singen",
+                "en": "to sing"
+              },
+              "ex": {
+                "target": "她唱歌唱得很好。",
+                "sub": "Tā chànggē chàng de hěn hǎo.",
+                "trans": {
+                  "de": "Sie singt sehr gut.",
+                  "en": "She sings very well."
+                }
+              }
+            },
+            {
+              "target": "看电影",
+              "sub": "kàn diànyǐng",
+              "meaning": {
+                "de": "einen Film sehen",
+                "en": "to watch a movie"
+              },
+              "ex": {
+                "target": "晚上我们去看电影吧。",
+                "sub": "Wǎnshang wǒmen qù kàn diànyǐng ba.",
+                "trans": {
+                  "de": "Lass uns heute Abend ins Kino gehen.",
+                  "en": "Let's watch a movie tonight."
+                }
+              }
+            },
+            {
+              "target": "旅游",
+              "sub": "lǚyóu",
+              "meaning": {
+                "de": "reisen",
+                "en": "to travel (for fun)"
+              },
+              "ex": {
+                "target": "我想去中国旅游。",
+                "sub": "Wǒ xiǎng qù Zhōngguó lǚyóu.",
+                "trans": {
+                  "de": "Ich möchte durch China reisen.",
+                  "en": "I want to travel in China."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "school",
+          "emoji": "📚",
+          "name": {
+            "de": "Schule & Lernen",
+            "en": "School & learning",
+            "zh": "学校与学习"
+          },
+          "words": [
+            {
+              "target": "学校",
+              "sub": "xuéxiào",
+              "meaning": {
+                "de": "Schule",
+                "en": "school"
+              },
+              "ex": {
+                "target": "我们的学校很大。",
+                "sub": "Wǒmen de xuéxiào hěn dà.",
+                "trans": {
+                  "de": "Unsere Schule ist sehr groß.",
+                  "en": "Our school is very big."
+                }
+              }
+            },
+            {
+              "target": "老师",
+              "sub": "lǎoshī",
+              "meaning": {
+                "de": "Lehrer/in",
+                "en": "teacher"
+              },
+              "ex": {
+                "target": "王老师教中文。",
+                "sub": "Wáng lǎoshī jiāo Zhōngwén.",
+                "trans": {
+                  "de": "Lehrer Wang unterrichtet Chinesisch.",
+                  "en": "Teacher Wang teaches Chinese."
+                }
+              }
+            },
+            {
+              "target": "学生",
+              "sub": "xuésheng",
+              "meaning": {
+                "de": "Schüler/in, Student/in",
+                "en": "student"
+              },
+              "ex": {
+                "target": "他是大学生。",
+                "sub": "Tā shì dàxuéshēng.",
+                "trans": {
+                  "de": "Er ist Universitätsstudent.",
+                  "en": "He is a university student."
+                }
+              }
+            },
+            {
+              "target": "上课",
+              "sub": "shàngkè",
+              "meaning": {
+                "de": "Unterricht haben",
+                "en": "to have class"
+              },
+              "ex": {
+                "target": "我们九点上课。",
+                "sub": "Wǒmen jiǔ diǎn shàngkè.",
+                "trans": {
+                  "de": "Wir haben um neun Uhr Unterricht.",
+                  "en": "We have class at nine."
+                }
+              }
+            },
+            {
+              "target": "考试",
+              "sub": "kǎoshì",
+              "meaning": {
+                "de": "Prüfung",
+                "en": "exam"
+              },
+              "ex": {
+                "target": "明天有中文考试。",
+                "sub": "Míngtiān yǒu Zhōngwén kǎoshì.",
+                "trans": {
+                  "de": "Morgen gibt es eine Chinesisch-Prüfung.",
+                  "en": "There is a Chinese exam tomorrow."
+                }
+              }
+            },
+            {
+              "target": "问题",
+              "sub": "wèntí",
+              "meaning": {
+                "de": "Frage, Problem",
+                "en": "question; problem"
+              },
+              "ex": {
+                "target": "我有一个问题。",
+                "sub": "Wǒ yǒu yí gè wèntí.",
+                "trans": {
+                  "de": "Ich habe eine Frage.",
+                  "en": "I have a question."
+                }
+              }
+            },
+            {
+              "target": "懂",
+              "sub": "dǒng",
+              "meaning": {
+                "de": "verstehen",
+                "en": "to understand"
+              },
+              "ex": {
+                "target": "你懂我的意思吗？",
+                "sub": "Nǐ dǒng wǒ de yìsi ma?",
+                "trans": {
+                  "de": "Verstehst du, was ich meine?",
+                  "en": "Do you understand what I mean?"
+                }
+              }
+            },
+            {
+              "target": "练习",
+              "sub": "liànxí",
+              "meaning": {
+                "de": "üben; Übung",
+                "en": "to practice; exercise"
+              },
+              "ex": {
+                "target": "我每天练习汉字。",
+                "sub": "Wǒ měitiān liànxí Hànzì.",
+                "trans": {
+                  "de": "Ich übe jeden Tag Schriftzeichen.",
+                  "en": "I practice characters every day."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk3",
+      "label": "HSK 3",
+      "name": {
+        "de": "Mittelstufe: über Gefühle, Gesundheit und Alltag sprechen",
+        "en": "Intermediate: talking about feelings, health and daily life",
+        "zh": "中级：谈论情感、健康和日常生活"
+      },
+      "topics": [
+        {
+          "id": "health",
+          "emoji": "🩺",
+          "name": {
+            "de": "Körper & Gesundheit",
+            "en": "Body & health",
+            "zh": "身体与健康"
+          },
+          "words": [
+            {
+              "target": "头疼",
+              "sub": "tóuténg",
+              "meaning": {
+                "de": "Kopfschmerzen (haben)",
+                "en": "headache"
+              },
+              "ex": {
+                "target": "我今天有点儿头疼。",
+                "sub": "Wǒ jīntiān yǒudiǎnr tóuténg.",
+                "trans": {
+                  "de": "Ich habe heute etwas Kopfschmerzen.",
+                  "en": "I have a bit of a headache today."
+                }
+              }
+            },
+            {
+              "target": "医生",
+              "sub": "yīshēng",
+              "meaning": {
+                "de": "Arzt / Ärztin",
+                "en": "doctor"
+              },
+              "ex": {
+                "target": "你应该去看医生。",
+                "sub": "Nǐ yīnggāi qù kàn yīshēng.",
+                "trans": {
+                  "de": "Du solltest zum Arzt gehen.",
+                  "en": "You should see a doctor."
+                }
+              }
+            },
+            {
+              "target": "医院",
+              "sub": "yīyuàn",
+              "meaning": {
+                "de": "Krankenhaus",
+                "en": "hospital"
+              },
+              "ex": {
+                "target": "医院就在学校旁边。",
+                "sub": "Yīyuàn jiù zài xuéxiào pángbiān.",
+                "trans": {
+                  "de": "Das Krankenhaus ist direkt neben der Schule.",
+                  "en": "The hospital is right next to the school."
+                }
+              }
+            },
+            {
+              "target": "药",
+              "sub": "yào",
+              "meaning": {
+                "de": "Medikament",
+                "en": "medicine"
+              },
+              "ex": {
+                "target": "这个药一天吃两次。",
+                "sub": "Zhège yào yì tiān chī liǎng cì.",
+                "trans": {
+                  "de": "Dieses Medikament zweimal täglich einnehmen.",
+                  "en": "Take this medicine twice a day."
+                }
+              }
+            },
+            {
+              "target": "发烧",
+              "sub": "fāshāo",
+              "meaning": {
+                "de": "Fieber haben",
+                "en": "to have a fever"
+              },
+              "ex": {
+                "target": "孩子有点儿发烧。",
+                "sub": "Háizi yǒudiǎnr fāshāo.",
+                "trans": {
+                  "de": "Das Kind hat leichtes Fieber.",
+                  "en": "The child has a slight fever."
+                }
+              }
+            },
+            {
+              "target": "健康",
+              "sub": "jiànkāng",
+              "meaning": {
+                "de": "gesund; Gesundheit",
+                "en": "healthy; health"
+              },
+              "ex": {
+                "target": "健康最重要。",
+                "sub": "Jiànkāng zuì zhòngyào.",
+                "trans": {
+                  "de": "Gesundheit ist das Wichtigste.",
+                  "en": "Health is the most important thing."
+                }
+              }
+            },
+            {
+              "target": "身体",
+              "sub": "shēntǐ",
+              "meaning": {
+                "de": "Körper; Gesundheitszustand",
+                "en": "body; health condition"
+              },
+              "ex": {
+                "target": "爷爷的身体很好。",
+                "sub": "Yéye de shēntǐ hěn hǎo.",
+                "trans": {
+                  "de": "Opa ist bei guter Gesundheit.",
+                  "en": "Grandpa is in good health."
+                }
+              }
+            },
+            {
+              "target": "锻炼",
+              "sub": "duànliàn",
+              "meaning": {
+                "de": "trainieren, Sport machen",
+                "en": "to exercise"
+              },
+              "ex": {
+                "target": "我每天早上锻炼身体。",
+                "sub": "Wǒ měitiān zǎoshang duànliàn shēntǐ.",
+                "trans": {
+                  "de": "Ich mache jeden Morgen Sport.",
+                  "en": "I exercise every morning."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "feelings",
+          "emoji": "💭",
+          "name": {
+            "de": "Gefühle",
+            "en": "Feelings",
+            "zh": "情感"
+          },
+          "words": [
+            {
+              "target": "高兴",
+              "sub": "gāoxìng",
+              "meaning": {
+                "de": "froh, glücklich",
+                "en": "happy, glad"
+              },
+              "ex": {
+                "target": "认识你我很高兴。",
+                "sub": "Rènshi nǐ wǒ hěn gāoxìng.",
+                "trans": {
+                  "de": "Ich freue mich, dich kennenzulernen.",
+                  "en": "I'm glad to meet you."
+                }
+              }
+            },
+            {
+              "target": "难过",
+              "sub": "nánguò",
+              "meaning": {
+                "de": "traurig",
+                "en": "sad"
+              },
+              "ex": {
+                "target": "听到这个消息，她很难过。",
+                "sub": "Tīngdào zhège xiāoxi, tā hěn nánguò.",
+                "trans": {
+                  "de": "Als sie die Nachricht hörte, war sie sehr traurig.",
+                  "en": "She was very sad to hear the news."
+                }
+              }
+            },
+            {
+              "target": "累",
+              "sub": "lèi",
+              "meaning": {
+                "de": "müde, erschöpft",
+                "en": "tired"
+              },
+              "ex": {
+                "target": "工作了一天，我很累。",
+                "sub": "Gōngzuò le yì tiān, wǒ hěn lèi.",
+                "trans": {
+                  "de": "Nach einem Arbeitstag bin ich sehr müde.",
+                  "en": "After a day of work I'm very tired."
+                }
+              }
+            },
+            {
+              "target": "紧张",
+              "sub": "jǐnzhāng",
+              "meaning": {
+                "de": "nervös, angespannt",
+                "en": "nervous"
+              },
+              "ex": {
+                "target": "考试前我总是很紧张。",
+                "sub": "Kǎoshì qián wǒ zǒngshì hěn jǐnzhāng.",
+                "trans": {
+                  "de": "Vor Prüfungen bin ich immer nervös.",
+                  "en": "I'm always nervous before exams."
+                }
+              }
+            },
+            {
+              "target": "生气",
+              "sub": "shēngqì",
+              "meaning": {
+                "de": "wütend sein",
+                "en": "angry"
+              },
+              "ex": {
+                "target": "别生气，他不是故意的。",
+                "sub": "Bié shēngqì, tā bú shì gùyì de.",
+                "trans": {
+                  "de": "Sei nicht wütend, er hat es nicht absichtlich getan.",
+                  "en": "Don't be angry, he didn't do it on purpose."
+                }
+              }
+            },
+            {
+              "target": "担心",
+              "sub": "dānxīn",
+              "meaning": {
+                "de": "sich sorgen",
+                "en": "to worry"
+              },
+              "ex": {
+                "target": "妈妈很担心我。",
+                "sub": "Māma hěn dānxīn wǒ.",
+                "trans": {
+                  "de": "Mama macht sich große Sorgen um mich.",
+                  "en": "Mum worries about me a lot."
+                }
+              }
+            },
+            {
+              "target": "喜欢",
+              "sub": "xǐhuan",
+              "meaning": {
+                "de": "mögen, gern haben",
+                "en": "to like"
+              },
+              "ex": {
+                "target": "我很喜欢学中文。",
+                "sub": "Wǒ hěn xǐhuan xué Zhōngwén.",
+                "trans": {
+                  "de": "Ich lerne sehr gern Chinesisch.",
+                  "en": "I really like learning Chinese."
+                }
+              }
+            },
+            {
+              "target": "惊讶",
+              "sub": "jīngyà",
+              "meaning": {
+                "de": "überrascht",
+                "en": "surprised"
+              },
+              "ex": {
+                "target": "大家都很惊讶。",
+                "sub": "Dàjiā dōu hěn jīngyà.",
+                "trans": {
+                  "de": "Alle waren sehr überrascht.",
+                  "en": "Everyone was very surprised."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "daily",
+          "emoji": "🏡",
+          "name": {
+            "de": "Alltag & Zuhause",
+            "en": "Daily life & home",
+            "zh": "日常与居家"
+          },
+          "words": [
+            {
+              "target": "起床",
+              "sub": "qǐchuáng",
+              "meaning": {
+                "de": "aufstehen",
+                "en": "to get up"
+              },
+              "ex": {
+                "target": "我每天七点起床。",
+                "sub": "Wǒ měitiān qī diǎn qǐchuáng.",
+                "trans": {
+                  "de": "Ich stehe jeden Tag um sieben auf.",
+                  "en": "I get up at seven every day."
+                }
+              }
+            },
+            {
+              "target": "睡觉",
+              "sub": "shuìjiào",
+              "meaning": {
+                "de": "schlafen (gehen)",
+                "en": "to sleep"
+              },
+              "ex": {
+                "target": "孩子们十点睡觉。",
+                "sub": "Háizimen shí diǎn shuìjiào.",
+                "trans": {
+                  "de": "Die Kinder gehen um zehn schlafen.",
+                  "en": "The children go to bed at ten."
+                }
+              }
+            },
+            {
+              "target": "打扫",
+              "sub": "dǎsǎo",
+              "meaning": {
+                "de": "putzen, sauber machen",
+                "en": "to clean"
+              },
+              "ex": {
+                "target": "周末我打扫房间。",
+                "sub": "Zhōumò wǒ dǎsǎo fángjiān.",
+                "trans": {
+                  "de": "Am Wochenende putze ich mein Zimmer.",
+                  "en": "I clean my room at the weekend."
+                }
+              }
+            },
+            {
+              "target": "洗衣服",
+              "sub": "xǐ yīfu",
+              "meaning": {
+                "de": "Wäsche waschen",
+                "en": "to do the laundry"
+              },
+              "ex": {
+                "target": "他正在洗衣服。",
+                "sub": "Tā zhèngzài xǐ yīfu.",
+                "trans": {
+                  "de": "Er wäscht gerade Wäsche.",
+                  "en": "He is doing the laundry."
+                }
+              }
+            },
+            {
+              "target": "做饭",
+              "sub": "zuòfàn",
+              "meaning": {
+                "de": "kochen",
+                "en": "to cook"
+              },
+              "ex": {
+                "target": "今天谁做饭？",
+                "sub": "Jīntiān shéi zuòfàn?",
+                "trans": {
+                  "de": "Wer kocht heute?",
+                  "en": "Who's cooking today?"
+                }
+              }
+            },
+            {
+              "target": "邻居",
+              "sub": "línjū",
+              "meaning": {
+                "de": "Nachbar / Nachbarin",
+                "en": "neighbour"
+              },
+              "ex": {
+                "target": "我们的邻居很友好。",
+                "sub": "Wǒmen de línjū hěn yǒuhǎo.",
+                "trans": {
+                  "de": "Unsere Nachbarn sind sehr freundlich.",
+                  "en": "Our neighbours are very friendly."
+                }
+              }
+            },
+            {
+              "target": "房间",
+              "sub": "fángjiān",
+              "meaning": {
+                "de": "Zimmer",
+                "en": "room"
+              },
+              "ex": {
+                "target": "我的房间不大，但是很舒服。",
+                "sub": "Wǒ de fángjiān bú dà, dànshì hěn shūfu.",
+                "trans": {
+                  "de": "Mein Zimmer ist nicht groß, aber sehr gemütlich.",
+                  "en": "My room isn't big, but it's cosy."
+                }
+              }
+            },
+            {
+              "target": "厨房",
+              "sub": "chúfáng",
+              "meaning": {
+                "de": "Küche",
+                "en": "kitchen"
+              },
+              "ex": {
+                "target": "妈妈在厨房做饭。",
+                "sub": "Māma zài chúfáng zuòfàn.",
+                "trans": {
+                  "de": "Mama kocht in der Küche.",
+                  "en": "Mum is cooking in the kitchen."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "city",
+          "emoji": "🏙️",
+          "name": {
+            "de": "Stadtleben",
+            "en": "City life",
+            "zh": "城市生活"
+          },
+          "words": [
+            {
+              "target": "地铁",
+              "sub": "dìtiě",
+              "meaning": {
+                "de": "U-Bahn",
+                "en": "subway, metro"
+              },
+              "ex": {
+                "target": "上海的地铁很方便。",
+                "sub": "Shànghǎi de dìtiě hěn fāngbiàn.",
+                "trans": {
+                  "de": "Die U-Bahn in Shanghai ist sehr praktisch.",
+                  "en": "The Shanghai metro is very convenient."
+                }
+              }
+            },
+            {
+              "target": "超市",
+              "sub": "chāoshì",
+              "meaning": {
+                "de": "Supermarkt",
+                "en": "supermarket"
+              },
+              "ex": {
+                "target": "我去超市买水果。",
+                "sub": "Wǒ qù chāoshì mǎi shuǐguǒ.",
+                "trans": {
+                  "de": "Ich gehe in den Supermarkt, um Obst zu kaufen.",
+                  "en": "I go to the supermarket to buy fruit."
+                }
+              }
+            },
+            {
+              "target": "银行",
+              "sub": "yínháng",
+              "meaning": {
+                "de": "Bank",
+                "en": "bank"
+              },
+              "ex": {
+                "target": "银行几点开门？",
+                "sub": "Yínháng jǐ diǎn kāimén?",
+                "trans": {
+                  "de": "Um wie viel Uhr öffnet die Bank?",
+                  "en": "What time does the bank open?"
+                }
+              }
+            },
+            {
+              "target": "公园",
+              "sub": "gōngyuán",
+              "meaning": {
+                "de": "Park",
+                "en": "park"
+              },
+              "ex": {
+                "target": "老人在公园里打太极。",
+                "sub": "Lǎorén zài gōngyuán lǐ dǎ tàijí.",
+                "trans": {
+                  "de": "Ältere Leute machen Tai-Chi im Park.",
+                  "en": "Elderly people do tai chi in the park."
+                }
+              }
+            },
+            {
+              "target": "附近",
+              "sub": "fùjìn",
+              "meaning": {
+                "de": "in der Nähe",
+                "en": "nearby"
+              },
+              "ex": {
+                "target": "附近有好吃的餐厅吗？",
+                "sub": "Fùjìn yǒu hǎochī de cāntīng ma?",
+                "trans": {
+                  "de": "Gibt es in der Nähe ein gutes Restaurant?",
+                  "en": "Is there a good restaurant nearby?"
+                }
+              }
+            },
+            {
+              "target": "热闹",
+              "sub": "rènao",
+              "meaning": {
+                "de": "belebt, lebhaft",
+                "en": "lively, bustling"
+              },
+              "ex": {
+                "target": "周末的南京路很热闹。",
+                "sub": "Zhōumò de Nánjīng Lù hěn rènao.",
+                "trans": {
+                  "de": "Die Nanjing-Straße ist am Wochenende sehr belebt.",
+                  "en": "Nanjing Road is very lively on weekends."
+                }
+              }
+            },
+            {
+              "target": "方便",
+              "sub": "fāngbiàn",
+              "meaning": {
+                "de": "praktisch, bequem",
+                "en": "convenient"
+              },
+              "ex": {
+                "target": "手机支付非常方便。",
+                "sub": "Shǒujī zhīfù fēicháng fāngbiàn.",
+                "trans": {
+                  "de": "Mobiles Bezahlen ist sehr praktisch.",
+                  "en": "Mobile payment is very convenient."
+                }
+              }
+            },
+            {
+              "target": "外卖",
+              "sub": "wàimài",
+              "meaning": {
+                "de": "Essenslieferung",
+                "en": "food delivery"
+              },
+              "ex": {
+                "target": "今天太累了，点外卖吧。",
+                "sub": "Jīntiān tài lèi le, diǎn wàimài ba.",
+                "trans": {
+                  "de": "Heute bin ich zu müde, lass uns Essen bestellen.",
+                  "en": "I'm too tired today, let's order delivery."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "tech",
+          "emoji": "📱",
+          "name": {
+            "de": "Technik & Internet",
+            "en": "Tech & internet",
+            "zh": "科技与网络"
+          },
+          "words": [
+            {
+              "target": "上网",
+              "sub": "shàngwǎng",
+              "meaning": {
+                "de": "ins Internet gehen",
+                "en": "to go online"
+              },
+              "ex": {
+                "target": "我用手机上网。",
+                "sub": "Wǒ yòng shǒujī shàngwǎng.",
+                "trans": {
+                  "de": "Ich gehe mit dem Handy ins Internet.",
+                  "en": "I go online with my phone."
+                }
+              }
+            },
+            {
+              "target": "网站",
+              "sub": "wǎngzhàn",
+              "meaning": {
+                "de": "Webseite",
+                "en": "website"
+              },
+              "ex": {
+                "target": "这个网站很有用。",
+                "sub": "Zhège wǎngzhàn hěn yǒuyòng.",
+                "trans": {
+                  "de": "Diese Webseite ist sehr nützlich.",
+                  "en": "This website is very useful."
+                }
+              }
+            },
+            {
+              "target": "发短信",
+              "sub": "fā duǎnxìn",
+              "meaning": {
+                "de": "eine SMS schicken",
+                "en": "to send a text message"
+              },
+              "ex": {
+                "target": "他给我发了一条短信。",
+                "sub": "Tā gěi wǒ fā le yì tiáo duǎnxìn.",
+                "trans": {
+                  "de": "Er hat mir eine SMS geschickt.",
+                  "en": "He sent me a text message."
+                }
+              }
+            },
+            {
+              "target": "照片",
+              "sub": "zhàopiàn",
+              "meaning": {
+                "de": "Foto",
+                "en": "photo"
+              },
+              "ex": {
+                "target": "我们拍一张照片吧！",
+                "sub": "Wǒmen pāi yì zhāng zhàopiàn ba!",
+                "trans": {
+                  "de": "Lass uns ein Foto machen!",
+                  "en": "Let's take a photo!"
+                }
+              }
+            },
+            {
+              "target": "充电",
+              "sub": "chōngdiàn",
+              "meaning": {
+                "de": "aufladen",
+                "en": "to charge (a battery)"
+              },
+              "ex": {
+                "target": "我的手机需要充电。",
+                "sub": "Wǒ de shǒujī xūyào chōngdiàn.",
+                "trans": {
+                  "de": "Mein Handy muss aufgeladen werden.",
+                  "en": "My phone needs charging."
+                }
+              }
+            },
+            {
+              "target": "密码",
+              "sub": "mìmǎ",
+              "meaning": {
+                "de": "Passwort",
+                "en": "password"
+              },
+              "ex": {
+                "target": "我忘了我的密码。",
+                "sub": "Wǒ wàng le wǒ de mìmǎ.",
+                "trans": {
+                  "de": "Ich habe mein Passwort vergessen.",
+                  "en": "I forgot my password."
+                }
+              }
+            },
+            {
+              "target": "下载",
+              "sub": "xiàzài",
+              "meaning": {
+                "de": "herunterladen",
+                "en": "to download"
+              },
+              "ex": {
+                "target": "你可以下载这个软件。",
+                "sub": "Nǐ kěyǐ xiàzài zhège ruǎnjiàn.",
+                "trans": {
+                  "de": "Du kannst diese Software herunterladen.",
+                  "en": "You can download this software."
+                }
+              }
+            },
+            {
+              "target": "视频",
+              "sub": "shìpín",
+              "meaning": {
+                "de": "Video",
+                "en": "video"
+              },
+              "ex": {
+                "target": "这个视频很好笑。",
+                "sub": "Zhège shìpín hěn hǎoxiào.",
+                "trans": {
+                  "de": "Dieses Video ist sehr lustig.",
+                  "en": "This video is very funny."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk4",
+      "label": "HSK 4",
+      "name": {
+        "de": "Fortgeschritten: fließender über Arbeit und Pläne sprechen",
+        "en": "Upper level: talking more fluently about work and plans",
+        "zh": "进阶：更流利地谈论工作和计划"
+      },
+      "topics": [
+        {
+          "id": "work",
+          "emoji": "💼",
+          "name": {
+            "de": "Beruf & Arbeit",
+            "en": "Work & jobs",
+            "zh": "职业与工作"
+          },
+          "words": [
+            {
+              "target": "工作",
+              "sub": "gōngzuò",
+              "meaning": {
+                "de": "Arbeit; arbeiten",
+                "en": "work; to work"
+              },
+              "ex": {
+                "target": "她找到了一份新工作。",
+                "sub": "Tā zhǎodào le yí fèn xīn gōngzuò.",
+                "trans": {
+                  "de": "Sie hat eine neue Arbeit gefunden.",
+                  "en": "She found a new job."
+                }
+              }
+            },
+            {
+              "target": "同事",
+              "sub": "tóngshì",
+              "meaning": {
+                "de": "Kollege / Kollegin",
+                "en": "colleague"
+              },
+              "ex": {
+                "target": "我的同事们都很热情。",
+                "sub": "Wǒ de tóngshìmen dōu hěn rèqíng.",
+                "trans": {
+                  "de": "Meine Kollegen sind alle sehr herzlich.",
+                  "en": "My colleagues are all very warm."
+                }
+              }
+            },
+            {
+              "target": "开会",
+              "sub": "kāihuì",
+              "meaning": {
+                "de": "eine Besprechung haben",
+                "en": "to have a meeting"
+              },
+              "ex": {
+                "target": "我们下午两点开会。",
+                "sub": "Wǒmen xiàwǔ liǎng diǎn kāihuì.",
+                "trans": {
+                  "de": "Wir haben um 14 Uhr eine Besprechung.",
+                  "en": "We have a meeting at 2 pm."
+                }
+              }
+            },
+            {
+              "target": "工资",
+              "sub": "gōngzī",
+              "meaning": {
+                "de": "Gehalt, Lohn",
+                "en": "salary, wages"
+              },
+              "ex": {
+                "target": "工资月底发。",
+                "sub": "Gōngzī yuèdǐ fā.",
+                "trans": {
+                  "de": "Das Gehalt wird am Monatsende ausgezahlt.",
+                  "en": "Salaries are paid at the end of the month."
+                }
+              }
+            },
+            {
+              "target": "经验",
+              "sub": "jīngyàn",
+              "meaning": {
+                "de": "Erfahrung",
+                "en": "experience"
+              },
+              "ex": {
+                "target": "她有五年的工作经验。",
+                "sub": "Tā yǒu wǔ nián de gōngzuò jīngyàn.",
+                "trans": {
+                  "de": "Sie hat fünf Jahre Berufserfahrung.",
+                  "en": "She has five years of work experience."
+                }
+              }
+            },
+            {
+              "target": "加班",
+              "sub": "jiābān",
+              "meaning": {
+                "de": "Überstunden machen",
+                "en": "to work overtime"
+              },
+              "ex": {
+                "target": "这个星期我天天加班。",
+                "sub": "Zhège xīngqī wǒ tiāntiān jiābān.",
+                "trans": {
+                  "de": "Diese Woche mache ich jeden Tag Überstunden.",
+                  "en": "I'm working overtime every day this week."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "business",
+          "emoji": "💼",
+          "name": {
+            "de": "Geschäftlich & formell",
+            "en": "Business & formal",
+            "zh": "商务与正式"
+          },
+          "words": [
+            {
+              "target": "会议",
+              "sub": "huìyì",
+              "meaning": {
+                "de": "Besprechung, Konferenz",
+                "en": "meeting, conference"
+              },
+              "ex": {
+                "target": "会议十点开始。",
+                "sub": "Huìyì shí diǎn kāishǐ.",
+                "trans": {
+                  "de": "Die Besprechung beginnt um zehn Uhr.",
+                  "en": "The meeting starts at ten."
+                }
+              }
+            },
+            {
+              "target": "经理",
+              "sub": "jīnglǐ",
+              "meaning": {
+                "de": "Manager/in",
+                "en": "manager"
+              },
+              "ex": {
+                "target": "他是我们公司的经理。",
+                "sub": "Tā shì wǒmen gōngsī de jīnglǐ.",
+                "trans": {
+                  "de": "Er ist der Manager unserer Firma.",
+                  "en": "He is our company's manager."
+                }
+              }
+            },
+            {
+              "target": "计划",
+              "sub": "jìhuà",
+              "meaning": {
+                "de": "Plan; planen",
+                "en": "plan; to plan"
+              },
+              "ex": {
+                "target": "我们需要一个新的计划。",
+                "sub": "Wǒmen xūyào yí gè xīn de jìhuà.",
+                "trans": {
+                  "de": "Wir brauchen einen neuen Plan.",
+                  "en": "We need a new plan."
+                }
+              }
+            },
+            {
+              "target": "合作",
+              "sub": "hézuò",
+              "meaning": {
+                "de": "Zusammenarbeit",
+                "en": "cooperation; to cooperate"
+              },
+              "ex": {
+                "target": "希望我们合作愉快。",
+                "sub": "Xīwàng wǒmen hézuò yúkuài.",
+                "trans": {
+                  "de": "Ich hoffe auf eine gute Zusammenarbeit.",
+                  "en": "I hope we have a pleasant cooperation."
+                }
+              }
+            },
+            {
+              "target": "顾客",
+              "sub": "gùkè",
+              "meaning": {
+                "de": "Kunde/Kundin",
+                "en": "customer"
+              },
+              "ex": {
+                "target": "顾客就是上帝。",
+                "sub": "Gùkè jiùshì shàngdì.",
+                "trans": {
+                  "de": "Der Kunde ist König.",
+                  "en": "The customer is king."
+                }
+              }
+            },
+            {
+              "target": "报告",
+              "sub": "bàogào",
+              "meaning": {
+                "de": "Bericht",
+                "en": "report"
+              },
+              "ex": {
+                "target": "请把报告发给我。",
+                "sub": "Qǐng bǎ bàogào fā gěi wǒ.",
+                "trans": {
+                  "de": "Bitte schick mir den Bericht.",
+                  "en": "Please send me the report."
+                }
+              }
+            },
+            {
+              "target": "成功",
+              "sub": "chénggōng",
+              "meaning": {
+                "de": "Erfolg; erfolgreich sein",
+                "en": "success; to succeed"
+              },
+              "ex": {
+                "target": "这个项目很成功。",
+                "sub": "Zhège xiàngmù hěn chénggōng.",
+                "trans": {
+                  "de": "Dieses Projekt ist sehr erfolgreich.",
+                  "en": "This project is very successful."
+                }
+              }
+            },
+            {
+              "target": "合同",
+              "sub": "hétong",
+              "meaning": {
+                "de": "Vertrag",
+                "en": "contract"
+              },
+              "ex": {
+                "target": "请在合同上签名。",
+                "sub": "Qǐng zài hétong shàng qiānmíng.",
+                "trans": {
+                  "de": "Bitte unterschreibe den Vertrag.",
+                  "en": "Please sign the contract."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "opinions",
+          "emoji": "💬",
+          "name": {
+            "de": "Meinungen & Diskussion",
+            "en": "Opinions & discussion",
+            "zh": "观点与讨论"
+          },
+          "words": [
+            {
+              "target": "觉得",
+              "sub": "juéde",
+              "meaning": {
+                "de": "finden, meinen",
+                "en": "to think, to feel"
+              },
+              "ex": {
+                "target": "我觉得这个主意不错。",
+                "sub": "Wǒ juéde zhège zhǔyi búcuò.",
+                "trans": {
+                  "de": "Ich finde, diese Idee ist nicht schlecht.",
+                  "en": "I think this idea is quite good."
+                }
+              }
+            },
+            {
+              "target": "同意",
+              "sub": "tóngyì",
+              "meaning": {
+                "de": "zustimmen",
+                "en": "to agree"
+              },
+              "ex": {
+                "target": "我完全同意你的看法。",
+                "sub": "Wǒ wánquán tóngyì nǐ de kànfǎ.",
+                "trans": {
+                  "de": "Ich stimme deiner Ansicht völlig zu.",
+                  "en": "I completely agree with your view."
+                }
+              }
+            },
+            {
+              "target": "反对",
+              "sub": "fǎnduì",
+              "meaning": {
+                "de": "dagegen sein",
+                "en": "to oppose"
+              },
+              "ex": {
+                "target": "很多人反对这个计划。",
+                "sub": "Hěn duō rén fǎnduì zhège jìhuà.",
+                "trans": {
+                  "de": "Viele Menschen sind gegen diesen Plan.",
+                  "en": "Many people oppose this plan."
+                }
+              }
+            },
+            {
+              "target": "讨论",
+              "sub": "tǎolùn",
+              "meaning": {
+                "de": "diskutieren",
+                "en": "to discuss"
+              },
+              "ex": {
+                "target": "我们讨论一下这个问题吧。",
+                "sub": "Wǒmen tǎolùn yíxià zhège wèntí ba.",
+                "trans": {
+                  "de": "Lass uns dieses Problem besprechen.",
+                  "en": "Let's discuss this problem."
+                }
+              }
+            },
+            {
+              "target": "建议",
+              "sub": "jiànyì",
+              "meaning": {
+                "de": "Vorschlag; vorschlagen",
+                "en": "suggestion; to suggest"
+              },
+              "ex": {
+                "target": "我建议你早点儿休息。",
+                "sub": "Wǒ jiànyì nǐ zǎodiǎnr xiūxi.",
+                "trans": {
+                  "de": "Ich schlage vor, dass du dich früher ausruhst.",
+                  "en": "I suggest you rest earlier."
+                }
+              }
+            },
+            {
+              "target": "看法",
+              "sub": "kànfǎ",
+              "meaning": {
+                "de": "Ansicht, Meinung",
+                "en": "opinion, view"
+              },
+              "ex": {
+                "target": "你对这件事有什么看法？",
+                "sub": "Nǐ duì zhè jiàn shì yǒu shénme kànfǎ?",
+                "trans": {
+                  "de": "Was ist deine Meinung zu dieser Sache?",
+                  "en": "What is your view on this matter?"
+                }
+              }
+            },
+            {
+              "target": "重要",
+              "sub": "zhòngyào",
+              "meaning": {
+                "de": "wichtig",
+                "en": "important"
+              },
+              "ex": {
+                "target": "健康比钱更重要。",
+                "sub": "Jiànkāng bǐ qián gèng zhòngyào.",
+                "trans": {
+                  "de": "Gesundheit ist wichtiger als Geld.",
+                  "en": "Health is more important than money."
+                }
+              }
+            },
+            {
+              "target": "决定",
+              "sub": "juédìng",
+              "meaning": {
+                "de": "entscheiden; Entscheidung",
+                "en": "to decide; decision"
+              },
+              "ex": {
+                "target": "我决定明年去德国。",
+                "sub": "Wǒ juédìng míngnián qù Déguó.",
+                "trans": {
+                  "de": "Ich habe entschieden, nächstes Jahr nach Deutschland zu gehen.",
+                  "en": "I decided to go to Germany next year."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tones": [
+    {
+      "syll": "mā",
+      "speak": "妈",
+      "path": "M10 12 H70",
+      "name": {
+        "de": "1. Ton – hoch und eben",
+        "en": "1st tone – high and level",
+        "zh": "第一声——高平"
+      }
+    },
+    {
+      "syll": "má",
+      "speak": "麻",
+      "path": "M12 34 Q30 28 68 8",
+      "name": {
+        "de": "2. Ton – steigend",
+        "en": "2nd tone – rising",
+        "zh": "第二声——上升"
+      }
+    },
+    {
+      "syll": "mǎ",
+      "speak": "马",
+      "path": "M10 16 Q28 42 48 32 Q58 26 70 10",
+      "name": {
+        "de": "3. Ton – fallend-steigend",
+        "en": "3rd tone – falling-rising",
+        "zh": "第三声——先降后升"
+      }
+    },
+    {
+      "syll": "mà",
+      "speak": "骂",
+      "path": "M12 8 Q30 18 68 38",
+      "name": {
+        "de": "4. Ton – scharf fallend",
+        "en": "4th tone – sharp falling",
+        "zh": "第四声——急降"
+      }
+    },
+    {
+      "syll": "ma",
+      "speak": "吗",
+      "path": "M34 22 H46",
+      "name": {
+        "de": "Neutraler Ton – kurz und leicht",
+        "en": "Neutral tone – short and light",
+        "zh": "轻声——又短又轻"
+      }
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "一",
+      "pinyin": "yī",
+      "meaning": {
+        "de": "eins",
+        "en": "one",
+        "zh": "一"
+      },
+      "strokes": [
+        "M15,50 L85,50"
+      ]
+    },
+    {
+      "hanzi": "二",
+      "pinyin": "èr",
+      "meaning": {
+        "de": "zwei",
+        "en": "two",
+        "zh": "二"
+      },
+      "strokes": [
+        "M25,35 L75,35",
+        "M15,68 L85,68"
+      ]
+    },
+    {
+      "hanzi": "三",
+      "pinyin": "sān",
+      "meaning": {
+        "de": "drei",
+        "en": "three",
+        "zh": "三"
+      },
+      "strokes": [
+        "M25,28 L75,28",
+        "M28,50 L72,50",
+        "M15,74 L85,74"
+      ]
+    },
+    {
+      "hanzi": "十",
+      "pinyin": "shí",
+      "meaning": {
+        "de": "zehn",
+        "en": "ten",
+        "zh": "十"
+      },
+      "strokes": [
+        "M15,50 L85,50",
+        "M50,15 L50,85"
+      ]
+    },
+    {
+      "hanzi": "人",
+      "pinyin": "rén",
+      "meaning": {
+        "de": "Mensch",
+        "en": "person",
+        "zh": "人"
+      },
+      "strokes": [
+        "M50,18 Q45,52 22,82",
+        "M50,42 Q62,62 80,82"
+      ]
+    },
+    {
+      "hanzi": "大",
+      "pinyin": "dà",
+      "meaning": {
+        "de": "groß",
+        "en": "big",
+        "zh": "大"
+      },
+      "strokes": [
+        "M20,42 L80,42",
+        "M50,15 Q46,55 20,85",
+        "M52,46 Q64,66 82,85"
+      ]
+    },
+    {
+      "hanzi": "口",
+      "pinyin": "kǒu",
+      "meaning": {
+        "de": "Mund; Öffnung",
+        "en": "mouth",
+        "zh": "口"
+      },
+      "strokes": [
+        "M28,30 L28,74",
+        "M28,30 L72,30 L72,74",
+        "M28,74 L72,74"
+      ]
+    },
+    {
+      "hanzi": "日",
+      "pinyin": "rì",
+      "meaning": {
+        "de": "Sonne; Tag",
+        "en": "sun; day",
+        "zh": "日"
+      },
+      "strokes": [
+        "M32,20 L32,80",
+        "M32,20 L68,20 L68,80",
+        "M32,50 L68,50",
+        "M32,80 L68,80"
+      ]
+    },
+    {
+      "hanzi": "月",
+      "pinyin": "yuè",
+      "meaning": {
+        "de": "Mond; Monat",
+        "en": "moon; month",
+        "zh": "月"
+      },
+      "strokes": [
+        "M36,20 Q36,58 26,80",
+        "M36,20 L70,20 L70,72 Q70,82 60,79",
+        "M39,38 L66,38",
+        "M39,55 L66,55"
+      ]
+    },
+    {
+      "hanzi": "木",
+      "pinyin": "mù",
+      "meaning": {
+        "de": "Baum; Holz",
+        "en": "tree; wood",
+        "zh": "木"
+      },
+      "strokes": [
+        "M15,40 L85,40",
+        "M50,15 L50,85",
+        "M48,45 Q38,64 18,78",
+        "M52,45 Q62,64 82,78"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "svo",
+      "level": "HSK 1",
+      "title": {
+        "de": "Grundsatzbau: Subjekt – Verb – Objekt",
+        "en": "Basic word order: subject – verb – object",
+        "zh": "基本语序：主语—动词—宾语"
+      },
+      "body": {
+        "de": "Chinesische Sätze folgen wie das Englische dem Muster Subjekt – Verb – Objekt: 我学中文 (Ich lerne Chinesisch). Zeitangaben stehen vor dem Verb, meist direkt nach dem Subjekt. Verben werden nie konjugiert – es gibt keine Endungen, keine Zeitformen am Verb selbst!",
+        "en": "Chinese sentences follow subject – verb – object, like English: 我学中文 (I study Chinese). Time words come before the verb, usually right after the subject. Verbs are never conjugated – no endings, no tense marking on the verb itself!",
+        "zh": "汉语句子遵循主—动—宾的语序：我学中文。时间词放在动词前，通常紧跟主语。动词没有任何形态变化——没有词尾，也没有时态变形！"
+      },
+      "examples": [
+        {
+          "target": "我学中文。",
+          "sub": "Wǒ xué Zhōngwén.",
+          "trans": {
+            "de": "Ich lerne Chinesisch. (S–V–O)",
+            "en": "I study Chinese. (S–V–O)",
+            "zh": "主—动—宾"
+          }
+        },
+        {
+          "target": "我明天去北京。",
+          "sub": "Wǒ míngtiān qù Běijīng.",
+          "trans": {
+            "de": "Ich fahre morgen nach Peking. (Zeit vor dem Verb)",
+            "en": "I go to Beijing tomorrow. (time before the verb)",
+            "zh": "时间词在动词前"
+          }
+        },
+        {
+          "target": "他喝茶，我喝咖啡。",
+          "sub": "Tā hē chá, wǒ hē kāfēi.",
+          "trans": {
+            "de": "Er trinkt Tee, ich trinke Kaffee. (gleiches Verb für alle Personen)",
+            "en": "He drinks tea, I drink coffee. (same verb form for everyone)",
+            "zh": "动词形式不变"
+          }
+        }
+      ],
+      "exercise": {
+        "q": {
+          "de": "Welche Wortstellung ist richtig für „Ich esse heute Nudeln“?",
+          "en": "Which word order is correct for \"I eat noodles today\"?",
+          "zh": "\"我今天吃面条\"的正确语序是哪个？"
+        },
+        "options": [
+          "我吃面条今天。",
+          "我今天吃面条。",
+          "今天面条我吃。"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "measure-words",
+      "level": "HSK 1",
+      "title": {
+        "de": "Messwörter (量词)",
+        "en": "Measure words (量词)",
+        "zh": "量词"
+      },
+      "body": {
+        "de": "Zwischen Zahl und Nomen steht im Chinesischen immer ein Messwort: 三本书 (drei Bücher). Das universellste ist 个 (ge). Häufige weitere: 本 für Bücher, 杯 für Getränke in Tassen/Gläsern, 件 für Kleidung, 只 für viele Tiere. Falsch wäre 三书 – das Messwort darf nie fehlen.",
+        "en": "In Chinese, a measure word always stands between a number and a noun: 三本书 (three books). The most universal is 个 (ge). Other common ones: 本 for books, 杯 for cups/glasses of drinks, 件 for clothing, 只 for many animals. 三书 would be wrong – the measure word can never be dropped.",
+        "zh": "汉语中数词和名词之间必须有量词：三本书。最通用的是“个”。常见的还有：书用“本”，杯装饮料用“杯”，衣服用“件”，很多动物用“只”。“三书”是错的——量词不能省略。"
+      },
+      "examples": [
+        {
+          "target": "我买了三本书。",
+          "sub": "Wǒ mǎi le sān běn shū.",
+          "trans": {
+            "de": "Ich habe drei Bücher gekauft. (本 für Bücher)",
+            "en": "I bought three books. (本 for books)",
+            "zh": "书用量词“本”"
+          }
+        },
+        {
+          "target": "请给我两杯茶。",
+          "sub": "Qǐng gěi wǒ liǎng bēi chá.",
+          "trans": {
+            "de": "Bitte gib mir zwei Tassen Tee. (杯 für Getränke)",
+            "en": "Please give me two cups of tea. (杯 for drinks)",
+            "zh": "饮料用量词“杯”"
+          }
+        },
+        {
+          "target": "他有一只猫。",
+          "sub": "Tā yǒu yì zhī māo.",
+          "trans": {
+            "de": "Er hat eine Katze. (只 für Tiere)",
+            "en": "He has a cat. (只 for animals)",
+            "zh": "动物用量词“只”"
+          }
+        }
+      ],
+      "exercise": {
+        "q": {
+          "de": "Welches Messwort passt? 我想买一___衣服。",
+          "en": "Which measure word fits? 我想买一___衣服。",
+          "zh": "填哪个量词？我想买一___衣服。"
+        },
+        "options": [
+          "本",
+          "件",
+          "杯"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "particle-de",
+      "level": "HSK 1",
+      "title": {
+        "de": "Die Partikel 的 – Besitz und Beschreibung",
+        "en": "The particle 的 – possession and description",
+        "zh": "助词“的”——领属与修饰"
+      },
+      "body": {
+        "de": "的 (de) verbindet Besitzer und Besitz: 我的书 (mein Buch), 妈妈的车 (Mamas Auto). Auch Beschreibungen werden mit 的 an das Nomen gehängt: 漂亮的衣服 (schöne Kleidung). Bei engen Beziehungen (Familie, Institutionen) darf 的 wegfallen: 我妈妈 (meine Mama).",
+        "en": "的 (de) links possessor and possession: 我的书 (my book), 妈妈的车 (mum's car). Descriptions also attach to nouns with 的: 漂亮的衣服 (pretty clothes). With close relationships (family, institutions) 的 can be dropped: 我妈妈 (my mum).",
+        "zh": "“的”连接领属关系：我的书、妈妈的车。修饰语也用“的”连接名词：漂亮的衣服。关系亲密时（家人、机构）可以省略“的”：我妈妈。"
+      },
+      "examples": [
+        {
+          "target": "这是我的手机。",
+          "sub": "Zhè shì wǒ de shǒujī.",
+          "trans": {
+            "de": "Das ist mein Handy.",
+            "en": "This is my phone.",
+            "zh": "领属关系"
+          }
+        },
+        {
+          "target": "她买了一件漂亮的衣服。",
+          "sub": "Tā mǎi le yí jiàn piàoliang de yīfu.",
+          "trans": {
+            "de": "Sie hat ein schönes Kleidungsstück gekauft.",
+            "en": "She bought a pretty piece of clothing.",
+            "zh": "修饰名词"
+          }
+        },
+        {
+          "target": "我妈妈是医生。",
+          "sub": "Wǒ māma shì yīshēng.",
+          "trans": {
+            "de": "Meine Mama ist Ärztin. (的 entfällt bei Familie)",
+            "en": "My mum is a doctor. (的 dropped for family)",
+            "zh": "家人可省略“的”"
+          }
+        }
+      ],
+      "exercise": {
+        "q": {
+          "de": "Wo gehört 的 hin? „das Auto des Lehrers“",
+          "en": "Where does 的 go? \"the teacher's car\"",
+          "zh": "“的”放在哪里？（老师的车）"
+        },
+        "options": [
+          "老师车的",
+          "的老师车",
+          "老师的车"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "particle-le",
+      "level": "HSK 2",
+      "title": {
+        "de": "Die Partikel 了 – Abschluss und Veränderung",
+        "en": "The particle 了 – completion and change",
+        "zh": "助词“了”——完成与变化"
+      },
+      "body": {
+        "de": "了 (le) hat zwei Hauptfunktionen: Nach dem Verb zeigt es an, dass eine Handlung abgeschlossen ist (我买了三个苹果 – ich habe drei Äpfel gekauft). Am Satzende zeigt es eine neue Situation oder Veränderung an (下雨了 – es hat angefangen zu regnen). 了 ist keine Vergangenheitsform, sondern markiert Vollendung!",
+        "en": "了 (le) has two main uses: after a verb it marks a completed action (我买了三个苹果 – I bought three apples). At the end of a sentence it marks a new situation or change (下雨了 – it has started to rain). 了 is not a past tense – it marks completion!",
+        "zh": "“了”有两个主要用法：动词后表示动作完成（我买了三个苹果）；句末表示新情况或变化（下雨了）。“了”不是过去时，而是表示完成或变化！"
+      },
+      "examples": [
+        {
+          "target": "我吃了两个饺子。",
+          "sub": "Wǒ chī le liǎng ge jiǎozi.",
+          "trans": {
+            "de": "Ich habe zwei Jiaozi gegessen. (abgeschlossen)",
+            "en": "I ate two dumplings. (completed)",
+            "zh": "动作完成"
+          }
+        },
+        {
+          "target": "下雨了！",
+          "sub": "Xià yǔ le!",
+          "trans": {
+            "de": "Es regnet (jetzt)! (neue Situation)",
+            "en": "It's raining (now)! (new situation)",
+            "zh": "新情况出现"
+          }
+        },
+        {
+          "target": "他不去了。",
+          "sub": "Tā bú qù le.",
+          "trans": {
+            "de": "Er geht (doch) nicht mehr. (Veränderung des Plans)",
+            "en": "He's not going anymore. (change of plan)",
+            "zh": "计划改变"
+          }
+        }
+      ],
+      "exercise": {
+        "q": {
+          "de": "Was bedeutet 天冷了?",
+          "en": "What does 天冷了 mean?",
+          "zh": "“天冷了”是什么意思？"
+        },
+        "options": [
+          "Es war schon immer kalt. / It has always been cold.",
+          "Es ist kalt geworden. / It has become cold.",
+          "Es wird kalt werden. / It will get cold."
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "questions",
+      "level": "HSK 1",
+      "title": {
+        "de": "Fragen mit 吗 und 呢",
+        "en": "Questions with 吗 and 呢",
+        "zh": "用“吗”和“呢”提问"
+      },
+      "body": {
+        "de": "Ja/Nein-Fragen bildet man ganz einfach: Aussagesatz + 吗? – 你是德国人吗? (Bist du Deutsche/r?). Die Wortstellung ändert sich nicht! 呢 stellt dieselbe Frage zurück: 我很好，你呢? (Mir geht's gut, und dir?). Fragewörter wie 什么 (was), 谁 (wer), 哪儿 (wo) bleiben an der Stelle im Satz, an der die Antwort stehen würde.",
+        "en": "Yes/no questions are simple: statement + 吗? – 你是德国人吗? (Are you German?). The word order does not change! 呢 bounces the same question back: 我很好，你呢? (I'm fine, and you?). Question words like 什么 (what), 谁 (who), 哪儿 (where) stay in the position where the answer would be.",
+        "zh": "是非问句很简单：陈述句 + 吗？——你是德国人吗？语序不变！“呢”用来反问同样的问题：我很好，你呢？疑问词如“什么”“谁”“哪儿”留在答案所在的位置。"
+      },
+      "examples": [
+        {
+          "target": "你喜欢中国菜吗？",
+          "sub": "Nǐ xǐhuan Zhōngguó cài ma?",
+          "trans": {
+            "de": "Magst du chinesisches Essen?",
+            "en": "Do you like Chinese food?",
+            "zh": "是非问句"
+          }
+        },
+        {
+          "target": "我叫安娜，你呢？",
+          "sub": "Wǒ jiào Ānnà, nǐ ne?",
+          "trans": {
+            "de": "Ich heiße Anna, und du?",
+            "en": "I'm Anna, and you?",
+            "zh": "用“呢”反问"
+          }
+        },
+        {
+          "target": "你想吃什么？",
+          "sub": "Nǐ xiǎng chī shénme?",
+          "trans": {
+            "de": "Was möchtest du essen? (什么 steht am Objektplatz)",
+            "en": "What do you want to eat? (什么 in object position)",
+            "zh": "疑问词在宾语位置"
+          }
+        }
+      ],
+      "exercise": {
+        "q": {
+          "de": "Wie fragt man „Trinkst du Tee?“?",
+          "en": "How do you ask \"Do you drink tea?\"?",
+          "zh": "“你喝茶吗”怎么说才对？"
+        },
+        "options": [
+          "吗你喝茶？",
+          "你喝茶吗？",
+          "你吗喝茶？"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "negation",
+      "level": "HSK 2",
+      "title": {
+        "de": "Verneinung mit 不 und 没",
+        "en": "Negation with 不 and 没",
+        "zh": "用“不”和“没”否定"
+      },
+      "body": {
+        "de": "不 (bù) verneint Gegenwart, Zukunft und Gewohnheiten: 我不喝咖啡 (Ich trinke keinen Kaffee). 没 (méi) verneint abgeschlossene Handlungen und 有: 我没去 (Ich bin nicht hingegangen), 我没有时间 (Ich habe keine Zeit). Merke: 有 wird immer mit 没 verneint, nie mit 不!",
+        "en": "不 (bù) negates present, future and habits: 我不喝咖啡 (I don't drink coffee). 没 (méi) negates completed actions and 有: 我没去 (I didn't go), 我没有时间 (I don't have time). Remember: 有 is always negated with 没, never with 不!",
+        "zh": "“不”否定现在、将来和习惯：我不喝咖啡。“没”否定已完成的动作和“有”：我没去、我没有时间。记住：“有”只能用“没”否定，不能用“不”！"
+      },
+      "examples": [
+        {
+          "target": "我不吃肉。",
+          "sub": "Wǒ bù chī ròu.",
+          "trans": {
+            "de": "Ich esse kein Fleisch. (Gewohnheit)",
+            "en": "I don't eat meat. (habit)",
+            "zh": "习惯的否定"
+          }
+        },
+        {
+          "target": "他昨天没来。",
+          "sub": "Tā zuótiān méi lái.",
+          "trans": {
+            "de": "Er ist gestern nicht gekommen. (Vergangenheit)",
+            "en": "He didn't come yesterday. (past)",
+            "zh": "过去动作的否定"
+          }
+        },
+        {
+          "target": "我没有哥哥。",
+          "sub": "Wǒ méiyǒu gēge.",
+          "trans": {
+            "de": "Ich habe keinen älteren Bruder. (有 → 没有)",
+            "en": "I don't have an older brother. (有 → 没有)",
+            "zh": "“有”用“没”否定"
+          }
+        }
+      ],
+      "exercise": {
+        "q": {
+          "de": "Welche Verneinung ist richtig? „Ich habe kein Geld.“",
+          "en": "Which negation is correct? \"I don't have money.\"",
+          "zh": "哪个否定正确？（我没有钱）"
+        },
+        "options": [
+          "我不有钱。",
+          "我没有钱。",
+          "我没不钱。"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "comparison",
+      "level": "HSK 3",
+      "title": {
+        "de": "Vergleiche mit 比",
+        "en": "Comparisons with 比",
+        "zh": "用“比”比较"
+      },
+      "body": {
+        "de": "Vergleiche folgen dem Muster: A 比 B + Adjektiv – 今天比昨天热 (Heute ist heißer als gestern). Den Unterschied hängt man hinten an: 姐姐比我大两岁 (Meine Schwester ist zwei Jahre älter als ich). Wichtig: Vor dem Adjektiv steht kein 很!",
+        "en": "Comparisons follow the pattern: A 比 B + adjective – 今天比昨天热 (Today is hotter than yesterday). The difference goes at the end: 姐姐比我大两岁 (My sister is two years older than me). Important: no 很 before the adjective!",
+        "zh": "比较句型：A 比 B + 形容词——今天比昨天热。差别放在句尾：姐姐比我大两岁。注意：形容词前不能加“很”！"
+      },
+      "examples": [
+        {
+          "target": "今天比昨天热。",
+          "sub": "Jīntiān bǐ zuótiān rè.",
+          "trans": {
+            "de": "Heute ist es heißer als gestern.",
+            "en": "Today is hotter than yesterday.",
+            "zh": "基本比较句"
+          }
+        },
+        {
+          "target": "这个比那个便宜十块。",
+          "sub": "Zhège bǐ nàge piányi shí kuài.",
+          "trans": {
+            "de": "Das hier ist zehn Yuan billiger als das da.",
+            "en": "This one is ten yuan cheaper than that one.",
+            "zh": "带差额的比较"
+          }
+        },
+        {
+          "target": "中文比英文难吗？",
+          "sub": "Zhōngwén bǐ Yīngwén nán ma?",
+          "trans": {
+            "de": "Ist Chinesisch schwerer als Englisch?",
+            "en": "Is Chinese harder than English?",
+            "zh": "比较句的疑问形式"
+          }
+        }
+      ],
+      "exercise": {
+        "q": {
+          "de": "Welcher Satz ist richtig?",
+          "en": "Which sentence is correct?",
+          "zh": "哪个句子正确？"
+        },
+        "options": [
+          "他比我很高。",
+          "他比我高。",
+          "他很比我高。"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "shi-de",
+      "level": "HSK 3",
+      "title": {
+        "de": "Die 是…的-Struktur – Details betonen",
+        "en": "The 是…的 structure – emphasising details",
+        "zh": "“是……的”结构——强调细节"
+      },
+      "body": {
+        "de": "Mit 是…的 betont man bei bereits bekannten, vergangenen Ereignissen das Wann, Wo oder Wie: 我是去年来的 (Es war letztes Jahr, dass ich kam). 是 steht vor der betonten Information, 的 am Satzende. Die Struktur beantwortet Fragen wie „Wann bist du gekommen?“ – nicht „Was ist passiert?“.",
+        "en": "是…的 emphasises the when, where or how of a past event that is already known: 我是去年来的 (It was last year that I came). 是 goes before the emphasised information, 的 at the end. It answers questions like \"When did you come?\" – not \"What happened?\".",
+        "zh": "“是……的”用于强调已知的过去事件的时间、地点或方式：我是去年来的。“是”放在被强调的信息前，“的”放句尾。它回答“你是什么时候来的？”这类问题。"
+      },
+      "examples": [
+        {
+          "target": "我是去年来北京的。",
+          "sub": "Wǒ shì qùnián lái Běijīng de.",
+          "trans": {
+            "de": "Ich bin letztes Jahr nach Peking gekommen. (Zeit betont)",
+            "en": "It was last year that I came to Beijing. (time emphasised)",
+            "zh": "强调时间"
+          }
+        },
+        {
+          "target": "你是怎么来的？",
+          "sub": "Nǐ shì zěnme lái de?",
+          "trans": {
+            "de": "Wie bist du (denn) gekommen? (Art und Weise)",
+            "en": "How did you get here? (manner)",
+            "zh": "强调方式"
+          }
+        },
+        {
+          "target": "这是在中国买的。",
+          "sub": "Zhè shì zài Zhōngguó mǎi de.",
+          "trans": {
+            "de": "Das wurde in China gekauft. (Ort betont)",
+            "en": "This was bought in China. (place emphasised)",
+            "zh": "强调地点"
+          }
+        }
+      ],
+      "exercise": {
+        "q": {
+          "de": "Was betont der Satz 我是坐飞机来的?",
+          "en": "What does 我是坐飞机来的 emphasise?",
+          "zh": "“我是坐飞机来的”强调什么？"
+        },
+        "options": [
+          "Wann ich kam / when I came",
+          "Wie ich kam (mit dem Flugzeug) / how I came (by plane)",
+          "Warum ich kam / why I came"
+        ],
+        "answer": 1
+      }
+    }
+  ],
+  "dialogs": [
+    {
+      "id": "restaurant",
+      "title": {
+        "de": "Im Restaurant",
+        "en": "At the restaurant",
+        "zh": "在饭馆"
+      },
+      "lines": [
+        {
+          "who": "A",
+          "target": "欢迎光临！几位？",
+          "sub": "Huānyíng guānglín! Jǐ wèi?",
+          "trans": {
+            "de": "Herzlich willkommen! Wie viele Personen?",
+            "en": "Welcome! How many people?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "两位。请给我们菜单。",
+          "sub": "Liǎng wèi. Qǐng gěi wǒmen càidān.",
+          "trans": {
+            "de": "Zwei Personen. Bitte geben Sie uns die Speisekarte.",
+            "en": "Two. Please give us the menu."
+          }
+        },
+        {
+          "who": "A",
+          "target": "你们想吃什么？",
+          "sub": "Nǐmen xiǎng chī shénme?",
+          "trans": {
+            "de": "Was möchtet ihr essen?",
+            "en": "What would you like to eat?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "我们要一份饺子和两碗米饭。",
+          "sub": "Wǒmen yào yí fèn jiǎozi hé liǎng wǎn mǐfàn.",
+          "trans": {
+            "de": "Wir nehmen eine Portion Jiaozi und zwei Schalen Reis.",
+            "en": "We'll have one portion of dumplings and two bowls of rice."
+          }
+        },
+        {
+          "who": "A",
+          "target": "好的，请稍等。",
+          "sub": "Hǎo de, qǐng shāo děng.",
+          "trans": {
+            "de": "In Ordnung, einen Moment bitte.",
+            "en": "Alright, one moment please."
+          }
+        }
+      ]
+    },
+    {
+      "id": "taxi",
+      "title": {
+        "de": "Im Taxi",
+        "en": "In the taxi",
+        "zh": "在出租车上"
+      },
+      "lines": [
+        {
+          "who": "A",
+          "target": "师傅，我要去火车站。",
+          "sub": "Shīfu, wǒ yào qù huǒchēzhàn.",
+          "trans": {
+            "de": "Meister (Anrede für Fahrer), ich möchte zum Bahnhof.",
+            "en": "Driver, I'd like to go to the train station."
+          }
+        },
+        {
+          "who": "B",
+          "target": "好的。你要赶火车吗？",
+          "sub": "Hǎo de. Nǐ yào gǎn huǒchē ma?",
+          "trans": {
+            "de": "In Ordnung. Musst du einen Zug erwischen?",
+            "en": "OK. Are you catching a train?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "对，十点的火车。要多长时间？",
+          "sub": "Duì, shí diǎn de huǒchē. Yào duō cháng shíjiān?",
+          "trans": {
+            "de": "Ja, den Zug um zehn. Wie lange dauert es?",
+            "en": "Yes, the 10 o'clock train. How long will it take?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "大概二十分钟，没问题。",
+          "sub": "Dàgài èrshí fēnzhōng, méi wèntí.",
+          "trans": {
+            "de": "Ungefähr zwanzig Minuten, kein Problem.",
+            "en": "About twenty minutes, no problem."
+          }
+        },
+        {
+          "who": "A",
+          "target": "太好了，谢谢！",
+          "sub": "Tài hǎo le, xièxie!",
+          "trans": {
+            "de": "Super, danke!",
+            "en": "Great, thanks!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "meet",
+      "title": {
+        "de": "Sich kennenlernen",
+        "en": "Getting to know each other",
+        "zh": "初次见面"
+      },
+      "lines": [
+        {
+          "who": "A",
+          "target": "你好！你叫什么名字？",
+          "sub": "Nǐ hǎo! Nǐ jiào shénme míngzi?",
+          "trans": {
+            "de": "Hallo! Wie heißt du?",
+            "en": "Hi! What's your name?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "我叫马克，是德国人。你呢？",
+          "sub": "Wǒ jiào Mǎkè, shì Déguó rén. Nǐ ne?",
+          "trans": {
+            "de": "Ich heiße Mark und bin Deutscher. Und du?",
+            "en": "I'm Mark, I'm German. And you?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "我叫李华，很高兴认识你！",
+          "sub": "Wǒ jiào Lǐ Huá, hěn gāoxìng rènshi nǐ!",
+          "trans": {
+            "de": "Ich heiße Li Hua, freut mich sehr!",
+            "en": "I'm Li Hua, nice to meet you!"
+          }
+        },
+        {
+          "who": "B",
+          "target": "我在学中文，可是说得不太好。",
+          "sub": "Wǒ zài xué Zhōngwén, kěshì shuō de bú tài hǎo.",
+          "trans": {
+            "de": "Ich lerne Chinesisch, spreche aber noch nicht so gut.",
+            "en": "I'm learning Chinese but don't speak very well yet."
+          }
+        },
+        {
+          "who": "A",
+          "target": "你说得很好！我们可以互相学习。",
+          "sub": "Nǐ shuō de hěn hǎo! Wǒmen kěyǐ hùxiāng xuéxí.",
+          "trans": {
+            "de": "Du sprichst sehr gut! Wir können voneinander lernen.",
+            "en": "You speak very well! We can learn from each other."
+          }
+        }
+      ]
+    }
+  ],
+  "culture": [
+    {
+      "title": {
+        "de": "„Hast du schon gegessen?“ als Gruß",
+        "en": "\"Have you eaten?\" as a greeting",
+        "zh": "“你吃了吗？”是一种问候"
+      },
+      "body": {
+        "de": "吃了吗? (Schon gegessen?) ist ein traditioneller, freundlicher Gruß unter Bekannten – keine Einladung zum Essen! Die passende Antwort ist einfach 吃了 (Ja, habe ich) oder 还没 (Noch nicht), unabhängig davon, ob man wirklich Hunger hat.",
+        "en": "吃了吗? (Have you eaten?) is a traditional friendly greeting between acquaintances – not a dinner invitation! The right reply is simply 吃了 (Yes, I have) or 还没 (Not yet), regardless of whether you are actually hungry.",
+        "zh": "“吃了吗？”是熟人之间传统的友好问候，并不是请你吃饭！合适的回答是“吃了”或“还没”，跟你是否真的饿无关。"
+      }
+    },
+    {
+      "title": {
+        "de": "Zahlen mit Bedeutung",
+        "en": "Numbers with meaning",
+        "zh": "有含义的数字"
+      },
+      "body": {
+        "de": "Die 8 (八 bā) gilt als Glückszahl, weil sie ähnlich klingt wie 发 (fā, reich werden) – Telefonnummern und Kennzeichen mit vielen Achten sind begehrt. Die 4 (四 sì) wird dagegen gemieden, weil sie wie 死 (sǐ, Tod) klingt; in manchen Gebäuden fehlt sogar der vierte Stock.",
+        "en": "8 (八 bā) is a lucky number because it sounds like 发 (fā, to get rich) – phone numbers and licence plates full of eights are sought after. 4 (四 sì) is avoided because it sounds like 死 (sǐ, death); some buildings even skip the fourth floor.",
+        "zh": "“8”因与“发”谐音被视为幸运数字——带很多 8 的电话号码和车牌很抢手。“4”因与“死”谐音而被避讳，有些楼甚至没有四层。"
+      }
+    },
+    {
+      "title": {
+        "de": "Tee-Kultur",
+        "en": "Tea culture",
+        "zh": "茶文化"
+      },
+      "body": {
+        "de": "Tee ist in China weit mehr als ein Getränk: Gästen Tee einzuschenken ist ein Zeichen von Respekt. Klopft jemand beim Einschenken zweimal leicht mit den Fingern auf den Tisch, bedeutet das „danke“ – eine stille Geste, die aus der Kaiserzeit überliefert ist.",
+        "en": "Tea in China is far more than a drink: pouring tea for guests is a sign of respect. If someone lightly taps the table twice with their fingers while you pour, it means \"thank you\" – a silent gesture handed down from imperial times.",
+        "zh": "在中国，茶远不只是饮料：给客人倒茶是尊重的表现。倒茶时对方用手指轻敲两下桌面表示“谢谢”——这个无声的手势相传源自帝制时代。"
+      }
+    }
+  ]
+}

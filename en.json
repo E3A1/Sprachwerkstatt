@@ -1,0 +1,4453 @@
+{
+  "code": "en",
+  "speechLang": "en-US",
+  "name": {
+    "de": "Englisch",
+    "en": "English",
+    "zh": "英语"
+  },
+  "desc": {
+    "de": "Von den ersten Wörtern bis zu sicheren Sätzen – angelehnt an CEFR A1–B2.",
+    "en": "From your first words to confident sentences – aligned with CEFR A1–B2.",
+    "zh": "从入门词汇到自信表达——对应欧标 A1–B2。"
+  },
+  "levels": [
+    {
+      "id": "A1",
+      "label": "A1",
+      "name": {
+        "de": "Anfänger: erste Wörter und einfache Sätze",
+        "en": "Beginner: first words and simple sentences",
+        "zh": "初学者：基础词汇和简单句子"
+      },
+      "topics": [
+        {
+          "id": "greetings",
+          "emoji": "👋",
+          "name": {
+            "de": "Begrüßung & Höflichkeit",
+            "en": "Greetings & politeness",
+            "zh": "问候与礼貌"
+          },
+          "words": [
+            {
+              "target": "hello",
+              "sub": "/həˈloʊ/",
+              "meaning": {
+                "de": "hallo",
+                "en": "a greeting",
+                "zh": "你好"
+              },
+              "ex": {
+                "target": "Hello, my name is Anna.",
+                "trans": {
+                  "de": "Hallo, ich heiße Anna.",
+                  "en": "A simple way to introduce yourself."
+                }
+              }
+            },
+            {
+              "target": "good morning",
+              "sub": "/ɡʊd ˈmɔːrnɪŋ/",
+              "meaning": {
+                "de": "guten Morgen",
+                "en": "morning greeting",
+                "zh": "早上好"
+              },
+              "ex": {
+                "target": "Good morning! Did you sleep well?",
+                "trans": {
+                  "de": "Guten Morgen! Hast du gut geschlafen?"
+                }
+              }
+            },
+            {
+              "target": "good evening",
+              "sub": "/ɡʊd ˈiːvnɪŋ/",
+              "meaning": {
+                "de": "guten Abend",
+                "en": "evening greeting",
+                "zh": "晚上好"
+              },
+              "ex": {
+                "target": "Good evening, welcome to our restaurant.",
+                "trans": {
+                  "de": "Guten Abend, willkommen in unserem Restaurant."
+                }
+              }
+            },
+            {
+              "target": "goodbye",
+              "sub": "/ˌɡʊdˈbaɪ/",
+              "meaning": {
+                "de": "auf Wiedersehen",
+                "en": "a farewell",
+                "zh": "再见"
+              },
+              "ex": {
+                "target": "Goodbye, see you tomorrow!",
+                "trans": {
+                  "de": "Tschüss, bis morgen!"
+                }
+              }
+            },
+            {
+              "target": "please",
+              "sub": "/pliːz/",
+              "meaning": {
+                "de": "bitte",
+                "en": "polite request word",
+                "zh": "请"
+              },
+              "ex": {
+                "target": "A coffee, please.",
+                "trans": {
+                  "de": "Einen Kaffee, bitte."
+                }
+              }
+            },
+            {
+              "target": "thank you",
+              "sub": "/ˈθæŋk juː/",
+              "meaning": {
+                "de": "danke",
+                "en": "expression of thanks",
+                "zh": "谢谢"
+              },
+              "ex": {
+                "target": "Thank you very much for your help.",
+                "trans": {
+                  "de": "Vielen Dank für deine Hilfe."
+                }
+              }
+            },
+            {
+              "target": "you're welcome",
+              "sub": "/jʊr ˈwelkəm/",
+              "meaning": {
+                "de": "gern geschehen",
+                "en": "reply to thanks",
+                "zh": "不客气"
+              },
+              "ex": {
+                "target": "\"Thanks!\" – \"You're welcome.\"",
+                "trans": {
+                  "de": "„Danke!“ – „Gern geschehen.“"
+                }
+              }
+            },
+            {
+              "target": "excuse me",
+              "sub": "/ɪkˈskjuːz miː/",
+              "meaning": {
+                "de": "Entschuldigung (Anrede)",
+                "en": "to get attention politely",
+                "zh": "打扰一下"
+              },
+              "ex": {
+                "target": "Excuse me, where is the station?",
+                "trans": {
+                  "de": "Entschuldigung, wo ist der Bahnhof?"
+                }
+              }
+            },
+            {
+              "target": "sorry",
+              "sub": "/ˈsɒri/",
+              "meaning": {
+                "de": "es tut mir leid",
+                "en": "an apology",
+                "zh": "对不起"
+              },
+              "ex": {
+                "target": "Sorry, I am late.",
+                "trans": {
+                  "de": "Entschuldigung, ich bin zu spät."
+                }
+              }
+            },
+            {
+              "target": "nice to meet you",
+              "sub": "/naɪs tə miːt juː/",
+              "meaning": {
+                "de": "schön, dich kennenzulernen",
+                "en": "greeting when meeting someone new",
+                "zh": "很高兴认识你"
+              },
+              "ex": {
+                "target": "Nice to meet you, Tom!",
+                "trans": {
+                  "de": "Schön, dich kennenzulernen, Tom!"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "numbers",
+          "emoji": "🔢",
+          "name": {
+            "de": "Zahlen",
+            "en": "Numbers",
+            "zh": "数字"
+          },
+          "words": [
+            {
+              "target": "one",
+              "sub": "/wʌn/",
+              "meaning": {
+                "de": "eins",
+                "en": "1",
+                "zh": "一"
+              },
+              "ex": {
+                "target": "I have one brother.",
+                "trans": {
+                  "de": "Ich habe einen Bruder."
+                }
+              }
+            },
+            {
+              "target": "two",
+              "sub": "/tuː/",
+              "meaning": {
+                "de": "zwei",
+                "en": "2",
+                "zh": "二"
+              },
+              "ex": {
+                "target": "Two teas, please.",
+                "trans": {
+                  "de": "Zwei Tee, bitte."
+                }
+              }
+            },
+            {
+              "target": "three",
+              "sub": "/θriː/",
+              "meaning": {
+                "de": "drei",
+                "en": "3",
+                "zh": "三"
+              },
+              "ex": {
+                "target": "The meeting is at three o'clock.",
+                "trans": {
+                  "de": "Das Treffen ist um drei Uhr."
+                }
+              }
+            },
+            {
+              "target": "four",
+              "sub": "/fɔːr/",
+              "meaning": {
+                "de": "vier",
+                "en": "4",
+                "zh": "四"
+              },
+              "ex": {
+                "target": "There are four chairs.",
+                "trans": {
+                  "de": "Es gibt vier Stühle."
+                }
+              }
+            },
+            {
+              "target": "five",
+              "sub": "/faɪv/",
+              "meaning": {
+                "de": "fünf",
+                "en": "5",
+                "zh": "五"
+              },
+              "ex": {
+                "target": "Give me five minutes.",
+                "trans": {
+                  "de": "Gib mir fünf Minuten."
+                }
+              }
+            },
+            {
+              "target": "six",
+              "sub": "/sɪks/",
+              "meaning": {
+                "de": "sechs",
+                "en": "6",
+                "zh": "六"
+              },
+              "ex": {
+                "target": "The shop closes at six.",
+                "trans": {
+                  "de": "Der Laden schließt um sechs."
+                }
+              }
+            },
+            {
+              "target": "seven",
+              "sub": "/ˈsevən/",
+              "meaning": {
+                "de": "sieben",
+                "en": "7",
+                "zh": "七"
+              },
+              "ex": {
+                "target": "A week has seven days.",
+                "trans": {
+                  "de": "Eine Woche hat sieben Tage."
+                }
+              }
+            },
+            {
+              "target": "eight",
+              "sub": "/eɪt/",
+              "meaning": {
+                "de": "acht",
+                "en": "8",
+                "zh": "八"
+              },
+              "ex": {
+                "target": "Breakfast is at eight.",
+                "trans": {
+                  "de": "Frühstück gibt es um acht."
+                }
+              }
+            },
+            {
+              "target": "nine",
+              "sub": "/naɪn/",
+              "meaning": {
+                "de": "neun",
+                "en": "9",
+                "zh": "九"
+              },
+              "ex": {
+                "target": "The train leaves at nine.",
+                "trans": {
+                  "de": "Der Zug fährt um neun ab."
+                }
+              }
+            },
+            {
+              "target": "ten",
+              "sub": "/ten/",
+              "meaning": {
+                "de": "zehn",
+                "en": "10",
+                "zh": "十"
+              },
+              "ex": {
+                "target": "Count from one to ten.",
+                "trans": {
+                  "de": "Zähle von eins bis zehn."
+                }
+              }
+            },
+            {
+              "target": "twenty",
+              "sub": "/ˈtwenti/",
+              "meaning": {
+                "de": "zwanzig",
+                "en": "20",
+                "zh": "二十"
+              },
+              "ex": {
+                "target": "The book costs twenty euros.",
+                "trans": {
+                  "de": "Das Buch kostet zwanzig Euro."
+                }
+              }
+            },
+            {
+              "target": "hundred",
+              "sub": "/ˈhʌndrəd/",
+              "meaning": {
+                "de": "hundert",
+                "en": "100",
+                "zh": "一百"
+              },
+              "ex": {
+                "target": "About a hundred people came.",
+                "trans": {
+                  "de": "Ungefähr hundert Leute kamen."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "colors",
+          "emoji": "🎨",
+          "name": {
+            "de": "Farben",
+            "en": "Colours",
+            "zh": "颜色"
+          },
+          "words": [
+            {
+              "target": "red",
+              "sub": "/red/",
+              "meaning": {
+                "de": "rot",
+                "en": "colour of blood",
+                "zh": "红色"
+              },
+              "ex": {
+                "target": "She has a red car.",
+                "trans": {
+                  "de": "Sie hat ein rotes Auto."
+                }
+              }
+            },
+            {
+              "target": "blue",
+              "sub": "/bluː/",
+              "meaning": {
+                "de": "blau",
+                "en": "colour of the sky",
+                "zh": "蓝色"
+              },
+              "ex": {
+                "target": "The sky is blue today.",
+                "trans": {
+                  "de": "Der Himmel ist heute blau."
+                }
+              }
+            },
+            {
+              "target": "green",
+              "sub": "/ɡriːn/",
+              "meaning": {
+                "de": "grün",
+                "en": "colour of grass",
+                "zh": "绿色"
+              },
+              "ex": {
+                "target": "I like green tea.",
+                "trans": {
+                  "de": "Ich mag grünen Tee."
+                }
+              }
+            },
+            {
+              "target": "yellow",
+              "sub": "/ˈjeloʊ/",
+              "meaning": {
+                "de": "gelb",
+                "en": "colour of the sun",
+                "zh": "黄色"
+              },
+              "ex": {
+                "target": "Bananas are yellow.",
+                "trans": {
+                  "de": "Bananen sind gelb."
+                }
+              }
+            },
+            {
+              "target": "black",
+              "sub": "/blæk/",
+              "meaning": {
+                "de": "schwarz",
+                "en": "darkest colour",
+                "zh": "黑色"
+              },
+              "ex": {
+                "target": "He wears a black jacket.",
+                "trans": {
+                  "de": "Er trägt eine schwarze Jacke."
+                }
+              }
+            },
+            {
+              "target": "white",
+              "sub": "/waɪt/",
+              "meaning": {
+                "de": "weiß",
+                "en": "colour of snow",
+                "zh": "白色"
+              },
+              "ex": {
+                "target": "Snow is white.",
+                "trans": {
+                  "de": "Schnee ist weiß."
+                }
+              }
+            },
+            {
+              "target": "orange",
+              "sub": "/ˈɒrɪndʒ/",
+              "meaning": {
+                "de": "orange",
+                "en": "colour of the fruit",
+                "zh": "橙色"
+              },
+              "ex": {
+                "target": "The sunset was orange.",
+                "trans": {
+                  "de": "Der Sonnenuntergang war orange."
+                }
+              }
+            },
+            {
+              "target": "brown",
+              "sub": "/braʊn/",
+              "meaning": {
+                "de": "braun",
+                "en": "colour of wood",
+                "zh": "棕色"
+              },
+              "ex": {
+                "target": "She has brown eyes.",
+                "trans": {
+                  "de": "Sie hat braune Augen."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "family",
+          "emoji": "👪",
+          "name": {
+            "de": "Familie",
+            "en": "Family",
+            "zh": "家庭"
+          },
+          "words": [
+            {
+              "target": "mother",
+              "sub": "/ˈmʌðər/",
+              "meaning": {
+                "de": "Mutter",
+                "en": "female parent",
+                "zh": "妈妈"
+              },
+              "ex": {
+                "target": "My mother is a teacher.",
+                "trans": {
+                  "de": "Meine Mutter ist Lehrerin."
+                }
+              }
+            },
+            {
+              "target": "father",
+              "sub": "/ˈfɑːðər/",
+              "meaning": {
+                "de": "Vater",
+                "en": "male parent",
+                "zh": "爸爸"
+              },
+              "ex": {
+                "target": "My father likes cooking.",
+                "trans": {
+                  "de": "Mein Vater kocht gern."
+                }
+              }
+            },
+            {
+              "target": "parents",
+              "sub": "/ˈpeərənts/",
+              "meaning": {
+                "de": "Eltern",
+                "en": "mother and father",
+                "zh": "父母"
+              },
+              "ex": {
+                "target": "My parents live in Berlin.",
+                "trans": {
+                  "de": "Meine Eltern wohnen in Berlin."
+                }
+              }
+            },
+            {
+              "target": "sister",
+              "sub": "/ˈsɪstər/",
+              "meaning": {
+                "de": "Schwester",
+                "en": "female sibling",
+                "zh": "姐妹"
+              },
+              "ex": {
+                "target": "I have an older sister.",
+                "trans": {
+                  "de": "Ich habe eine ältere Schwester."
+                }
+              }
+            },
+            {
+              "target": "brother",
+              "sub": "/ˈbrʌðər/",
+              "meaning": {
+                "de": "Bruder",
+                "en": "male sibling",
+                "zh": "兄弟"
+              },
+              "ex": {
+                "target": "My brother plays football.",
+                "trans": {
+                  "de": "Mein Bruder spielt Fußball."
+                }
+              }
+            },
+            {
+              "target": "child",
+              "sub": "/tʃaɪld/",
+              "meaning": {
+                "de": "Kind",
+                "en": "young person",
+                "zh": "孩子"
+              },
+              "ex": {
+                "target": "The child is playing outside.",
+                "trans": {
+                  "de": "Das Kind spielt draußen."
+                }
+              }
+            },
+            {
+              "target": "grandmother",
+              "sub": "/ˈɡrænmʌðər/",
+              "meaning": {
+                "de": "Großmutter",
+                "en": "mother of a parent",
+                "zh": "奶奶 / 外婆"
+              },
+              "ex": {
+                "target": "My grandmother bakes great cakes.",
+                "trans": {
+                  "de": "Meine Großmutter backt tolle Kuchen."
+                }
+              }
+            },
+            {
+              "target": "grandfather",
+              "sub": "/ˈɡrænfɑːðər/",
+              "meaning": {
+                "de": "Großvater",
+                "en": "father of a parent",
+                "zh": "爷爷 / 外公"
+              },
+              "ex": {
+                "target": "My grandfather tells old stories.",
+                "trans": {
+                  "de": "Mein Großvater erzählt alte Geschichten."
+                }
+              }
+            },
+            {
+              "target": "husband",
+              "sub": "/ˈhʌzbənd/",
+              "meaning": {
+                "de": "Ehemann",
+                "en": "married man",
+                "zh": "丈夫"
+              },
+              "ex": {
+                "target": "Her husband works in a bank.",
+                "trans": {
+                  "de": "Ihr Mann arbeitet in einer Bank."
+                }
+              }
+            },
+            {
+              "target": "wife",
+              "sub": "/waɪf/",
+              "meaning": {
+                "de": "Ehefrau",
+                "en": "married woman",
+                "zh": "妻子"
+              },
+              "ex": {
+                "target": "His wife is a doctor.",
+                "trans": {
+                  "de": "Seine Frau ist Ärztin."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "food",
+          "emoji": "🍎",
+          "name": {
+            "de": "Essen & Trinken",
+            "en": "Food & drink",
+            "zh": "饮食"
+          },
+          "words": [
+            {
+              "target": "water",
+              "sub": "/ˈwɔːtər/",
+              "meaning": {
+                "de": "Wasser",
+                "en": "clear drink",
+                "zh": "水"
+              },
+              "ex": {
+                "target": "Can I have a glass of water?",
+                "trans": {
+                  "de": "Kann ich ein Glas Wasser haben?"
+                }
+              }
+            },
+            {
+              "target": "bread",
+              "sub": "/bred/",
+              "meaning": {
+                "de": "Brot",
+                "en": "baked food",
+                "zh": "面包"
+              },
+              "ex": {
+                "target": "We buy fresh bread every morning.",
+                "trans": {
+                  "de": "Wir kaufen jeden Morgen frisches Brot."
+                }
+              }
+            },
+            {
+              "target": "coffee",
+              "sub": "/ˈkɒfi/",
+              "meaning": {
+                "de": "Kaffee",
+                "en": "hot drink from beans",
+                "zh": "咖啡"
+              },
+              "ex": {
+                "target": "I drink coffee with milk.",
+                "trans": {
+                  "de": "Ich trinke Kaffee mit Milch."
+                }
+              }
+            },
+            {
+              "target": "tea",
+              "sub": "/tiː/",
+              "meaning": {
+                "de": "Tee",
+                "en": "hot drink from leaves",
+                "zh": "茶"
+              },
+              "ex": {
+                "target": "Would you like some tea?",
+                "trans": {
+                  "de": "Möchtest du etwas Tee?"
+                }
+              }
+            },
+            {
+              "target": "apple",
+              "sub": "/ˈæpl/",
+              "meaning": {
+                "de": "Apfel",
+                "en": "round fruit",
+                "zh": "苹果"
+              },
+              "ex": {
+                "target": "An apple a day keeps the doctor away.",
+                "trans": {
+                  "de": "Ein Apfel am Tag hält den Arzt fern."
+                }
+              }
+            },
+            {
+              "target": "rice",
+              "sub": "/raɪs/",
+              "meaning": {
+                "de": "Reis",
+                "en": "small white grains",
+                "zh": "米饭"
+              },
+              "ex": {
+                "target": "We eat rice with vegetables.",
+                "trans": {
+                  "de": "Wir essen Reis mit Gemüse."
+                }
+              }
+            },
+            {
+              "target": "meat",
+              "sub": "/miːt/",
+              "meaning": {
+                "de": "Fleisch",
+                "en": "food from animals",
+                "zh": "肉"
+              },
+              "ex": {
+                "target": "He doesn't eat meat.",
+                "trans": {
+                  "de": "Er isst kein Fleisch."
+                }
+              }
+            },
+            {
+              "target": "vegetables",
+              "sub": "/ˈvedʒtəblz/",
+              "meaning": {
+                "de": "Gemüse",
+                "en": "plants you eat",
+                "zh": "蔬菜"
+              },
+              "ex": {
+                "target": "Vegetables are healthy.",
+                "trans": {
+                  "de": "Gemüse ist gesund."
+                }
+              }
+            },
+            {
+              "target": "breakfast",
+              "sub": "/ˈbrekfəst/",
+              "meaning": {
+                "de": "Frühstück",
+                "en": "morning meal",
+                "zh": "早餐"
+              },
+              "ex": {
+                "target": "What do you eat for breakfast?",
+                "trans": {
+                  "de": "Was isst du zum Frühstück?"
+                }
+              }
+            },
+            {
+              "target": "delicious",
+              "sub": "/dɪˈlɪʃəs/",
+              "meaning": {
+                "de": "lecker",
+                "en": "very tasty",
+                "zh": "好吃"
+              },
+              "ex": {
+                "target": "This soup is delicious!",
+                "trans": {
+                  "de": "Diese Suppe ist lecker!"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "animals",
+          "emoji": "🐾",
+          "name": {
+            "de": "Tiere",
+            "en": "Animals",
+            "zh": "动物"
+          },
+          "words": [
+            {
+              "target": "dog",
+              "sub": "/dɔːɡ/",
+              "meaning": {
+                "de": "Hund",
+                "en": "a common pet that barks",
+                "zh": "狗"
+              },
+              "ex": {
+                "target": "The dog is playing in the garden.",
+                "trans": {
+                  "de": "Der Hund spielt im Garten."
+                }
+              }
+            },
+            {
+              "target": "cat",
+              "sub": "/kæt/",
+              "meaning": {
+                "de": "Katze",
+                "en": "a small pet that purrs",
+                "zh": "猫"
+              },
+              "ex": {
+                "target": "My cat sleeps all day.",
+                "trans": {
+                  "de": "Meine Katze schläft den ganzen Tag."
+                }
+              }
+            },
+            {
+              "target": "bird",
+              "sub": "/bɜːrd/",
+              "meaning": {
+                "de": "Vogel",
+                "en": "an animal that can fly",
+                "zh": "鸟"
+              },
+              "ex": {
+                "target": "A bird is singing outside.",
+                "trans": {
+                  "de": "Draußen singt ein Vogel."
+                }
+              }
+            },
+            {
+              "target": "fish",
+              "sub": "/fɪʃ/",
+              "meaning": {
+                "de": "Fisch",
+                "en": "an animal that lives in water",
+                "zh": "鱼"
+              },
+              "ex": {
+                "target": "There are fish in the lake.",
+                "trans": {
+                  "de": "Im See gibt es Fische."
+                }
+              }
+            },
+            {
+              "target": "horse",
+              "sub": "/hɔːrs/",
+              "meaning": {
+                "de": "Pferd",
+                "en": "a large animal you can ride",
+                "zh": "马"
+              },
+              "ex": {
+                "target": "She rides a horse every weekend.",
+                "trans": {
+                  "de": "Sie reitet jedes Wochenende ein Pferd."
+                }
+              }
+            },
+            {
+              "target": "cow",
+              "sub": "/kaʊ/",
+              "meaning": {
+                "de": "Kuh",
+                "en": "a farm animal that gives milk",
+                "zh": "牛"
+              },
+              "ex": {
+                "target": "The cow eats grass.",
+                "trans": {
+                  "de": "Die Kuh frisst Gras."
+                }
+              }
+            },
+            {
+              "target": "pig",
+              "sub": "/pɪɡ/",
+              "meaning": {
+                "de": "Schwein",
+                "en": "a pink farm animal",
+                "zh": "猪"
+              },
+              "ex": {
+                "target": "The pig is very clever.",
+                "trans": {
+                  "de": "Das Schwein ist sehr schlau."
+                }
+              }
+            },
+            {
+              "target": "sheep",
+              "sub": "/ʃiːp/",
+              "meaning": {
+                "de": "Schaf",
+                "en": "a farm animal with wool",
+                "zh": "羊"
+              },
+              "ex": {
+                "target": "Sheep give us wool.",
+                "trans": {
+                  "de": "Schafe geben uns Wolle."
+                }
+              }
+            },
+            {
+              "target": "rabbit",
+              "sub": "/ˈræbɪt/",
+              "meaning": {
+                "de": "Kaninchen",
+                "en": "a small animal with long ears",
+                "zh": "兔子"
+              },
+              "ex": {
+                "target": "The rabbit has long ears.",
+                "trans": {
+                  "de": "Das Kaninchen hat lange Ohren."
+                }
+              }
+            },
+            {
+              "target": "mouse",
+              "sub": "/maʊs/",
+              "meaning": {
+                "de": "Maus",
+                "en": "a very small grey animal",
+                "zh": "老鼠"
+              },
+              "ex": {
+                "target": "A mouse lives in the wall.",
+                "trans": {
+                  "de": "Eine Maus wohnt in der Wand."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "body",
+          "emoji": "🙆",
+          "name": {
+            "de": "Körper",
+            "en": "Body",
+            "zh": "身体"
+          },
+          "words": [
+            {
+              "target": "head",
+              "sub": "/hed/",
+              "meaning": {
+                "de": "Kopf",
+                "en": "the top part of your body",
+                "zh": "头"
+              },
+              "ex": {
+                "target": "My head hurts.",
+                "trans": {
+                  "de": "Mein Kopf tut weh."
+                }
+              }
+            },
+            {
+              "target": "eye",
+              "sub": "/aɪ/",
+              "meaning": {
+                "de": "Auge",
+                "en": "you see with it",
+                "zh": "眼睛"
+              },
+              "ex": {
+                "target": "She has blue eyes.",
+                "trans": {
+                  "de": "Sie hat blaue Augen."
+                }
+              }
+            },
+            {
+              "target": "ear",
+              "sub": "/ɪr/",
+              "meaning": {
+                "de": "Ohr",
+                "en": "you hear with it",
+                "zh": "耳朵"
+              },
+              "ex": {
+                "target": "I hear music with my ears.",
+                "trans": {
+                  "de": "Ich höre Musik mit meinen Ohren."
+                }
+              }
+            },
+            {
+              "target": "nose",
+              "sub": "/noʊz/",
+              "meaning": {
+                "de": "Nase",
+                "en": "you smell with it",
+                "zh": "鼻子"
+              },
+              "ex": {
+                "target": "My nose is cold.",
+                "trans": {
+                  "de": "Meine Nase ist kalt."
+                }
+              }
+            },
+            {
+              "target": "mouth",
+              "sub": "/maʊθ/",
+              "meaning": {
+                "de": "Mund",
+                "en": "you eat and speak with it",
+                "zh": "嘴"
+              },
+              "ex": {
+                "target": "Open your mouth, please.",
+                "trans": {
+                  "de": "Öffne bitte deinen Mund."
+                }
+              }
+            },
+            {
+              "target": "hand",
+              "sub": "/hænd/",
+              "meaning": {
+                "de": "Hand",
+                "en": "the end of your arm",
+                "zh": "手"
+              },
+              "ex": {
+                "target": "Wash your hands before dinner.",
+                "trans": {
+                  "de": "Wasch dir vor dem Essen die Hände."
+                }
+              }
+            },
+            {
+              "target": "arm",
+              "sub": "/ɑːrm/",
+              "meaning": {
+                "de": "Arm",
+                "en": "between shoulder and hand",
+                "zh": "胳膊"
+              },
+              "ex": {
+                "target": "He broke his arm.",
+                "trans": {
+                  "de": "Er hat sich den Arm gebrochen."
+                }
+              }
+            },
+            {
+              "target": "leg",
+              "sub": "/leɡ/",
+              "meaning": {
+                "de": "Bein",
+                "en": "you walk with it",
+                "zh": "腿"
+              },
+              "ex": {
+                "target": "My legs are tired after running.",
+                "trans": {
+                  "de": "Meine Beine sind müde nach dem Laufen."
+                }
+              }
+            },
+            {
+              "target": "foot",
+              "sub": "/fʊt/",
+              "meaning": {
+                "de": "Fuß",
+                "en": "the end of your leg",
+                "zh": "脚"
+              },
+              "ex": {
+                "target": "My left foot hurts.",
+                "trans": {
+                  "de": "Mein linker Fuß tut weh."
+                }
+              }
+            },
+            {
+              "target": "hair",
+              "sub": "/her/",
+              "meaning": {
+                "de": "Haar",
+                "en": "it grows on your head",
+                "zh": "头发"
+              },
+              "ex": {
+                "target": "She has long brown hair.",
+                "trans": {
+                  "de": "Sie hat lange braune Haare."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "label": "A2",
+      "name": {
+        "de": "Grundstufe: Alltagssituationen meistern",
+        "en": "Elementary: handling everyday situations",
+        "zh": "基础级：应对日常场景"
+      },
+      "topics": [
+        {
+          "id": "shopping",
+          "emoji": "🛒",
+          "name": {
+            "de": "Einkaufen",
+            "en": "Shopping",
+            "zh": "购物"
+          },
+          "words": [
+            {
+              "target": "How much is it?",
+              "meaning": {
+                "de": "Wie viel kostet das?",
+                "en": "asking for the price",
+                "zh": "多少钱？"
+              },
+              "ex": {
+                "target": "Excuse me, how much is this jacket?",
+                "trans": {
+                  "de": "Entschuldigung, wie viel kostet diese Jacke?"
+                }
+              }
+            },
+            {
+              "target": "expensive",
+              "sub": "/ɪkˈspensɪv/",
+              "meaning": {
+                "de": "teuer",
+                "en": "costing a lot",
+                "zh": "贵"
+              },
+              "ex": {
+                "target": "This hotel is too expensive.",
+                "trans": {
+                  "de": "Dieses Hotel ist zu teuer."
+                }
+              }
+            },
+            {
+              "target": "cheap",
+              "sub": "/tʃiːp/",
+              "meaning": {
+                "de": "billig, günstig",
+                "en": "costing little",
+                "zh": "便宜"
+              },
+              "ex": {
+                "target": "The market is cheaper than the supermarket.",
+                "trans": {
+                  "de": "Der Markt ist günstiger als der Supermarkt."
+                }
+              }
+            },
+            {
+              "target": "to buy",
+              "sub": "/baɪ/",
+              "meaning": {
+                "de": "kaufen",
+                "en": "to get for money",
+                "zh": "买"
+              },
+              "ex": {
+                "target": "I want to buy a present.",
+                "trans": {
+                  "de": "Ich möchte ein Geschenk kaufen."
+                }
+              }
+            },
+            {
+              "target": "to pay",
+              "sub": "/peɪ/",
+              "meaning": {
+                "de": "bezahlen",
+                "en": "to give money",
+                "zh": "付钱"
+              },
+              "ex": {
+                "target": "Can I pay by card?",
+                "trans": {
+                  "de": "Kann ich mit Karte zahlen?"
+                }
+              }
+            },
+            {
+              "target": "money",
+              "sub": "/ˈmʌni/",
+              "meaning": {
+                "de": "Geld",
+                "en": "coins and notes",
+                "zh": "钱"
+              },
+              "ex": {
+                "target": "I don't have enough money.",
+                "trans": {
+                  "de": "Ich habe nicht genug Geld."
+                }
+              }
+            },
+            {
+              "target": "size",
+              "sub": "/saɪz/",
+              "meaning": {
+                "de": "Größe",
+                "en": "how big something is",
+                "zh": "尺寸"
+              },
+              "ex": {
+                "target": "Do you have this in size M?",
+                "trans": {
+                  "de": "Haben Sie das in Größe M?"
+                }
+              }
+            },
+            {
+              "target": "open",
+              "sub": "/ˈoʊpən/",
+              "meaning": {
+                "de": "geöffnet",
+                "en": "not closed",
+                "zh": "营业中"
+              },
+              "ex": {
+                "target": "Is the bakery open on Sunday?",
+                "trans": {
+                  "de": "Hat die Bäckerei sonntags geöffnet?"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "emoji": "🧭",
+          "name": {
+            "de": "Reisen & Richtungen",
+            "en": "Travel & directions",
+            "zh": "旅行与方向"
+          },
+          "words": [
+            {
+              "target": "train station",
+              "sub": "/treɪn ˈsteɪʃn/",
+              "meaning": {
+                "de": "Bahnhof",
+                "en": "place where trains stop",
+                "zh": "火车站"
+              },
+              "ex": {
+                "target": "The train station is near the hotel.",
+                "trans": {
+                  "de": "Der Bahnhof ist in der Nähe des Hotels."
+                }
+              }
+            },
+            {
+              "target": "airport",
+              "sub": "/ˈeəpɔːt/",
+              "meaning": {
+                "de": "Flughafen",
+                "en": "place for planes",
+                "zh": "机场"
+              },
+              "ex": {
+                "target": "We arrive at the airport at noon.",
+                "trans": {
+                  "de": "Wir kommen mittags am Flughafen an."
+                }
+              }
+            },
+            {
+              "target": "ticket",
+              "sub": "/ˈtɪkɪt/",
+              "meaning": {
+                "de": "Fahrkarte, Ticket",
+                "en": "paper to enter or ride",
+                "zh": "票"
+              },
+              "ex": {
+                "target": "A ticket to London, please.",
+                "trans": {
+                  "de": "Eine Fahrkarte nach London, bitte."
+                }
+              }
+            },
+            {
+              "target": "left",
+              "sub": "/left/",
+              "meaning": {
+                "de": "links",
+                "en": "opposite of right",
+                "zh": "左边"
+              },
+              "ex": {
+                "target": "Turn left at the church.",
+                "trans": {
+                  "de": "Bieg an der Kirche links ab."
+                }
+              }
+            },
+            {
+              "target": "right",
+              "sub": "/raɪt/",
+              "meaning": {
+                "de": "rechts",
+                "en": "opposite of left",
+                "zh": "右边"
+              },
+              "ex": {
+                "target": "The bank is on the right.",
+                "trans": {
+                  "de": "Die Bank ist auf der rechten Seite."
+                }
+              }
+            },
+            {
+              "target": "straight ahead",
+              "meaning": {
+                "de": "geradeaus",
+                "en": "without turning",
+                "zh": "一直走"
+              },
+              "ex": {
+                "target": "Go straight ahead for two blocks.",
+                "trans": {
+                  "de": "Geh zwei Straßenblöcke geradeaus."
+                }
+              }
+            },
+            {
+              "target": "map",
+              "sub": "/mæp/",
+              "meaning": {
+                "de": "Karte, Stadtplan",
+                "en": "drawing of a place",
+                "zh": "地图"
+              },
+              "ex": {
+                "target": "Let's look at the map.",
+                "trans": {
+                  "de": "Schauen wir auf die Karte."
+                }
+              }
+            },
+            {
+              "target": "hotel",
+              "sub": "/hoʊˈtel/",
+              "meaning": {
+                "de": "Hotel",
+                "en": "place to stay",
+                "zh": "酒店"
+              },
+              "ex": {
+                "target": "Our hotel has a nice view.",
+                "trans": {
+                  "de": "Unser Hotel hat eine schöne Aussicht."
+                }
+              }
+            },
+            {
+              "target": "luggage",
+              "sub": "/ˈlʌɡɪdʒ/",
+              "meaning": {
+                "de": "Gepäck",
+                "en": "bags for travelling",
+                "zh": "行李"
+              },
+              "ex": {
+                "target": "My luggage is very heavy.",
+                "trans": {
+                  "de": "Mein Gepäck ist sehr schwer."
+                }
+              }
+            },
+            {
+              "target": "to get lost",
+              "meaning": {
+                "de": "sich verlaufen",
+                "en": "to lose your way",
+                "zh": "迷路"
+              },
+              "ex": {
+                "target": "We got lost in the old town.",
+                "trans": {
+                  "de": "Wir haben uns in der Altstadt verlaufen."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "time",
+          "emoji": "⏰",
+          "name": {
+            "de": "Zeit & Datum",
+            "en": "Time & date",
+            "zh": "时间与日期"
+          },
+          "words": [
+            {
+              "target": "today",
+              "sub": "/təˈdeɪ/",
+              "meaning": {
+                "de": "heute",
+                "en": "this day",
+                "zh": "今天"
+              },
+              "ex": {
+                "target": "Today is my birthday.",
+                "trans": {
+                  "de": "Heute ist mein Geburtstag."
+                }
+              }
+            },
+            {
+              "target": "tomorrow",
+              "sub": "/təˈmɒroʊ/",
+              "meaning": {
+                "de": "morgen",
+                "en": "the day after today",
+                "zh": "明天"
+              },
+              "ex": {
+                "target": "See you tomorrow!",
+                "trans": {
+                  "de": "Bis morgen!"
+                }
+              }
+            },
+            {
+              "target": "yesterday",
+              "sub": "/ˈjestərdeɪ/",
+              "meaning": {
+                "de": "gestern",
+                "en": "the day before today",
+                "zh": "昨天"
+              },
+              "ex": {
+                "target": "Yesterday it rained all day.",
+                "trans": {
+                  "de": "Gestern hat es den ganzen Tag geregnet."
+                }
+              }
+            },
+            {
+              "target": "week",
+              "sub": "/wiːk/",
+              "meaning": {
+                "de": "Woche",
+                "en": "seven days",
+                "zh": "星期"
+              },
+              "ex": {
+                "target": "I play tennis twice a week.",
+                "trans": {
+                  "de": "Ich spiele zweimal pro Woche Tennis."
+                }
+              }
+            },
+            {
+              "target": "month",
+              "sub": "/mʌnθ/",
+              "meaning": {
+                "de": "Monat",
+                "en": "about 30 days",
+                "zh": "月"
+              },
+              "ex": {
+                "target": "Next month we move to a new flat.",
+                "trans": {
+                  "de": "Nächsten Monat ziehen wir in eine neue Wohnung."
+                }
+              }
+            },
+            {
+              "target": "year",
+              "sub": "/jɪər/",
+              "meaning": {
+                "de": "Jahr",
+                "en": "twelve months",
+                "zh": "年"
+              },
+              "ex": {
+                "target": "Happy New Year!",
+                "trans": {
+                  "de": "Frohes neues Jahr!"
+                }
+              }
+            },
+            {
+              "target": "hour",
+              "sub": "/ˈaʊər/",
+              "meaning": {
+                "de": "Stunde",
+                "en": "sixty minutes",
+                "zh": "小时"
+              },
+              "ex": {
+                "target": "The film is two hours long.",
+                "trans": {
+                  "de": "Der Film dauert zwei Stunden."
+                }
+              }
+            },
+            {
+              "target": "half past two",
+              "meaning": {
+                "de": "halb drei",
+                "en": "2:30",
+                "zh": "两点半"
+              },
+              "ex": {
+                "target": "Let's meet at half past two.",
+                "trans": {
+                  "de": "Treffen wir uns um halb drei."
+                }
+              }
+            },
+            {
+              "target": "Monday",
+              "sub": "/ˈmʌndeɪ/",
+              "meaning": {
+                "de": "Montag",
+                "en": "first workday",
+                "zh": "星期一"
+              },
+              "ex": {
+                "target": "The course starts on Monday.",
+                "trans": {
+                  "de": "Der Kurs beginnt am Montag."
+                }
+              }
+            },
+            {
+              "target": "weekend",
+              "sub": "/ˌwiːkˈend/",
+              "meaning": {
+                "de": "Wochenende",
+                "en": "Saturday and Sunday",
+                "zh": "周末"
+              },
+              "ex": {
+                "target": "What are you doing at the weekend?",
+                "trans": {
+                  "de": "Was machst du am Wochenende?"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "weather",
+          "emoji": "🌦️",
+          "name": {
+            "de": "Wetter",
+            "en": "Weather",
+            "zh": "天气"
+          },
+          "words": [
+            {
+              "target": "sunny",
+              "sub": "/ˈsʌni/",
+              "meaning": {
+                "de": "sonnig",
+                "en": "with lots of sun",
+                "zh": "晴朗"
+              },
+              "ex": {
+                "target": "It's sunny, let's go to the park.",
+                "trans": {
+                  "de": "Es ist sonnig, lass uns in den Park gehen."
+                }
+              }
+            },
+            {
+              "target": "rain",
+              "sub": "/reɪn/",
+              "meaning": {
+                "de": "Regen",
+                "en": "water from the sky",
+                "zh": "雨"
+              },
+              "ex": {
+                "target": "Take an umbrella, there will be rain.",
+                "trans": {
+                  "de": "Nimm einen Schirm mit, es wird regnen."
+                }
+              }
+            },
+            {
+              "target": "cloudy",
+              "sub": "/ˈklaʊdi/",
+              "meaning": {
+                "de": "bewölkt",
+                "en": "with many clouds",
+                "zh": "多云"
+              },
+              "ex": {
+                "target": "The sky is cloudy today.",
+                "trans": {
+                  "de": "Der Himmel ist heute bewölkt."
+                }
+              }
+            },
+            {
+              "target": "wind",
+              "sub": "/wɪnd/",
+              "meaning": {
+                "de": "Wind",
+                "en": "moving air",
+                "zh": "风"
+              },
+              "ex": {
+                "target": "The wind is very strong at the coast.",
+                "trans": {
+                  "de": "An der Küste ist der Wind sehr stark."
+                }
+              }
+            },
+            {
+              "target": "snow",
+              "sub": "/snoʊ/",
+              "meaning": {
+                "de": "Schnee",
+                "en": "white frozen rain",
+                "zh": "雪"
+              },
+              "ex": {
+                "target": "Children love playing in the snow.",
+                "trans": {
+                  "de": "Kinder lieben es, im Schnee zu spielen."
+                }
+              }
+            },
+            {
+              "target": "hot",
+              "sub": "/hɒt/",
+              "meaning": {
+                "de": "heiß",
+                "en": "very warm",
+                "zh": "热"
+              },
+              "ex": {
+                "target": "Summers here are really hot.",
+                "trans": {
+                  "de": "Die Sommer hier sind wirklich heiß."
+                }
+              }
+            },
+            {
+              "target": "cold",
+              "sub": "/koʊld/",
+              "meaning": {
+                "de": "kalt",
+                "en": "low temperature",
+                "zh": "冷"
+              },
+              "ex": {
+                "target": "It's cold, wear a warm coat.",
+                "trans": {
+                  "de": "Es ist kalt, zieh einen warmen Mantel an."
+                }
+              }
+            },
+            {
+              "target": "forecast",
+              "sub": "/ˈfɔːkɑːst/",
+              "meaning": {
+                "de": "Wettervorhersage",
+                "en": "weather prediction",
+                "zh": "天气预报"
+              },
+              "ex": {
+                "target": "The forecast says it will be sunny.",
+                "trans": {
+                  "de": "Die Vorhersage sagt Sonne voraus."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "hobbies",
+          "emoji": "🎨",
+          "name": {
+            "de": "Hobbys & Freizeit",
+            "en": "Hobbies & free time",
+            "zh": "爱好与休闲"
+          },
+          "words": [
+            {
+              "target": "hobby",
+              "sub": "/ˈhɑːbi/",
+              "meaning": {
+                "de": "Hobby",
+                "en": "something you enjoy doing",
+                "zh": "爱好"
+              },
+              "ex": {
+                "target": "Reading is my favorite hobby.",
+                "trans": {
+                  "de": "Lesen ist mein Lieblingshobby."
+                }
+              }
+            },
+            {
+              "target": "swim",
+              "sub": "/swɪm/",
+              "meaning": {
+                "de": "schwimmen",
+                "en": "to move through water",
+                "zh": "游泳"
+              },
+              "ex": {
+                "target": "I swim twice a week.",
+                "trans": {
+                  "de": "Ich schwimme zweimal pro Woche."
+                }
+              }
+            },
+            {
+              "target": "dance",
+              "sub": "/dæns/",
+              "meaning": {
+                "de": "tanzen",
+                "en": "to move to music",
+                "zh": "跳舞"
+              },
+              "ex": {
+                "target": "They dance at the party.",
+                "trans": {
+                  "de": "Sie tanzen auf der Party."
+                }
+              }
+            },
+            {
+              "target": "draw",
+              "sub": "/drɔː/",
+              "meaning": {
+                "de": "zeichnen",
+                "en": "to make a picture with a pen",
+                "zh": "画画"
+              },
+              "ex": {
+                "target": "She draws animals very well.",
+                "trans": {
+                  "de": "Sie zeichnet Tiere sehr gut."
+                }
+              }
+            },
+            {
+              "target": "sing",
+              "sub": "/sɪŋ/",
+              "meaning": {
+                "de": "singen",
+                "en": "to make music with your voice",
+                "zh": "唱歌"
+              },
+              "ex": {
+                "target": "He sings in the shower.",
+                "trans": {
+                  "de": "Er singt unter der Dusche."
+                }
+              }
+            },
+            {
+              "target": "cook",
+              "sub": "/kʊk/",
+              "meaning": {
+                "de": "kochen",
+                "en": "to prepare food",
+                "zh": "做饭"
+              },
+              "ex": {
+                "target": "We cook dinner together.",
+                "trans": {
+                  "de": "Wir kochen zusammen Abendessen."
+                }
+              }
+            },
+            {
+              "target": "read",
+              "sub": "/riːd/",
+              "meaning": {
+                "de": "lesen",
+                "en": "to look at words in a book",
+                "zh": "读书"
+              },
+              "ex": {
+                "target": "I read before I sleep.",
+                "trans": {
+                  "de": "Ich lese, bevor ich schlafe."
+                }
+              }
+            },
+            {
+              "target": "hike",
+              "sub": "/haɪk/",
+              "meaning": {
+                "de": "wandern",
+                "en": "to walk in nature",
+                "zh": "徒步"
+              },
+              "ex": {
+                "target": "We hike in the mountains in summer.",
+                "trans": {
+                  "de": "Im Sommer wandern wir in den Bergen."
+                }
+              }
+            },
+            {
+              "target": "photography",
+              "sub": "/fəˈtɑːɡrəfi/",
+              "meaning": {
+                "de": "Fotografie",
+                "en": "taking pictures as a hobby",
+                "zh": "摄影"
+              },
+              "ex": {
+                "target": "Photography is getting popular again.",
+                "trans": {
+                  "de": "Fotografie wird wieder beliebt."
+                }
+              }
+            },
+            {
+              "target": "board game",
+              "sub": "/bɔːrd ɡeɪm/",
+              "meaning": {
+                "de": "Brettspiel",
+                "en": "a game played on a table",
+                "zh": "桌游"
+              },
+              "ex": {
+                "target": "We play board games on Sundays.",
+                "trans": {
+                  "de": "Sonntags spielen wir Brettspiele."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "school",
+          "emoji": "🏫",
+          "name": {
+            "de": "Schule & Lernen",
+            "en": "School & learning",
+            "zh": "学校与学习"
+          },
+          "words": [
+            {
+              "target": "school",
+              "sub": "/skuːl/",
+              "meaning": {
+                "de": "Schule",
+                "en": "a place where children learn",
+                "zh": "学校"
+              },
+              "ex": {
+                "target": "The school starts at eight.",
+                "trans": {
+                  "de": "Die Schule beginnt um acht."
+                }
+              }
+            },
+            {
+              "target": "teacher",
+              "sub": "/ˈtiːtʃər/",
+              "meaning": {
+                "de": "Lehrer/in",
+                "en": "a person who teaches",
+                "zh": "老师"
+              },
+              "ex": {
+                "target": "Our teacher is very kind.",
+                "trans": {
+                  "de": "Unsere Lehrerin ist sehr nett."
+                }
+              }
+            },
+            {
+              "target": "student",
+              "sub": "/ˈstuːdnt/",
+              "meaning": {
+                "de": "Schüler/in, Student/in",
+                "en": "a person who studies",
+                "zh": "学生"
+              },
+              "ex": {
+                "target": "She is a student at Tongji University.",
+                "trans": {
+                  "de": "Sie ist Studentin an der Tongji-Universität."
+                }
+              }
+            },
+            {
+              "target": "lesson",
+              "sub": "/ˈlesn/",
+              "meaning": {
+                "de": "Unterrichtsstunde",
+                "en": "a period of teaching",
+                "zh": "课"
+              },
+              "ex": {
+                "target": "The English lesson was fun.",
+                "trans": {
+                  "de": "Die Englischstunde hat Spaß gemacht."
+                }
+              }
+            },
+            {
+              "target": "homework",
+              "sub": "/ˈhoʊmwɜːrk/",
+              "meaning": {
+                "de": "Hausaufgaben",
+                "en": "work you do at home for school",
+                "zh": "作业"
+              },
+              "ex": {
+                "target": "I do my homework after dinner.",
+                "trans": {
+                  "de": "Ich mache meine Hausaufgaben nach dem Abendessen."
+                }
+              }
+            },
+            {
+              "target": "exam",
+              "sub": "/ɪɡˈzæm/",
+              "meaning": {
+                "de": "Prüfung",
+                "en": "an important test",
+                "zh": "考试"
+              },
+              "ex": {
+                "target": "The exam is next Friday.",
+                "trans": {
+                  "de": "Die Prüfung ist nächsten Freitag."
+                }
+              }
+            },
+            {
+              "target": "learn",
+              "sub": "/lɜːrn/",
+              "meaning": {
+                "de": "lernen",
+                "en": "to get new knowledge",
+                "zh": "学习"
+              },
+              "ex": {
+                "target": "I learn Chinese and English.",
+                "trans": {
+                  "de": "Ich lerne Chinesisch und Englisch."
+                }
+              }
+            },
+            {
+              "target": "dictionary",
+              "sub": "/ˈdɪkʃəneri/",
+              "meaning": {
+                "de": "Wörterbuch",
+                "en": "a book of words and meanings",
+                "zh": "词典"
+              },
+              "ex": {
+                "target": "Look it up in the dictionary.",
+                "trans": {
+                  "de": "Schlag es im Wörterbuch nach."
+                }
+              }
+            },
+            {
+              "target": "mistake",
+              "sub": "/mɪˈsteɪk/",
+              "meaning": {
+                "de": "Fehler",
+                "en": "something that is not correct",
+                "zh": "错误"
+              },
+              "ex": {
+                "target": "Mistakes help you learn.",
+                "trans": {
+                  "de": "Fehler helfen dir beim Lernen."
+                }
+              }
+            },
+            {
+              "target": "grade",
+              "sub": "/ɡreɪd/",
+              "meaning": {
+                "de": "Note",
+                "en": "a mark for your work",
+                "zh": "成绩"
+              },
+              "ex": {
+                "target": "He got a good grade in math.",
+                "trans": {
+                  "de": "Er hat eine gute Note in Mathe bekommen."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B1",
+      "label": "B1",
+      "name": {
+        "de": "Mittelstufe: über Erfahrungen und Pläne sprechen",
+        "en": "Intermediate: talking about experiences and plans",
+        "zh": "中级：谈论经历与计划"
+      },
+      "topics": [
+        {
+          "id": "work",
+          "emoji": "💼",
+          "name": {
+            "de": "Beruf & Arbeit",
+            "en": "Work & jobs",
+            "zh": "职业与工作"
+          },
+          "words": [
+            {
+              "target": "job",
+              "sub": "/dʒɒb/",
+              "meaning": {
+                "de": "Arbeit, Stelle",
+                "en": "paid work",
+                "zh": "工作"
+              },
+              "ex": {
+                "target": "She found a new job in marketing.",
+                "trans": {
+                  "de": "Sie hat eine neue Stelle im Marketing gefunden."
+                }
+              }
+            },
+            {
+              "target": "colleague",
+              "sub": "/ˈkɒliːɡ/",
+              "meaning": {
+                "de": "Kollege / Kollegin",
+                "en": "person you work with",
+                "zh": "同事"
+              },
+              "ex": {
+                "target": "My colleagues are very friendly.",
+                "trans": {
+                  "de": "Meine Kollegen sind sehr freundlich."
+                }
+              }
+            },
+            {
+              "target": "meeting",
+              "sub": "/ˈmiːtɪŋ/",
+              "meaning": {
+                "de": "Besprechung",
+                "en": "work discussion",
+                "zh": "会议"
+              },
+              "ex": {
+                "target": "The meeting was moved to Friday.",
+                "trans": {
+                  "de": "Die Besprechung wurde auf Freitag verschoben."
+                }
+              }
+            },
+            {
+              "target": "salary",
+              "sub": "/ˈsæləri/",
+              "meaning": {
+                "de": "Gehalt",
+                "en": "money for work",
+                "zh": "工资"
+              },
+              "ex": {
+                "target": "The salary is paid at the end of the month.",
+                "trans": {
+                  "de": "Das Gehalt wird am Monatsende gezahlt."
+                }
+              }
+            },
+            {
+              "target": "to apply for",
+              "meaning": {
+                "de": "sich bewerben um",
+                "en": "to ask for a job formally",
+                "zh": "申请"
+              },
+              "ex": {
+                "target": "I applied for an internship.",
+                "trans": {
+                  "de": "Ich habe mich um ein Praktikum beworben."
+                }
+              }
+            },
+            {
+              "target": "experience",
+              "sub": "/ɪkˈspɪəriəns/",
+              "meaning": {
+                "de": "Erfahrung",
+                "en": "knowledge from doing",
+                "zh": "经验"
+              },
+              "ex": {
+                "target": "She has five years of experience.",
+                "trans": {
+                  "de": "Sie hat fünf Jahre Erfahrung."
+                }
+              }
+            },
+            {
+              "target": "deadline",
+              "sub": "/ˈdedlaɪn/",
+              "meaning": {
+                "de": "Abgabefrist",
+                "en": "latest time to finish",
+                "zh": "截止日期"
+              },
+              "ex": {
+                "target": "The deadline is next Tuesday.",
+                "trans": {
+                  "de": "Die Frist läuft nächsten Dienstag ab."
+                }
+              }
+            },
+            {
+              "target": "day off",
+              "meaning": {
+                "de": "freier Tag",
+                "en": "a day without work",
+                "zh": "休息日"
+              },
+              "ex": {
+                "target": "I'm taking a day off on Monday.",
+                "trans": {
+                  "de": "Ich nehme mir am Montag einen Tag frei."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "emoji": "🩺",
+          "name": {
+            "de": "Körper & Gesundheit",
+            "en": "Body & health",
+            "zh": "身体与健康"
+          },
+          "words": [
+            {
+              "target": "headache",
+              "sub": "/ˈhedeɪk/",
+              "meaning": {
+                "de": "Kopfschmerzen",
+                "en": "pain in the head",
+                "zh": "头疼"
+              },
+              "ex": {
+                "target": "I have a terrible headache.",
+                "trans": {
+                  "de": "Ich habe schreckliche Kopfschmerzen."
+                }
+              }
+            },
+            {
+              "target": "doctor",
+              "sub": "/ˈdɒktər/",
+              "meaning": {
+                "de": "Arzt / Ärztin",
+                "en": "person who treats illness",
+                "zh": "医生"
+              },
+              "ex": {
+                "target": "You should see a doctor.",
+                "trans": {
+                  "de": "Du solltest zum Arzt gehen."
+                }
+              }
+            },
+            {
+              "target": "medicine",
+              "sub": "/ˈmedsn/",
+              "meaning": {
+                "de": "Medikament",
+                "en": "something that helps you get well",
+                "zh": "药"
+              },
+              "ex": {
+                "target": "Take this medicine twice a day.",
+                "trans": {
+                  "de": "Nimm dieses Medikament zweimal täglich."
+                }
+              }
+            },
+            {
+              "target": "fever",
+              "sub": "/ˈfiːvər/",
+              "meaning": {
+                "de": "Fieber",
+                "en": "high body temperature",
+                "zh": "发烧"
+              },
+              "ex": {
+                "target": "The child has a slight fever.",
+                "trans": {
+                  "de": "Das Kind hat leichtes Fieber."
+                }
+              }
+            },
+            {
+              "target": "healthy",
+              "sub": "/ˈhelθi/",
+              "meaning": {
+                "de": "gesund",
+                "en": "in good condition",
+                "zh": "健康"
+              },
+              "ex": {
+                "target": "Eating fruit keeps you healthy.",
+                "trans": {
+                  "de": "Obst zu essen hält dich gesund."
+                }
+              }
+            },
+            {
+              "target": "appointment",
+              "sub": "/əˈpɔɪntmənt/",
+              "meaning": {
+                "de": "Termin",
+                "en": "arranged meeting time",
+                "zh": "预约"
+              },
+              "ex": {
+                "target": "I have a dentist appointment at four.",
+                "trans": {
+                  "de": "Ich habe um vier einen Zahnarzttermin."
+                }
+              }
+            },
+            {
+              "target": "to hurt",
+              "sub": "/hɜːt/",
+              "meaning": {
+                "de": "wehtun",
+                "en": "to cause pain",
+                "zh": "疼"
+              },
+              "ex": {
+                "target": "My back hurts after the long drive.",
+                "trans": {
+                  "de": "Mein Rücken tut nach der langen Fahrt weh."
+                }
+              }
+            },
+            {
+              "target": "exercise",
+              "sub": "/ˈeksəsaɪz/",
+              "meaning": {
+                "de": "Bewegung, Sport",
+                "en": "physical activity",
+                "zh": "锻炼"
+              },
+              "ex": {
+                "target": "Regular exercise is important.",
+                "trans": {
+                  "de": "Regelmäßige Bewegung ist wichtig."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "feelings",
+          "emoji": "💭",
+          "name": {
+            "de": "Gefühle",
+            "en": "Feelings",
+            "zh": "情感"
+          },
+          "words": [
+            {
+              "target": "happy",
+              "sub": "/ˈhæpi/",
+              "meaning": {
+                "de": "glücklich",
+                "en": "feeling joy",
+                "zh": "开心"
+              },
+              "ex": {
+                "target": "She looks really happy today.",
+                "trans": {
+                  "de": "Sie sieht heute richtig glücklich aus."
+                }
+              }
+            },
+            {
+              "target": "sad",
+              "sub": "/sæd/",
+              "meaning": {
+                "de": "traurig",
+                "en": "feeling unhappy",
+                "zh": "难过"
+              },
+              "ex": {
+                "target": "He was sad when his friend left.",
+                "trans": {
+                  "de": "Er war traurig, als sein Freund wegging."
+                }
+              }
+            },
+            {
+              "target": "tired",
+              "sub": "/ˈtaɪəd/",
+              "meaning": {
+                "de": "müde",
+                "en": "needing rest",
+                "zh": "累"
+              },
+              "ex": {
+                "target": "I'm too tired to cook tonight.",
+                "trans": {
+                  "de": "Ich bin zu müde, um heute Abend zu kochen."
+                }
+              }
+            },
+            {
+              "target": "excited",
+              "sub": "/ɪkˈsaɪtɪd/",
+              "meaning": {
+                "de": "aufgeregt, begeistert",
+                "en": "very enthusiastic",
+                "zh": "兴奋"
+              },
+              "ex": {
+                "target": "We're excited about the trip.",
+                "trans": {
+                  "de": "Wir freuen uns sehr auf die Reise."
+                }
+              }
+            },
+            {
+              "target": "nervous",
+              "sub": "/ˈnɜːvəs/",
+              "meaning": {
+                "de": "nervös",
+                "en": "worried and tense",
+                "zh": "紧张"
+              },
+              "ex": {
+                "target": "I always get nervous before exams.",
+                "trans": {
+                  "de": "Vor Prüfungen werde ich immer nervös."
+                }
+              }
+            },
+            {
+              "target": "angry",
+              "sub": "/ˈæŋɡri/",
+              "meaning": {
+                "de": "wütend",
+                "en": "feeling strong displeasure",
+                "zh": "生气"
+              },
+              "ex": {
+                "target": "Don't be angry with me.",
+                "trans": {
+                  "de": "Sei nicht wütend auf mich."
+                }
+              }
+            },
+            {
+              "target": "surprised",
+              "sub": "/səˈpraɪzd/",
+              "meaning": {
+                "de": "überrascht",
+                "en": "not expecting something",
+                "zh": "惊讶"
+              },
+              "ex": {
+                "target": "I was surprised by the good news.",
+                "trans": {
+                  "de": "Ich war von der guten Nachricht überrascht."
+                }
+              }
+            },
+            {
+              "target": "proud",
+              "sub": "/praʊd/",
+              "meaning": {
+                "de": "stolz",
+                "en": "pleased about an achievement",
+                "zh": "骄傲"
+              },
+              "ex": {
+                "target": "Her parents are proud of her.",
+                "trans": {
+                  "de": "Ihre Eltern sind stolz auf sie."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "home",
+          "emoji": "🏡",
+          "name": {
+            "de": "Alltag & Zuhause",
+            "en": "Daily life & home",
+            "zh": "日常与居家"
+          },
+          "words": [
+            {
+              "target": "kitchen",
+              "sub": "/ˈkɪtʃɪn/",
+              "meaning": {
+                "de": "Küche",
+                "en": "room for cooking",
+                "zh": "厨房"
+              },
+              "ex": {
+                "target": "We eat breakfast in the kitchen.",
+                "trans": {
+                  "de": "Wir frühstücken in der Küche."
+                }
+              }
+            },
+            {
+              "target": "to clean",
+              "sub": "/kliːn/",
+              "meaning": {
+                "de": "putzen",
+                "en": "to remove dirt",
+                "zh": "打扫"
+              },
+              "ex": {
+                "target": "I clean the flat every Saturday.",
+                "trans": {
+                  "de": "Ich putze die Wohnung jeden Samstag."
+                }
+              }
+            },
+            {
+              "target": "laundry",
+              "sub": "/ˈlɔːndri/",
+              "meaning": {
+                "de": "Wäsche",
+                "en": "clothes to wash",
+                "zh": "要洗的衣服"
+              },
+              "ex": {
+                "target": "The laundry is still in the machine.",
+                "trans": {
+                  "de": "Die Wäsche ist noch in der Maschine."
+                }
+              }
+            },
+            {
+              "target": "neighbour",
+              "sub": "/ˈneɪbər/",
+              "meaning": {
+                "de": "Nachbar / Nachbarin",
+                "en": "person living next door",
+                "zh": "邻居"
+              },
+              "ex": {
+                "target": "Our neighbours are very quiet.",
+                "trans": {
+                  "de": "Unsere Nachbarn sind sehr ruhig."
+                }
+              }
+            },
+            {
+              "target": "to rent",
+              "sub": "/rent/",
+              "meaning": {
+                "de": "mieten",
+                "en": "to pay to use",
+                "zh": "租"
+              },
+              "ex": {
+                "target": "They rent a small flat in the city.",
+                "trans": {
+                  "de": "Sie mieten eine kleine Wohnung in der Stadt."
+                }
+              }
+            },
+            {
+              "target": "furniture",
+              "sub": "/ˈfɜːnɪtʃər/",
+              "meaning": {
+                "de": "Möbel",
+                "en": "tables, chairs, beds etc.",
+                "zh": "家具"
+              },
+              "ex": {
+                "target": "We need new furniture for the living room.",
+                "trans": {
+                  "de": "Wir brauchen neue Möbel fürs Wohnzimmer."
+                }
+              }
+            },
+            {
+              "target": "to wake up",
+              "meaning": {
+                "de": "aufwachen",
+                "en": "to stop sleeping",
+                "zh": "醒来"
+              },
+              "ex": {
+                "target": "I wake up at seven every day.",
+                "trans": {
+                  "de": "Ich wache jeden Tag um sieben auf."
+                }
+              }
+            },
+            {
+              "target": "housework",
+              "sub": "/ˈhaʊswɜːk/",
+              "meaning": {
+                "de": "Hausarbeit",
+                "en": "cleaning, cooking etc. at home",
+                "zh": "家务"
+              },
+              "ex": {
+                "target": "We share the housework.",
+                "trans": {
+                  "de": "Wir teilen uns die Hausarbeit."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "technology",
+          "emoji": "💻",
+          "name": {
+            "de": "Technologie",
+            "en": "Technology",
+            "zh": "科技"
+          },
+          "words": [
+            {
+              "target": "device",
+              "sub": "/dɪˈvaɪs/",
+              "meaning": {
+                "de": "Gerät",
+                "en": "a machine made for a purpose",
+                "zh": "设备"
+              },
+              "ex": {
+                "target": "Please turn off all electronic devices.",
+                "trans": {
+                  "de": "Bitte schalte alle elektronischen Geräte aus."
+                }
+              }
+            },
+            {
+              "target": "download",
+              "sub": "/ˌdaʊnˈloʊd/",
+              "meaning": {
+                "de": "herunterladen",
+                "en": "to copy data to your device",
+                "zh": "下载"
+              },
+              "ex": {
+                "target": "You can download the app for free.",
+                "trans": {
+                  "de": "Du kannst die App kostenlos herunterladen."
+                }
+              }
+            },
+            {
+              "target": "password",
+              "sub": "/ˈpæswɜːrd/",
+              "meaning": {
+                "de": "Passwort",
+                "en": "a secret word to log in",
+                "zh": "密码"
+              },
+              "ex": {
+                "target": "Never share your password.",
+                "trans": {
+                  "de": "Teile niemals dein Passwort."
+                }
+              }
+            },
+            {
+              "target": "screen",
+              "sub": "/skriːn/",
+              "meaning": {
+                "de": "Bildschirm",
+                "en": "the display of a device",
+                "zh": "屏幕"
+              },
+              "ex": {
+                "target": "My phone screen is broken.",
+                "trans": {
+                  "de": "Mein Handybildschirm ist kaputt."
+                }
+              }
+            },
+            {
+              "target": "update",
+              "sub": "/ˈʌpdeɪt/",
+              "meaning": {
+                "de": "Aktualisierung",
+                "en": "a newer version of software",
+                "zh": "更新"
+              },
+              "ex": {
+                "target": "The update fixes several bugs.",
+                "trans": {
+                  "de": "Das Update behebt mehrere Fehler."
+                }
+              }
+            },
+            {
+              "target": "wireless",
+              "sub": "/ˈwaɪərləs/",
+              "meaning": {
+                "de": "kabellos",
+                "en": "working without cables",
+                "zh": "无线"
+              },
+              "ex": {
+                "target": "The office has wireless internet.",
+                "trans": {
+                  "de": "Das Büro hat kabelloses Internet."
+                }
+              }
+            },
+            {
+              "target": "charge",
+              "sub": "/tʃɑːrdʒ/",
+              "meaning": {
+                "de": "aufladen",
+                "en": "to fill a battery with power",
+                "zh": "充电"
+              },
+              "ex": {
+                "target": "I need to charge my phone.",
+                "trans": {
+                  "de": "Ich muss mein Handy aufladen."
+                }
+              }
+            },
+            {
+              "target": "file",
+              "sub": "/faɪl/",
+              "meaning": {
+                "de": "Datei",
+                "en": "a collection of data on a computer",
+                "zh": "文件"
+              },
+              "ex": {
+                "target": "Save the file before you close it.",
+                "trans": {
+                  "de": "Speichere die Datei, bevor du sie schließt."
+                }
+              }
+            },
+            {
+              "target": "artificial intelligence",
+              "sub": "/ˌɑːrtɪˈfɪʃl ɪnˈtelɪdʒəns/",
+              "meaning": {
+                "de": "künstliche Intelligenz",
+                "en": "computer systems that can learn",
+                "zh": "人工智能"
+              },
+              "ex": {
+                "target": "Artificial intelligence is changing many jobs.",
+                "trans": {
+                  "de": "Künstliche Intelligenz verändert viele Berufe."
+                }
+              }
+            },
+            {
+              "target": "browse",
+              "sub": "/braʊz/",
+              "meaning": {
+                "de": "im Internet surfen",
+                "en": "to look at websites",
+                "zh": "浏览"
+              },
+              "ex": {
+                "target": "She browses the news every morning.",
+                "trans": {
+                  "de": "Sie surft jeden Morgen durch die Nachrichten."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "nature",
+          "emoji": "🌿",
+          "name": {
+            "de": "Natur",
+            "en": "Nature",
+            "zh": "自然"
+          },
+          "words": [
+            {
+              "target": "forest",
+              "sub": "/ˈfɔːrɪst/",
+              "meaning": {
+                "de": "Wald",
+                "en": "a large area with many trees",
+                "zh": "森林"
+              },
+              "ex": {
+                "target": "We walked through the forest.",
+                "trans": {
+                  "de": "Wir sind durch den Wald gegangen."
+                }
+              }
+            },
+            {
+              "target": "river",
+              "sub": "/ˈrɪvər/",
+              "meaning": {
+                "de": "Fluss",
+                "en": "water that flows to the sea",
+                "zh": "河"
+              },
+              "ex": {
+                "target": "The river flows through the city.",
+                "trans": {
+                  "de": "Der Fluss fließt durch die Stadt."
+                }
+              }
+            },
+            {
+              "target": "mountain",
+              "sub": "/ˈmaʊntn/",
+              "meaning": {
+                "de": "Berg",
+                "en": "a very high hill",
+                "zh": "山"
+              },
+              "ex": {
+                "target": "The mountain is covered in snow.",
+                "trans": {
+                  "de": "Der Berg ist mit Schnee bedeckt."
+                }
+              }
+            },
+            {
+              "target": "island",
+              "sub": "/ˈaɪlənd/",
+              "meaning": {
+                "de": "Insel",
+                "en": "land surrounded by water",
+                "zh": "岛"
+              },
+              "ex": {
+                "target": "They spent a week on a small island.",
+                "trans": {
+                  "de": "Sie verbrachten eine Woche auf einer kleinen Insel."
+                }
+              }
+            },
+            {
+              "target": "desert",
+              "sub": "/ˈdezərt/",
+              "meaning": {
+                "de": "Wüste",
+                "en": "a dry area with little rain",
+                "zh": "沙漠"
+              },
+              "ex": {
+                "target": "Few plants grow in the desert.",
+                "trans": {
+                  "de": "In der Wüste wachsen wenige Pflanzen."
+                }
+              }
+            },
+            {
+              "target": "wave",
+              "sub": "/weɪv/",
+              "meaning": {
+                "de": "Welle",
+                "en": "moving water on the sea",
+                "zh": "海浪"
+              },
+              "ex": {
+                "target": "The waves were huge yesterday.",
+                "trans": {
+                  "de": "Die Wellen waren gestern riesig."
+                }
+              }
+            },
+            {
+              "target": "soil",
+              "sub": "/sɔɪl/",
+              "meaning": {
+                "de": "Erde, Boden",
+                "en": "the ground plants grow in",
+                "zh": "土壤"
+              },
+              "ex": {
+                "target": "This soil is good for vegetables.",
+                "trans": {
+                  "de": "Dieser Boden ist gut für Gemüse."
+                }
+              }
+            },
+            {
+              "target": "wildlife",
+              "sub": "/ˈwaɪldlaɪf/",
+              "meaning": {
+                "de": "Tierwelt",
+                "en": "animals living in nature",
+                "zh": "野生动物"
+              },
+              "ex": {
+                "target": "The park protects local wildlife.",
+                "trans": {
+                  "de": "Der Park schützt die heimische Tierwelt."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B2",
+      "label": "B2",
+      "name": {
+        "de": "Fortgeschritten: nuanciert und flüssig sprechen",
+        "en": "Upper intermediate: speaking fluently with nuance",
+        "zh": "中高级：流利而细腻地表达"
+      },
+      "topics": [
+        {
+          "id": "advanced",
+          "emoji": "🚀",
+          "name": {
+            "de": "Ausdruck & Redewendungen",
+            "en": "Expression & idioms",
+            "zh": "表达与习语"
+          },
+          "words": [
+            {
+              "target": "to look forward to",
+              "meaning": {
+                "de": "sich freuen auf",
+                "en": "to anticipate with pleasure",
+                "zh": "期待"
+              },
+              "ex": {
+                "target": "I'm looking forward to seeing you.",
+                "trans": {
+                  "de": "Ich freue mich darauf, dich zu sehen."
+                }
+              }
+            },
+            {
+              "target": "to make up one's mind",
+              "meaning": {
+                "de": "sich entscheiden",
+                "en": "to decide",
+                "zh": "下决心"
+              },
+              "ex": {
+                "target": "She finally made up her mind to move abroad.",
+                "trans": {
+                  "de": "Sie hat sich endlich entschieden, ins Ausland zu ziehen."
+                }
+              }
+            },
+            {
+              "target": "a piece of cake",
+              "meaning": {
+                "de": "kinderleicht",
+                "en": "very easy",
+                "zh": "小菜一碟"
+              },
+              "ex": {
+                "target": "The test was a piece of cake.",
+                "trans": {
+                  "de": "Der Test war kinderleicht."
+                }
+              }
+            },
+            {
+              "target": "to run out of",
+              "meaning": {
+                "de": "etwas geht aus / zur Neige",
+                "en": "to have no more left",
+                "zh": "用完"
+              },
+              "ex": {
+                "target": "We've run out of milk.",
+                "trans": {
+                  "de": "Uns ist die Milch ausgegangen."
+                }
+              }
+            },
+            {
+              "target": "on the other hand",
+              "meaning": {
+                "de": "andererseits",
+                "en": "introducing a contrast",
+                "zh": "另一方面"
+              },
+              "ex": {
+                "target": "It's expensive; on the other hand, it lasts forever.",
+                "trans": {
+                  "de": "Es ist teuer; andererseits hält es ewig."
+                }
+              }
+            },
+            {
+              "target": "to get along with",
+              "meaning": {
+                "de": "gut auskommen mit",
+                "en": "to have a good relationship with",
+                "zh": "与……相处融洽"
+              },
+              "ex": {
+                "target": "I get along well with my flatmates.",
+                "trans": {
+                  "de": "Ich komme gut mit meinen Mitbewohnern aus."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "business",
+          "emoji": "📈",
+          "name": {
+            "de": "Business & Wirtschaft",
+            "en": "Business & economy",
+            "zh": "商务与经济"
+          },
+          "words": [
+            {
+              "target": "negotiate",
+              "sub": "/nɪˈɡoʊʃieɪt/",
+              "meaning": {
+                "de": "verhandeln",
+                "en": "to discuss to reach an agreement",
+                "zh": "谈判"
+              },
+              "ex": {
+                "target": "We negotiated a better price.",
+                "trans": {
+                  "de": "Wir haben einen besseren Preis ausgehandelt."
+                }
+              }
+            },
+            {
+              "target": "revenue",
+              "sub": "/ˈrevənuː/",
+              "meaning": {
+                "de": "Umsatz",
+                "en": "money a company earns",
+                "zh": "营业收入"
+              },
+              "ex": {
+                "target": "Revenue grew by ten percent this year.",
+                "trans": {
+                  "de": "Der Umsatz wuchs dieses Jahr um zehn Prozent."
+                }
+              }
+            },
+            {
+              "target": "merger",
+              "sub": "/ˈmɜːrdʒər/",
+              "meaning": {
+                "de": "Fusion",
+                "en": "when two companies become one",
+                "zh": "合并"
+              },
+              "ex": {
+                "target": "The merger created the largest bank in Europe.",
+                "trans": {
+                  "de": "Die Fusion schuf die größte Bank Europas."
+                }
+              }
+            },
+            {
+              "target": "stakeholder",
+              "sub": "/ˈsteɪkhoʊldər/",
+              "meaning": {
+                "de": "Interessengruppe",
+                "en": "a person with an interest in a business",
+                "zh": "利益相关者"
+              },
+              "ex": {
+                "target": "We informed all stakeholders about the change.",
+                "trans": {
+                  "de": "Wir haben alle Interessengruppen über die Änderung informiert."
+                }
+              }
+            },
+            {
+              "target": "supply chain",
+              "sub": "/səˈplaɪ tʃeɪn/",
+              "meaning": {
+                "de": "Lieferkette",
+                "en": "the path of a product to the customer",
+                "zh": "供应链"
+              },
+              "ex": {
+                "target": "The supply chain was disrupted for weeks.",
+                "trans": {
+                  "de": "Die Lieferkette war wochenlang gestört."
+                }
+              }
+            },
+            {
+              "target": "invest",
+              "sub": "/ɪnˈvest/",
+              "meaning": {
+                "de": "investieren",
+                "en": "to put money into something to gain profit",
+                "zh": "投资"
+              },
+              "ex": {
+                "target": "She invests in technology companies.",
+                "trans": {
+                  "de": "Sie investiert in Technologieunternehmen."
+                }
+              }
+            },
+            {
+              "target": "competitor",
+              "sub": "/kəmˈpetɪtər/",
+              "meaning": {
+                "de": "Konkurrent",
+                "en": "a company selling similar products",
+                "zh": "竞争对手"
+              },
+              "ex": {
+                "target": "Our biggest competitor lowered its prices.",
+                "trans": {
+                  "de": "Unser größter Konkurrent hat seine Preise gesenkt."
+                }
+              }
+            },
+            {
+              "target": "profit margin",
+              "sub": "/ˈprɑːfɪt ˈmɑːrdʒɪn/",
+              "meaning": {
+                "de": "Gewinnspanne",
+                "en": "the difference between cost and price",
+                "zh": "利润率"
+              },
+              "ex": {
+                "target": "Luxury goods have high profit margins.",
+                "trans": {
+                  "de": "Luxusgüter haben hohe Gewinnspannen."
+                }
+              }
+            },
+            {
+              "target": "launch",
+              "sub": "/lɔːntʃ/",
+              "meaning": {
+                "de": "auf den Markt bringen",
+                "en": "to introduce a new product",
+                "zh": "推出"
+              },
+              "ex": {
+                "target": "They will launch the product in spring.",
+                "trans": {
+                  "de": "Sie bringen das Produkt im Frühling auf den Markt."
+                }
+              }
+            },
+            {
+              "target": "quarterly",
+              "sub": "/ˈkwɔːrtərli/",
+              "meaning": {
+                "de": "vierteljährlich",
+                "en": "happening every three months",
+                "zh": "季度的"
+              },
+              "ex": {
+                "target": "The quarterly results exceeded expectations.",
+                "trans": {
+                  "de": "Die Quartalsergebnisse übertrafen die Erwartungen."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "environment",
+          "emoji": "🌍",
+          "name": {
+            "de": "Umwelt & Klima",
+            "en": "Environment & climate",
+            "zh": "环境与气候"
+          },
+          "words": [
+            {
+              "target": "pollution",
+              "sub": "/pəˈluːʃn/",
+              "meaning": {
+                "de": "Verschmutzung",
+                "en": "damage to air, water or land",
+                "zh": "污染"
+              },
+              "ex": {
+                "target": "Air pollution is a serious problem in big cities.",
+                "trans": {
+                  "de": "Luftverschmutzung ist ein ernstes Problem in Großstädten."
+                }
+              }
+            },
+            {
+              "target": "renewable energy",
+              "sub": "/rɪˈnuːəbl ˈenərdʒi/",
+              "meaning": {
+                "de": "erneuerbare Energie",
+                "en": "energy from sun, wind or water",
+                "zh": "可再生能源"
+              },
+              "ex": {
+                "target": "The country invests heavily in renewable energy.",
+                "trans": {
+                  "de": "Das Land investiert stark in erneuerbare Energie."
+                }
+              }
+            },
+            {
+              "target": "carbon footprint",
+              "sub": "/ˈkɑːrbən ˈfʊtprɪnt/",
+              "meaning": {
+                "de": "CO₂-Fußabdruck",
+                "en": "the CO₂ a person or company produces",
+                "zh": "碳足迹"
+              },
+              "ex": {
+                "target": "Flying less reduces your carbon footprint.",
+                "trans": {
+                  "de": "Weniger fliegen verringert deinen CO₂-Fußabdruck."
+                }
+              }
+            },
+            {
+              "target": "sustainable",
+              "sub": "/səˈsteɪnəbl/",
+              "meaning": {
+                "de": "nachhaltig",
+                "en": "not harming the environment long-term",
+                "zh": "可持续的"
+              },
+              "ex": {
+                "target": "We need more sustainable packaging.",
+                "trans": {
+                  "de": "Wir brauchen nachhaltigere Verpackungen."
+                }
+              }
+            },
+            {
+              "target": "recycle",
+              "sub": "/ˌriːˈsaɪkl/",
+              "meaning": {
+                "de": "recyceln",
+                "en": "to use materials again",
+                "zh": "回收"
+              },
+              "ex": {
+                "target": "Glass and paper are easy to recycle.",
+                "trans": {
+                  "de": "Glas und Papier lassen sich leicht recyceln."
+                }
+              }
+            },
+            {
+              "target": "drought",
+              "sub": "/draʊt/",
+              "meaning": {
+                "de": "Dürre",
+                "en": "a long period without rain",
+                "zh": "干旱"
+              },
+              "ex": {
+                "target": "The drought destroyed much of the harvest.",
+                "trans": {
+                  "de": "Die Dürre zerstörte einen Großteil der Ernte."
+                }
+              }
+            },
+            {
+              "target": "emission",
+              "sub": "/ɪˈmɪʃn/",
+              "meaning": {
+                "de": "Emission, Ausstoß",
+                "en": "gas sent into the air",
+                "zh": "排放"
+              },
+              "ex": {
+                "target": "The new law limits factory emissions.",
+                "trans": {
+                  "de": "Das neue Gesetz begrenzt Fabrik-Emissionen."
+                }
+              }
+            },
+            {
+              "target": "endangered species",
+              "sub": "/ɪnˈdeɪndʒərd ˈspiːʃiːz/",
+              "meaning": {
+                "de": "bedrohte Tierart",
+                "en": "animals that may die out",
+                "zh": "濒危物种"
+              },
+              "ex": {
+                "target": "Pandas are no longer an endangered species.",
+                "trans": {
+                  "de": "Pandas sind keine bedrohte Tierart mehr."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C1",
+      "label": "C1",
+      "name": {
+        "de": "Fortgeschritten (C1)",
+        "en": "Advanced (C1)",
+        "zh": "高级 (C1)"
+      },
+      "topics": [
+        {
+          "id": "academic",
+          "emoji": "🎓",
+          "name": {
+            "de": "Akademische Sprache",
+            "en": "Academic language",
+            "zh": "学术语言"
+          },
+          "words": [
+            {
+              "target": "hypothesis",
+              "sub": "/haɪˈpɑːθəsɪs/",
+              "meaning": {
+                "de": "Hypothese",
+                "en": "an idea to be tested",
+                "zh": "假设"
+              },
+              "ex": {
+                "target": "The data did not support our hypothesis.",
+                "trans": {
+                  "de": "Die Daten stützten unsere Hypothese nicht."
+                }
+              }
+            },
+            {
+              "target": "methodology",
+              "sub": "/ˌmeθəˈdɑːlədʒi/",
+              "meaning": {
+                "de": "Methodik",
+                "en": "the system of methods used in research",
+                "zh": "方法论"
+              },
+              "ex": {
+                "target": "The paper explains its methodology in detail.",
+                "trans": {
+                  "de": "Die Arbeit erklärt ihre Methodik im Detail."
+                }
+              }
+            },
+            {
+              "target": "empirical",
+              "sub": "/ɪmˈpɪrɪkl/",
+              "meaning": {
+                "de": "empirisch",
+                "en": "based on observation or experiment",
+                "zh": "实证的"
+              },
+              "ex": {
+                "target": "There is little empirical evidence for this claim.",
+                "trans": {
+                  "de": "Es gibt wenig empirische Belege für diese Behauptung."
+                }
+              }
+            },
+            {
+              "target": "significant",
+              "sub": "/sɪɡˈnɪfɪkənt/",
+              "meaning": {
+                "de": "signifikant, bedeutsam",
+                "en": "large or important enough to matter",
+                "zh": "显著的"
+              },
+              "ex": {
+                "target": "The results show a significant improvement.",
+                "trans": {
+                  "de": "Die Ergebnisse zeigen eine signifikante Verbesserung."
+                }
+              }
+            },
+            {
+              "target": "correlation",
+              "sub": "/ˌkɔːrəˈleɪʃn/",
+              "meaning": {
+                "de": "Korrelation",
+                "en": "a connection between two things",
+                "zh": "相关性"
+              },
+              "ex": {
+                "target": "Correlation does not imply causation.",
+                "trans": {
+                  "de": "Korrelation bedeutet nicht Kausalität."
+                }
+              }
+            },
+            {
+              "target": "assess",
+              "sub": "/əˈses/",
+              "meaning": {
+                "de": "bewerten, beurteilen",
+                "en": "to judge the quality or value of something",
+                "zh": "评估"
+              },
+              "ex": {
+                "target": "We assessed the risks before the project.",
+                "trans": {
+                  "de": "Wir haben die Risiken vor dem Projekt bewertet."
+                }
+              }
+            },
+            {
+              "target": "comprehensive",
+              "sub": "/ˌkɑːmprɪˈhensɪv/",
+              "meaning": {
+                "de": "umfassend",
+                "en": "including everything necessary",
+                "zh": "全面的"
+              },
+              "ex": {
+                "target": "The report gives a comprehensive overview.",
+                "trans": {
+                  "de": "Der Bericht gibt einen umfassenden Überblick."
+                }
+              }
+            },
+            {
+              "target": "bias",
+              "sub": "/ˈbaɪəs/",
+              "meaning": {
+                "de": "Verzerrung, Voreingenommenheit",
+                "en": "an unfair preference in judgement",
+                "zh": "偏见"
+              },
+              "ex": {
+                "target": "Researchers must avoid bias in their studies.",
+                "trans": {
+                  "de": "Forscher müssen Verzerrungen in ihren Studien vermeiden."
+                }
+              }
+            },
+            {
+              "target": "derive",
+              "sub": "/dɪˈraɪv/",
+              "meaning": {
+                "de": "ableiten",
+                "en": "to get something from a source",
+                "zh": "推导"
+              },
+              "ex": {
+                "target": "The formula is derived from earlier work.",
+                "trans": {
+                  "de": "Die Formel ist aus früheren Arbeiten abgeleitet."
+                }
+              }
+            },
+            {
+              "target": "substantial",
+              "sub": "/səbˈstænʃl/",
+              "meaning": {
+                "de": "erheblich, beträchtlich",
+                "en": "large in amount or importance",
+                "zh": "大量的"
+              },
+              "ex": {
+                "target": "The project requires substantial funding.",
+                "trans": {
+                  "de": "Das Projekt erfordert erhebliche Finanzierung."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "nuance",
+          "emoji": "🗯️",
+          "name": {
+            "de": "Feinheiten & Redewendungen",
+            "en": "Nuance & expressions",
+            "zh": "细微差别与习语"
+          },
+          "words": [
+            {
+              "target": "albeit",
+              "sub": "/ˌɔːlˈbiːɪt/",
+              "meaning": {
+                "de": "wenn auch",
+                "en": "although (formal)",
+                "zh": "尽管"
+              },
+              "ex": {
+                "target": "The plan worked, albeit slowly.",
+                "trans": {
+                  "de": "Der Plan funktionierte, wenn auch langsam."
+                }
+              }
+            },
+            {
+              "target": "notwithstanding",
+              "sub": "/ˌnɑːtwɪθˈstændɪŋ/",
+              "meaning": {
+                "de": "ungeachtet",
+                "en": "despite (formal)",
+                "zh": "尽管如此"
+              },
+              "ex": {
+                "target": "Notwithstanding the risks, they went ahead.",
+                "trans": {
+                  "de": "Ungeachtet der Risiken machten sie weiter."
+                }
+              }
+            },
+            {
+              "target": "to hedge one's bets",
+              "sub": "/hedʒ wʌnz bets/",
+              "meaning": {
+                "de": "auf mehrere Karten setzen",
+                "en": "to keep several options open",
+                "zh": "两面下注"
+              },
+              "ex": {
+                "target": "She applied to five universities to hedge her bets.",
+                "trans": {
+                  "de": "Sie bewarb sich an fünf Unis, um auf mehrere Karten zu setzen."
+                }
+              }
+            },
+            {
+              "target": "a double-edged sword",
+              "sub": "/ˈdʌbl edʒd sɔːrd/",
+              "meaning": {
+                "de": "zweischneidiges Schwert",
+                "en": "something with good and bad effects",
+                "zh": "双刃剑"
+              },
+              "ex": {
+                "target": "Fame is a double-edged sword.",
+                "trans": {
+                  "de": "Ruhm ist ein zweischneidiges Schwert."
+                }
+              }
+            },
+            {
+              "target": "to play devil's advocate",
+              "sub": "/pleɪ ˈdevlz ˈædvəkət/",
+              "meaning": {
+                "de": "den Advocatus Diaboli spielen",
+                "en": "to argue the opposite for the sake of debate",
+                "zh": "唱反调"
+              },
+              "ex": {
+                "target": "Let me play devil's advocate for a moment.",
+                "trans": {
+                  "de": "Lass mich kurz den Advocatus Diaboli spielen."
+                }
+              }
+            },
+            {
+              "target": "the tip of the iceberg",
+              "sub": "/tɪp əv ði ˈaɪsbɜːrɡ/",
+              "meaning": {
+                "de": "die Spitze des Eisbergs",
+                "en": "a small visible part of a big problem",
+                "zh": "冰山一角"
+              },
+              "ex": {
+                "target": "These complaints are just the tip of the iceberg.",
+                "trans": {
+                  "de": "Diese Beschwerden sind nur die Spitze des Eisbergs."
+                }
+              }
+            },
+            {
+              "target": "to cut corners",
+              "sub": "/kʌt ˈkɔːrnərz/",
+              "meaning": {
+                "de": "an der falschen Stelle sparen",
+                "en": "to do something cheaply or carelessly",
+                "zh": "偷工减料"
+              },
+              "ex": {
+                "target": "If you cut corners now, you will pay later.",
+                "trans": {
+                  "de": "Wer jetzt an der falschen Stelle spart, zahlt später."
+                }
+              }
+            },
+            {
+              "target": "in hindsight",
+              "sub": "/ɪn ˈhaɪndsaɪt/",
+              "meaning": {
+                "de": "im Nachhinein",
+                "en": "looking back at the past",
+                "zh": "事后看来"
+              },
+              "ex": {
+                "target": "In hindsight, we should have started earlier.",
+                "trans": {
+                  "de": "Im Nachhinein hätten wir früher anfangen sollen."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "present-simple",
+      "level": "A1",
+      "title": {
+        "de": "Present Simple – die Gegenwart",
+        "en": "Present Simple",
+        "zh": "一般现在时"
+      },
+      "body": {
+        "de": "Das Present Simple beschreibt Gewohnheiten, Fakten und regelmäßige Abläufe. Wichtig: In der 3. Person Singular (he/she/it) bekommt das Verb ein -s. Signalwörter sind always, often, usually, never, every day.",
+        "en": "The Present Simple describes habits, facts and routines. Important: in the third person singular (he/she/it) the verb takes an -s. Signal words: always, often, usually, never, every day.",
+        "zh": "一般现在时表示习惯、事实和规律性的活动。注意：第三人称单数（he/she/it）动词要加 -s。信号词有 always、often、usually、never、every day。"
+      },
+      "examples": [
+        {
+          "target": "I work in Berlin.",
+          "trans": {
+            "de": "Ich arbeite in Berlin.",
+            "en": "A general fact.",
+            "zh": "我在柏林工作。"
+          }
+        },
+        {
+          "target": "She works in Berlin.",
+          "trans": {
+            "de": "Sie arbeitet in Berlin. (he/she/it → -s!)",
+            "en": "Third person: verb + s.",
+            "zh": "她在柏林工作。（第三人称加 -s）"
+          }
+        },
+        {
+          "target": "We usually have dinner at seven.",
+          "trans": {
+            "de": "Wir essen normalerweise um sieben zu Abend.",
+            "en": "A routine with a signal word.",
+            "zh": "我们通常七点吃晚饭。"
+          }
+        }
+      ],
+      "exercise": {
+        "q": {
+          "de": "Welche Form ist richtig? „He ___ football every Sunday.“",
+          "en": "Which form is correct? \"He ___ football every Sunday.\"",
+          "zh": "哪个形式正确？\"He ___ football every Sunday.\""
+        },
+        "options": [
+          "play",
+          "plays",
+          "playing"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "present-continuous",
+      "level": "A1",
+      "title": {
+        "de": "Present Continuous – gerade jetzt",
+        "en": "Present Continuous",
+        "zh": "现在进行时"
+      },
+      "body": {
+        "de": "Das Present Continuous (am/is/are + Verb-ing) beschreibt, was gerade in diesem Moment passiert oder was vorübergehend ist. Signalwörter: now, at the moment, right now, look!",
+        "en": "The Present Continuous (am/is/are + verb-ing) describes what is happening right now or temporarily. Signal words: now, at the moment, right now, look!",
+        "zh": "现在进行时（am/is/are + 动词-ing）表示此刻正在发生或暂时性的事情。信号词：now、at the moment、right now、look!"
+      },
+      "examples": [
+        {
+          "target": "I am learning Chinese at the moment.",
+          "trans": {
+            "de": "Ich lerne gerade Chinesisch.",
+            "en": "A temporary activity.",
+            "zh": "我目前在学中文。"
+          }
+        },
+        {
+          "target": "Look! It is raining.",
+          "trans": {
+            "de": "Schau! Es regnet (gerade).",
+            "en": "Happening right now.",
+            "zh": "看！正在下雨。"
+          }
+        },
+        {
+          "target": "They are watching a film.",
+          "trans": {
+            "de": "Sie schauen (gerade) einen Film.",
+            "en": "Plural: are + -ing.",
+            "zh": "他们正在看电影。"
+          }
+        }
+      ],
+      "exercise": {
+        "q": {
+          "de": "Was passt? „Listen! The birds ___.“",
+          "en": "What fits? \"Listen! The birds ___.\"",
+          "zh": "哪个合适？\"Listen! The birds ___.\""
+        },
+        "options": [
+          "sing",
+          "are singing",
+          "sings"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "articles",
+      "level": "A1",
+      "title": {
+        "de": "Artikel: a, an, the",
+        "en": "Articles: a, an, the",
+        "zh": "冠词：a、an、the"
+      },
+      "body": {
+        "de": "„a/an“ (unbestimmt) benutzt man, wenn etwas neu oder beliebig ist – „an“ vor Vokal-Lauten. „the“ (bestimmt) benutzt man, wenn klar ist, welches Ding gemeint ist. Kein Artikel steht bei allgemeinen Aussagen im Plural.",
+        "en": "Use \"a/an\" (indefinite) for something new or unspecific – \"an\" before vowel sounds. Use \"the\" (definite) when it is clear which thing you mean. No article for general statements in the plural.",
+        "zh": "\"a/an\"（不定冠词）用于新提到或不特指的事物——元音发音前用 \"an\"。\"the\"（定冠词）用于双方都明确所指的事物。复数泛指时不用冠词。"
+      },
+      "examples": [
+        {
+          "target": "I bought a book and an apple.",
+          "trans": {
+            "de": "Ich habe ein Buch und einen Apfel gekauft.",
+            "en": "New, unspecific items.",
+            "zh": "我买了一本书和一个苹果。"
+          }
+        },
+        {
+          "target": "The book on the table is mine.",
+          "trans": {
+            "de": "Das Buch auf dem Tisch gehört mir.",
+            "en": "A specific, known book.",
+            "zh": "桌上的那本书是我的。"
+          }
+        },
+        {
+          "target": "Dogs are friendly animals.",
+          "trans": {
+            "de": "Hunde sind freundliche Tiere. (kein Artikel)",
+            "en": "General plural: no article.",
+            "zh": "狗是友好的动物。（不加冠词）"
+          }
+        }
+      ],
+      "exercise": {
+        "q": {
+          "de": "Welcher Artikel passt? „She is ___ engineer.“",
+          "en": "Which article fits? \"She is ___ engineer.\"",
+          "zh": "哪个冠词合适？\"She is ___ engineer.\""
+        },
+        "options": [
+          "a",
+          "an",
+          "the"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "plurals",
+      "level": "A1",
+      "title": {
+        "de": "Pluralbildung",
+        "en": "Plural forms",
+        "zh": "名词复数"
+      },
+      "body": {
+        "de": "Die meisten Nomen bilden den Plural mit -s (cat → cats). Nach -s, -sh, -ch, -x kommt -es (bus → buses). Endet ein Wort auf Konsonant + y, wird daraus -ies (city → cities). Einige Wörter sind unregelmäßig: man → men, child → children, foot → feet.",
+        "en": "Most nouns form the plural with -s (cat → cats). After -s, -sh, -ch, -x add -es (bus → buses). Consonant + y becomes -ies (city → cities). Some are irregular: man → men, child → children, foot → feet.",
+        "zh": "多数名词加 -s 变复数（cat → cats）。以 -s、-sh、-ch、-x 结尾加 -es（bus → buses）。辅音字母 + y 变 -ies（city → cities）。少数不规则：man → men、child → children、foot → feet。"
+      },
+      "examples": [
+        {
+          "target": "two dogs, three houses",
+          "trans": {
+            "de": "zwei Hunde, drei Häuser",
+            "en": "Regular plural with -s.",
+            "zh": "两只狗，三栋房子"
+          }
+        },
+        {
+          "target": "one city – two cities",
+          "trans": {
+            "de": "eine Stadt – zwei Städte",
+            "en": "y → ies.",
+            "zh": "一座城市——两座城市"
+          }
+        },
+        {
+          "target": "one child – two children",
+          "trans": {
+            "de": "ein Kind – zwei Kinder (unregelmäßig)",
+            "en": "Irregular plural.",
+            "zh": "一个孩子——两个孩子（不规则）"
+          }
+        }
+      ],
+      "exercise": {
+        "q": {
+          "de": "Wie lautet der Plural von „foot“?",
+          "en": "What is the plural of \"foot\"?",
+          "zh": "\"foot\" 的复数是什么？"
+        },
+        "options": [
+          "foots",
+          "feet",
+          "feets"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "past-simple",
+      "level": "A2",
+      "title": {
+        "de": "Past Simple – die Vergangenheit",
+        "en": "Past Simple",
+        "zh": "一般过去时"
+      },
+      "body": {
+        "de": "Das Past Simple beschreibt abgeschlossene Handlungen in der Vergangenheit. Regelmäßige Verben enden auf -ed (work → worked). Viele häufige Verben sind unregelmäßig (go → went, see → saw, have → had). Signalwörter: yesterday, last week, in 2010, ago.",
+        "en": "The Past Simple describes completed actions in the past. Regular verbs end in -ed (work → worked). Many common verbs are irregular (go → went, see → saw, have → had). Signal words: yesterday, last week, in 2010, ago.",
+        "zh": "一般过去时表示过去已完成的动作。规则动词加 -ed（work → worked）。许多常用动词不规则（go → went、see → saw、have → had）。信号词：yesterday、last week、in 2010、ago。"
+      },
+      "examples": [
+        {
+          "target": "We visited London last year.",
+          "trans": {
+            "de": "Wir haben letztes Jahr London besucht.",
+            "en": "Regular verb + -ed.",
+            "zh": "我们去年去了伦敦。"
+          }
+        },
+        {
+          "target": "She went home early.",
+          "trans": {
+            "de": "Sie ist früh nach Hause gegangen. (go → went)",
+            "en": "Irregular verb.",
+            "zh": "她很早就回家了。（go → went）"
+          }
+        },
+        {
+          "target": "I saw that film two weeks ago.",
+          "trans": {
+            "de": "Ich habe den Film vor zwei Wochen gesehen.",
+            "en": "\"ago\" as a signal word.",
+            "zh": "我两周前看过那部电影。"
+          }
+        }
+      ],
+      "exercise": {
+        "q": {
+          "de": "Welche Form ist richtig? „Yesterday I ___ my grandmother.“",
+          "en": "Which is correct? \"Yesterday I ___ my grandmother.\"",
+          "zh": "哪个正确？\"Yesterday I ___ my grandmother.\""
+        },
+        "options": [
+          "visit",
+          "visited",
+          "visiting"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "questions-negation",
+      "level": "A2",
+      "title": {
+        "de": "Fragen & Verneinung mit do/does/did",
+        "en": "Questions & negation with do/does/did",
+        "zh": "用 do/does/did 提问和否定"
+      },
+      "body": {
+        "de": "Fragen und Verneinungen im Present und Past Simple bildet man mit dem Hilfsverb do: do/does (Gegenwart) und did (Vergangenheit). Das Hauptverb bleibt dabei in der Grundform! Falsch: „Does she works?“ – Richtig: „Does she work?“",
+        "en": "Questions and negatives in the Present and Past Simple use the auxiliary do: do/does (present) and did (past). The main verb stays in the base form! Wrong: \"Does she works?\" – Right: \"Does she work?\"",
+        "zh": "一般现在时和一般过去时的疑问句、否定句要用助动词 do：do/does（现在）、did（过去）。主要动词保持原形！错误：\"Does she works?\" 正确：\"Does she work?\""
+      },
+      "examples": [
+        {
+          "target": "Do you like coffee? – No, I don't like coffee.",
+          "trans": {
+            "de": "Magst du Kaffee? – Nein, ich mag keinen Kaffee.",
+            "en": "Present with do.",
+            "zh": "你喜欢咖啡吗？——不，我不喜欢。"
+          }
+        },
+        {
+          "target": "Does he speak Chinese?",
+          "trans": {
+            "de": "Spricht er Chinesisch? (does + Grundform)",
+            "en": "Third person: does + base form.",
+            "zh": "他会说中文吗？（does + 动词原形）"
+          }
+        },
+        {
+          "target": "Did they arrive on time? – They didn't arrive on time.",
+          "trans": {
+            "de": "Kamen sie pünktlich an? – Sie kamen nicht pünktlich an.",
+            "en": "Past with did.",
+            "zh": "他们准时到了吗？——他们没有准时到。"
+          }
+        }
+      ],
+      "exercise": {
+        "q": {
+          "de": "Was ist richtig?",
+          "en": "Which is correct?",
+          "zh": "哪个正确？"
+        },
+        "options": [
+          "Does she likes tea?",
+          "Does she like tea?",
+          "Do she like tea?"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "modals",
+      "level": "A2",
+      "title": {
+        "de": "Modalverben: can, must, should",
+        "en": "Modal verbs: can, must, should",
+        "zh": "情态动词：can、must、should"
+      },
+      "body": {
+        "de": "Modalverben drücken Fähigkeit (can), Pflicht (must) oder Rat (should) aus. Nach einem Modalverb steht immer die Grundform ohne „to“, und es gibt kein -s in der 3. Person: „She can swim.“",
+        "en": "Modal verbs express ability (can), obligation (must) or advice (should). A modal is always followed by the base form without \"to\", and there is no -s in the third person: \"She can swim.\"",
+        "zh": "情态动词表示能力（can）、义务（must）或建议（should）。情态动词后接不带 to 的动词原形，第三人称也不加 -s：\"She can swim.\""
+      },
+      "examples": [
+        {
+          "target": "I can ride a bike.",
+          "trans": {
+            "de": "Ich kann Fahrrad fahren.",
+            "en": "Ability.",
+            "zh": "我会骑自行车。"
+          }
+        },
+        {
+          "target": "You must wear a seatbelt.",
+          "trans": {
+            "de": "Du musst dich anschnallen.",
+            "en": "Obligation.",
+            "zh": "你必须系安全带。"
+          }
+        },
+        {
+          "target": "You should drink more water.",
+          "trans": {
+            "de": "Du solltest mehr Wasser trinken.",
+            "en": "Advice.",
+            "zh": "你应该多喝水。"
+          }
+        }
+      ],
+      "exercise": {
+        "q": {
+          "de": "Welcher Satz ist richtig?",
+          "en": "Which sentence is correct?",
+          "zh": "哪个句子正确？"
+        },
+        "options": [
+          "He can to swim.",
+          "He cans swim.",
+          "He can swim."
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "prepositions",
+      "level": "A2",
+      "title": {
+        "de": "Präpositionen: in, on, at",
+        "en": "Prepositions: in, on, at",
+        "zh": "介词：in、on、at"
+      },
+      "body": {
+        "de": "Bei Zeitangaben gilt grob: in für Monate, Jahre und Jahreszeiten (in July), on für Tage und Daten (on Monday), at für Uhrzeiten (at six o'clock). Bei Orten: in für Länder/Städte/Räume, on für Oberflächen, at für Punkte und Orte wie at home, at school.",
+        "en": "For time, roughly: in for months, years and seasons (in July), on for days and dates (on Monday), at for clock times (at six o'clock). For place: in for countries/cities/rooms, on for surfaces, at for points and places like at home, at school.",
+        "zh": "时间上大致规则：月份、年份、季节用 in（in July），星期和日期用 on（on Monday），钟点用 at（at six o'clock）。地点上：国家/城市/房间用 in，表面用 on，具体地点如 at home、at school 用 at。"
+      },
+      "examples": [
+        {
+          "target": "My birthday is in May, on a Friday, at 8 pm we celebrate.",
+          "trans": {
+            "de": "Mein Geburtstag ist im Mai, an einem Freitag, um 20 Uhr feiern wir.",
+            "en": "All three time prepositions.",
+            "zh": "我的生日在五月，是星期五，我们晚上八点庆祝。"
+          }
+        },
+        {
+          "target": "The keys are on the table in the kitchen.",
+          "trans": {
+            "de": "Die Schlüssel liegen auf dem Tisch in der Küche.",
+            "en": "Place: on a surface, in a room.",
+            "zh": "钥匙在厨房的桌子上。"
+          }
+        },
+        {
+          "target": "She is at work right now.",
+          "trans": {
+            "de": "Sie ist gerade auf der Arbeit.",
+            "en": "at + place.",
+            "zh": "她现在在上班。"
+          }
+        }
+      ],
+      "exercise": {
+        "q": {
+          "de": "Was passt? „The meeting is ___ Monday ___ 9 am.“",
+          "en": "What fits? \"The meeting is ___ Monday ___ 9 am.\"",
+          "zh": "填什么？\"The meeting is ___ Monday ___ 9 am.\""
+        },
+        "options": [
+          "in / on",
+          "on / at",
+          "at / in"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "present-perfect",
+      "level": "B1",
+      "title": {
+        "de": "Present Perfect – Brücke zur Gegenwart",
+        "en": "Present Perfect",
+        "zh": "现在完成时"
+      },
+      "body": {
+        "de": "Das Present Perfect (have/has + Partizip) verbindet Vergangenheit und Gegenwart: Erfahrungen (I have been to China), Ergebnisse mit Wirkung auf jetzt (I have lost my keys) und Zeiträume, die noch andauern (since/for). Achtung: Mit genauen Zeitangaben wie „yesterday“ benutzt man Past Simple!",
+        "en": "The Present Perfect (have/has + past participle) links past and present: experiences (I have been to China), results relevant now (I have lost my keys), and unfinished periods (since/for). Note: with specific past times like \"yesterday\" use the Past Simple!",
+        "zh": "现在完成时（have/has + 过去分词）连接过去与现在：经历（I have been to China）、对现在有影响的结果（I have lost my keys）、持续到现在的时间段（since/for）。注意：有具体过去时间（如 yesterday）时要用一般过去时！"
+      },
+      "examples": [
+        {
+          "target": "I have never eaten sushi.",
+          "trans": {
+            "de": "Ich habe noch nie Sushi gegessen. (Erfahrung)",
+            "en": "Experience.",
+            "zh": "我从来没吃过寿司。（经历）"
+          }
+        },
+        {
+          "target": "She has lived here for ten years.",
+          "trans": {
+            "de": "Sie wohnt seit zehn Jahren hier. (dauert an)",
+            "en": "Unfinished period with for.",
+            "zh": "她在这里住了十年了。（持续）"
+          }
+        },
+        {
+          "target": "We have just finished dinner.",
+          "trans": {
+            "de": "Wir haben gerade zu Abend gegessen. (Ergebnis)",
+            "en": "Recent result with just.",
+            "zh": "我们刚吃完晚饭。（结果）"
+          }
+        }
+      ],
+      "exercise": {
+        "q": {
+          "de": "Welcher Satz ist richtig?",
+          "en": "Which sentence is correct?",
+          "zh": "哪个句子正确？"
+        },
+        "options": [
+          "I have seen him yesterday.",
+          "I saw him yesterday.",
+          "I have see him yesterday."
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "word-order",
+      "level": "B1",
+      "title": {
+        "de": "Satzbau: Subjekt – Verb – Objekt",
+        "en": "Word order: subject – verb – object",
+        "zh": "语序：主语—动词—宾语"
+      },
+      "body": {
+        "de": "Der englische Aussagesatz folgt fast immer dem Muster Subjekt – Verb – Objekt (SVO): „I read books.“ Orts- und Zeitangaben stehen meist am Satzende, Zeit nach Ort: „She plays tennis in the park on Sundays.“ Häufigkeitsadverbien (always, often, never) stehen vor dem Hauptverb.",
+        "en": "English statements almost always follow subject – verb – object (SVO): \"I read books.\" Place and time usually come at the end, time after place: \"She plays tennis in the park on Sundays.\" Frequency adverbs (always, often, never) go before the main verb.",
+        "zh": "英语陈述句几乎总是主语—动词—宾语（SVO）：\"I read books.\" 地点和时间状语一般放句尾，先地点后时间：\"She plays tennis in the park on Sundays.\" 频率副词（always、often、never）放在实义动词前。"
+      },
+      "examples": [
+        {
+          "target": "I read books.",
+          "trans": {
+            "de": "Ich lese Bücher. (S–V–O)",
+            "en": "Basic SVO.",
+            "zh": "我看书。（主谓宾）"
+          }
+        },
+        {
+          "target": "She plays tennis in the park on Sundays.",
+          "trans": {
+            "de": "Sie spielt sonntags im Park Tennis. (Ort vor Zeit)",
+            "en": "Place before time.",
+            "zh": "她星期天在公园打网球。（先地点后时间）"
+          }
+        },
+        {
+          "target": "He never drinks coffee.",
+          "trans": {
+            "de": "Er trinkt nie Kaffee. (Adverb vor dem Verb)",
+            "en": "Frequency adverb before the verb.",
+            "zh": "他从不喝咖啡。（频率副词在动词前）"
+          }
+        }
+      ],
+      "exercise": {
+        "q": {
+          "de": "Welche Wortstellung ist richtig?",
+          "en": "Which word order is correct?",
+          "zh": "哪个语序正确？"
+        },
+        "options": [
+          "I drink always tea.",
+          "I always drink tea.",
+          "Always I drink tea."
+        ],
+        "answer": 1
+      }
+    }
+  ],
+  "pronunciation": {
+    "sections": [
+      {
+        "title": {
+          "de": "Das Alphabet",
+          "en": "The alphabet",
+          "zh": "字母表"
+        },
+        "body": {
+          "de": "26 Buchstaben – die Aussprache der Buchstabennamen brauchst du zum Buchstabieren (z. B. am Telefon). Tippe auf 🔊, um das ganze Alphabet zu hören.",
+          "en": "26 letters – you need the letter names for spelling (e.g. on the phone). Tap 🔊 to hear the whole alphabet.",
+          "zh": "共 26 个字母——拼读姓名（例如打电话时）需要会读字母名。点 🔊 听整个字母表。"
+        },
+        "examples": [
+          {
+            "target": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z",
+            "speak": "A. B. C. D. E. F. G. H. I. J. K. L. M. N. O. P. Q. R. S. T. U. V. W. X. Y. Z.",
+            "trans": {
+              "de": "Das komplette Alphabet zum Anhören.",
+              "en": "The whole alphabet.",
+              "zh": "完整字母表。"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Lautschrift (IPA) – die Basics",
+          "en": "IPA basics",
+          "zh": "国际音标基础"
+        },
+        "body": {
+          "de": "Die Lautschrift zwischen Schrägstrichen zeigt die echte Aussprache, denn englische Schreibung und Klang gehen oft auseinander. Wichtige Zeichen: /iː/ langes i (see), /ɪ/ kurzes i (sit), /æ/ offenes a (cat), /ə/ Schwa – der unbetonte Murmellaut (about).",
+          "en": "The IPA between slashes shows the real pronunciation, because English spelling and sound often differ. Key symbols: /iː/ long i (see), /ɪ/ short i (sit), /æ/ open a (cat), /ə/ schwa – the unstressed murmur vowel (about).",
+          "zh": "斜线之间的音标显示真实发音，因为英语的拼写和读音经常不一致。重要符号：/iː/ 长音（see）、/ɪ/ 短音（sit）、/æ/（cat）、/ə/ 中央元音（about）。"
+        },
+        "examples": [
+          {
+            "target": "see /siː/ – sit /sɪt/",
+            "speak": "see. sit.",
+            "trans": {
+              "de": "Langes und kurzes i im Vergleich.",
+              "en": "Long vs. short i.",
+              "zh": "长短元音对比。"
+            }
+          },
+          {
+            "target": "cat /kæt/ – about /əˈbaʊt/",
+            "speak": "cat. about.",
+            "trans": {
+              "de": "Offenes a und der Schwa-Laut.",
+              "en": "Open a and the schwa.",
+              "zh": "开口音和中央元音。"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Der th-Laut",
+          "en": "The th sound",
+          "zh": "th 的发音"
+        },
+        "body": {
+          "de": "Für „th“ die Zungenspitze leicht zwischen die Zähne legen. Es gibt zwei Varianten: stimmlos /θ/ wie in think und stimmhaft /ð/ wie in this. Übe beide – ein deutsches „s“ oder „z“ ist hier der häufigste Fehler.",
+          "en": "For \"th\", place the tip of your tongue lightly between your teeth. There are two variants: voiceless /θ/ as in think and voiced /ð/ as in this. Practise both – replacing it with \"s\" or \"z\" is the most common mistake.",
+          "zh": "发 \"th\" 时舌尖轻放在上下齿之间。有两种：清音 /θ/（think）和浊音 /ð/（this）。两个都要练——用 \"s\" 或 \"z\" 代替是最常见的错误。"
+        },
+        "examples": [
+          {
+            "target": "think – three – birthday",
+            "speak": "think. three. birthday.",
+            "trans": {
+              "de": "Stimmloses th /θ/.",
+              "en": "Voiceless th.",
+              "zh": "清音 th。"
+            }
+          },
+          {
+            "target": "this – mother – together",
+            "speak": "this. mother. together.",
+            "trans": {
+              "de": "Stimmhaftes th /ð/.",
+              "en": "Voiced th.",
+              "zh": "浊音 th。"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Häufige Regeln: stummes e & -ed",
+          "en": "Common rules: silent e & -ed",
+          "zh": "常见规则：不发音的 e 和 -ed"
+        },
+        "body": {
+          "de": "Ein stummes e am Wortende macht den Vokal davor lang: hop → hope, bit → bite. Die Endung -ed hat drei Aussprachen: /t/ nach stimmlosen Lauten (worked), /d/ nach stimmhaften (played), /ɪd/ nach t und d (wanted).",
+          "en": "A silent e at the end makes the vowel before it long: hop → hope, bit → bite. The ending -ed has three pronunciations: /t/ after voiceless sounds (worked), /d/ after voiced ones (played), /ɪd/ after t and d (wanted).",
+          "zh": "词尾不发音的 e 使前面的元音变长：hop → hope、bit → bite。-ed 有三种读法：清辅音后读 /t/（worked），浊音后读 /d/（played），t 和 d 后读 /ɪd/（wanted）。"
+        },
+        "examples": [
+          {
+            "target": "hop – hope, bit – bite",
+            "speak": "hop. hope. bit. bite.",
+            "trans": {
+              "de": "Das stumme e verlängert den Vokal.",
+              "en": "Silent e lengthens the vowel.",
+              "zh": "不发音的 e 使元音变长。"
+            }
+          },
+          {
+            "target": "worked /t/ – played /d/ – wanted /ɪd/",
+            "speak": "worked. played. wanted.",
+            "trans": {
+              "de": "Die drei Aussprachen von -ed.",
+              "en": "Three ways to say -ed.",
+              "zh": "-ed 的三种发音。"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "dialogs": [
+    {
+      "id": "cafe",
+      "title": {
+        "de": "Im Café",
+        "en": "At the café",
+        "zh": "在咖啡馆"
+      },
+      "lines": [
+        {
+          "who": "A",
+          "target": "Good morning! What can I get you?",
+          "trans": {
+            "de": "Guten Morgen! Was darf es sein?",
+            "en": "The barista greets you.",
+            "zh": "早上好！您要点什么？"
+          }
+        },
+        {
+          "who": "B",
+          "target": "A cappuccino and a croissant, please.",
+          "trans": {
+            "de": "Einen Cappuccino und ein Croissant, bitte.",
+            "en": "Ordering politely.",
+            "zh": "请给我一杯卡布奇诺和一个牛角包。"
+          }
+        },
+        {
+          "who": "A",
+          "target": "For here or to go?",
+          "trans": {
+            "de": "Zum Hieressen oder zum Mitnehmen?",
+            "en": "A very common question.",
+            "zh": "在这儿喝还是带走？"
+          }
+        },
+        {
+          "who": "B",
+          "target": "To go, please. How much is that?",
+          "trans": {
+            "de": "Zum Mitnehmen, bitte. Wie viel macht das?",
+            "en": "Asking for the total.",
+            "zh": "带走。一共多少钱？"
+          }
+        },
+        {
+          "who": "A",
+          "target": "That's six fifty. Have a nice day!",
+          "trans": {
+            "de": "Das macht sechs fünfzig. Schönen Tag noch!",
+            "en": "Paying and saying goodbye.",
+            "zh": "一共六块五。祝您愉快！"
+          }
+        }
+      ]
+    },
+    {
+      "id": "directions",
+      "title": {
+        "de": "Nach dem Weg fragen",
+        "en": "Asking for directions",
+        "zh": "问路"
+      },
+      "lines": [
+        {
+          "who": "A",
+          "target": "Excuse me, how do I get to the train station?",
+          "trans": {
+            "de": "Entschuldigung, wie komme ich zum Bahnhof?",
+            "en": "Starting politely with \"excuse me\".",
+            "zh": "打扰一下，请问去火车站怎么走？"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Go straight ahead and turn left at the traffic lights.",
+          "trans": {
+            "de": "Gehen Sie geradeaus und biegen Sie an der Ampel links ab.",
+            "en": "Giving directions.",
+            "zh": "一直走，到红绿灯左转。"
+          }
+        },
+        {
+          "who": "A",
+          "target": "Is it far from here?",
+          "trans": {
+            "de": "Ist es weit von hier?",
+            "en": "Asking about distance.",
+            "zh": "离这儿远吗？"
+          }
+        },
+        {
+          "who": "B",
+          "target": "No, it's about a five-minute walk.",
+          "trans": {
+            "de": "Nein, es sind ungefähr fünf Minuten zu Fuß.",
+            "en": "A short walk.",
+            "zh": "不远，走路大约五分钟。"
+          }
+        },
+        {
+          "who": "A",
+          "target": "Great, thank you so much!",
+          "trans": {
+            "de": "Super, vielen Dank!",
+            "en": "Thanking warmly.",
+            "zh": "太好了，非常感谢！"
+          }
+        }
+      ]
+    },
+    {
+      "id": "introduce",
+      "title": {
+        "de": "Sich vorstellen",
+        "en": "Introducing yourself",
+        "zh": "自我介绍"
+      },
+      "lines": [
+        {
+          "who": "A",
+          "target": "Hi, I'm Sarah. Nice to meet you!",
+          "trans": {
+            "de": "Hi, ich bin Sarah. Schön, dich kennenzulernen!",
+            "en": "A friendly opener.",
+            "zh": "嗨，我是 Sarah。很高兴认识你！"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Nice to meet you too. My name is David.",
+          "trans": {
+            "de": "Freut mich auch. Ich heiße David.",
+            "en": "Replying and giving your name.",
+            "zh": "我也很高兴认识你。我叫 David。"
+          }
+        },
+        {
+          "who": "A",
+          "target": "Where are you from, David?",
+          "trans": {
+            "de": "Woher kommst du, David?",
+            "en": "Asking about origin.",
+            "zh": "David，你来自哪里？"
+          }
+        },
+        {
+          "who": "B",
+          "target": "I'm from Germany. I'm here to improve my English.",
+          "trans": {
+            "de": "Ich komme aus Deutschland. Ich bin hier, um mein Englisch zu verbessern.",
+            "en": "Stating your goal.",
+            "zh": "我来自德国，来这里提高英语水平。"
+          }
+        },
+        {
+          "who": "A",
+          "target": "Your English sounds great already!",
+          "trans": {
+            "de": "Dein Englisch klingt jetzt schon super!",
+            "en": "A nice compliment.",
+            "zh": "你的英语听起来已经很棒了！"
+          }
+        }
+      ]
+    }
+  ],
+  "culture": [
+    {
+      "title": {
+        "de": "Small Talk gehört dazu",
+        "en": "Small talk matters",
+        "zh": "闲聊很重要"
+      },
+      "body": {
+        "de": "In Großbritannien und den USA ist Small Talk – kurze, lockere Gespräche über Wetter, Wochenende oder Sport – ein wichtiger Teil der Höflichkeit. Ein „How are you?“ ist meist keine echte Frage nach dem Befinden; die erwartete Antwort ist ein kurzes „Fine, thanks – and you?“.",
+        "en": "In the UK and the US, small talk – short, light conversation about the weather, the weekend or sport – is an important part of politeness. \"How are you?\" is usually not a real question; the expected answer is a short \"Fine, thanks – and you?\".",
+        "zh": "在英国和美国，闲聊（谈天气、周末或体育的轻松对话）是礼貌的重要组成部分。\"How are you?\" 通常不是真正的提问，标准回答是简短的 \"Fine, thanks – and you?\"。"
+      }
+    },
+    {
+      "title": {
+        "de": "Bitte und danke – öfter als gedacht",
+        "en": "Please and thank you – more often than you think",
+        "zh": "\"请\"和\"谢谢\"——比你想的更常用"
+      },
+      "body": {
+        "de": "Im Englischen sagt man deutlich häufiger „please“, „thank you“ und „sorry“ als im Deutschen. Eine Bestellung ohne „please“ kann schnell unhöflich wirken. Auch indirekte Formulierungen wie „Could you …?“ statt „Give me …“ sind Standard.",
+        "en": "English speakers say \"please\", \"thank you\" and \"sorry\" far more often than German speakers. An order without \"please\" can easily sound rude. Indirect phrasing like \"Could you …?\" instead of \"Give me …\" is standard.",
+        "zh": "英语中 \"please\"、\"thank you\" 和 \"sorry\" 的使用频率远高于德语。点单不说 \"please\" 容易显得不礼貌。用 \"Could you …?\" 这样的委婉表达而不是 \"Give me …\" 是常态。"
+      }
+    },
+    {
+      "title": {
+        "de": "Britisch oder amerikanisch?",
+        "en": "British or American?",
+        "zh": "英式还是美式？"
+      },
+      "body": {
+        "de": "Beide Varianten sind überall verstanden. Unterschiede gibt es in Aussprache, Schreibung (colour/color) und Wortschatz (lift/elevator, biscuit/cookie). Such dir eine Variante als Basis aus und bleib entspannt, wenn du beide mischst – das tun viele Lernende.",
+        "en": "Both varieties are understood everywhere. They differ in pronunciation, spelling (colour/color) and vocabulary (lift/elevator, biscuit/cookie). Pick one as your base and don't worry if you mix them – most learners do.",
+        "zh": "两种英语在哪里都能被理解。区别在发音、拼写（colour/color）和词汇（lift/elevator、biscuit/cookie）。选一种作为基础即可，混用也不必担心——大多数学习者都会混用。"
+      }
+    }
+  ]
+}

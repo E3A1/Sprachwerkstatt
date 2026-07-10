@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sprachwerkstatt – Englisch & Chinesisch lernen</title>
+  <meta name="description" content="Kostenlose statische Lern-Website für Englisch und Chinesisch (Mandarin): Vokabeln, Grammatik, Aussprache-Trainer, Quiz und Fortschritt.">
+
+  <!-- Schriften: Outfit (Display), Noto Sans + Noto Sans SC (Fließtext inkl. Hanzi), IBM Plex Mono (Pinyin/IPA) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Noto+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Sans+SC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body data-theme="light">
+
+  <!-- ===================== Kopfzeile ===================== -->
+  <header class="site-header">
+    <a href="#/" class="brand" aria-label="Startseite Sprachwerkstatt">
+      <!-- HIGGSFIELD-SLOT: Hier kann ein mit Higgsfield generiertes Logo/Maskottchen (SVG/PNG, ca. 40x40) eingesetzt werden. Aktuell: eingebettetes Tonkurven-Logo. -->
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+        <path d="M6 26 Q14 10 20 20 T34 16" fill="none" stroke="var(--acc-zh)" stroke-width="3.5" stroke-linecap="round"/>
+        <path d="M6 32 L34 32" fill="none" stroke="var(--acc-en)" stroke-width="3.5" stroke-linecap="round"/>
+      </svg>
+      <span class="brand-name">Sprach<b>werkstatt</b></span>
+    </a>
+
+    <nav class="header-nav" aria-label="Hauptnavigation">
+      <a href="#/quiz" data-i18n="nav.quiz">Quiz</a>
+      <a href="#/stats" data-i18n="nav.stats">Fortschritt</a>
+      <a href="#/search" data-i18n="nav.search">Suche</a>
+    </nav>
+
+    <div class="header-tools">
+      <!-- Umschaltung der Oberflächen-/Erklärsprache (de/en/zh) -->
+      <label class="visually-hidden" for="ui-lang" data-i18n="ui.language">Sprache der Oberfläche</label>
+      <select id="ui-lang" class="ui-lang-select" aria-label="Oberflächensprache">
+        <option value="de">DE</option>
+        <option value="en">EN</option>
+        <option value="zh">中文</option>
+      </select>
+
+      <!-- Dark-/Light-Mode -->
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Dunkelmodus umschalten" title="Hell/Dunkel">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+          <path class="icon-sun" d="M12 4V2m0 20v-2M4 12H2m20 0h-2M5.6 5.6 4.2 4.2m15.6 15.6-1.4-1.4M5.6 18.4l-1.4 1.4M19.8 4.2l-1.4 1.4M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== App-Inhalt (per JS gerendert) ===================== -->
+  <main id="app" class="app" tabindex="-1" aria-live="polite"></main>
+
+  <footer class="site-footer">
+    <p><span data-i18n="footer.tagline">Lernen im Browser – dein Fortschritt bleibt auf diesem Gerät.</span></p>
+    <button id="reset-progress" class="link-btn" type="button" data-i18n="footer.reset">Fortschritt zurücksetzen</button>
+  </footer>
+
+  <!-- Toast für kurze Rückmeldungen -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <!-- Skripte: Reihenfolge wichtig (Storage → i18n → Sprache → Quiz → App) -->
+  <script src="js/storage.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/speech.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
