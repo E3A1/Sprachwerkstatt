@@ -16,8 +16,11 @@
 
   async function loadCourse(code) {
     if (courses[code]) return courses[code];
-    const res = await fetch(`data/${code}.json`);
-    const data = await res.json();
+    const res = await fetch(`${code}.json?v=8`);
+    if (!res.ok) throw new Error(`${code}.json → HTTP ${res.status}`);
+    let data;
+    try { data = await res.json(); }
+    catch (e) { throw new Error(`${code}.json ist beschädigt: ${e.message}`); }
 
     /* Jede Vokabel bekommt eine stabile ID + normalisierte Felder,
        damit Quiz & Fortschritt einheitlich arbeiten können. */
@@ -1128,7 +1131,8 @@
     } catch (err) {
       /* Wenn data/*.json nicht per fetch geladen werden kann (z. B. file://),
          eine hilfreiche Meldung statt einer leeren Seite anzeigen. */
-      app.innerHTML = `<div class="quiz-card"><h2>⚠️ ${t("error.title")}</h2><p>${t("error.body")}</p></div>`;
+      app.innerHTML = `<div class="quiz-card"><h2>⚠️ ${t("error.title")}</h2><p>${t("error.body")}</p>
+        <p style="font-family:'IBM Plex Mono',monospace;font-size:.8rem;color:var(--muted);word-break:break-all">🔍 ${esc(err && err.message || err)}</p></div>`;
       console.error(err);
     }
     app.focus({ preventScroll: true });

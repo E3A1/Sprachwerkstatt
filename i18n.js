@@ -32,7 +32,7 @@
   }
 
   async function load() {
-    const res = await fetch("ui.json");
+    const res = await fetch("ui.json?v=8");
     dict = await res.json();
     applyStatic();
   }
