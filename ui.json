@@ -633,5 +633,15 @@
     "de": "Stark – aktuell hängt nichts in Box 1. Mach ein Quiz, um neue Vokabeln zu lernen.",
     "en": "Nice – nothing stuck in box 1 right now. Take a quiz to learn new words.",
     "zh": "太棒了——目前没有卡住的词。做个测验学习新词吧。"
+  },
+  "zh.pron": {
+    "de": "Aussprache & Pinyin-Regeln",
+    "en": "Pronunciation & Pinyin rules",
+    "zh": "发音与拼音规则"
+  },
+  "zh.pronMeta": {
+    "de": "Töne, Anlaute, Auslaute und alle Regeln – Schritt für Schritt",
+    "en": "Tones, initials, finals and all the rules – step by step",
+    "zh": "声调、声母、韵母与规则"
   }
 }

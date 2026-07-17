@@ -16,7 +16,7 @@
 
   async function loadCourse(code) {
     if (courses[code]) return courses[code];
-    const res = await fetch(`${code}.json`);
+    const res = await fetch(`data/${code}.json`);
     const data = await res.json();
 
     /* Jede Vokabel bekommt eine stabile ID + normalisierte Felder,
@@ -189,6 +189,7 @@
     ];
     if (code === "zh") {
       tools.splice(2, 0,
+        { href: "#/pron/zh", emoji: "👄", name: t("zh.pron"), meta: t("zh.pronMeta") },
         { href: "#/pinyin", emoji: "🔤", name: t("zh.pinyin"), meta: t("zh.pinyinMeta") },
         { href: "#/tones", emoji: "🎵", name: t("zh.tones"), meta: t("zh.tonesMeta") },
         { href: "#/chars", emoji: "✍️", name: t("zh.chars"), meta: t("zh.charsMeta") });
@@ -435,15 +436,15 @@
     const p = course.pronunciation;
     app.innerHTML = `
       <a class="back-link" href="#/course/${code}">← ${pick(course.name)}</a>
-      <h1>${t("en.pron")}</h1>
+      <h1>${code === "zh" ? t("zh.pron") : t("en.pron")}</h1>
       ${p.sections.map(s => `
         <div class="lesson-body" style="margin-bottom:1rem">
           <h2>${pick(s.title)}</h2>
           <p>${pick(s.body)}</p>
           ${(s.examples || []).map(ex => `
             <div class="example-block">
-              <span class="ex-target">${esc(ex.target)}</span>
-              ${ex.sub ? ` <span class="ex-pinyin" style="color:var(--acc-en)">${esc(ex.sub)}</span>` : ""}
+              <span class="ex-target">${code === "zh" ? tonePinyin(ex.target) : esc(ex.target)}</span>
+              ${ex.sub ? ` <span class="ex-pinyin" style="color:var(${code === "zh" ? "--muted" : "--acc-en"})">${esc(ex.sub)}</span>` : ""}
               <button type="button" class="mini-btn g-play" data-text="${esc(ex.speak || ex.target)}" aria-label="${t("a11y.play")}" style="width:28px;height:28px">🔊</button>
               ${ex.trans ? `<br><span class="ex-trans">${esc(pick(ex.trans))}</span>` : ""}
             </div>`).join("")}

@@ -190,6 +190,30 @@
                   "en": "My name is Wang Ming, and you?"
                 }
               }
+            },
+            {
+              "target": "晚安",
+              "sub": "wǎn'ān",
+              "meaning": {
+                "de": "Gute Nacht",
+                "en": "good night"
+              }
+            },
+            {
+              "target": "请问",
+              "sub": "qǐngwèn",
+              "meaning": {
+                "de": "Entschuldigung, darf ich fragen …",
+                "en": "excuse me (may I ask)"
+              }
+            },
+            {
+              "target": "对",
+              "sub": "duì",
+              "meaning": {
+                "de": "richtig / ja",
+                "en": "correct / yes"
+              }
             }
           ]
         },
@@ -393,6 +417,46 @@
                   "en": "What's your phone number?"
                 }
               }
+            },
+            {
+              "target": "零",
+              "sub": "líng",
+              "meaning": {
+                "de": "null",
+                "en": "zero"
+              }
+            },
+            {
+              "target": "十一",
+              "sub": "shíyī",
+              "meaning": {
+                "de": "elf (10+1)",
+                "en": "eleven"
+              }
+            },
+            {
+              "target": "二十",
+              "sub": "èrshí",
+              "meaning": {
+                "de": "zwanzig (2×10)",
+                "en": "twenty"
+              }
+            },
+            {
+              "target": "一千",
+              "sub": "yìqiān",
+              "meaning": {
+                "de": "tausend",
+                "en": "one thousand"
+              }
+            },
+            {
+              "target": "两",
+              "sub": "liǎng",
+              "meaning": {
+                "de": "zwei (vor Zählwort)",
+                "en": "two (of sth)"
+              }
             }
           ]
         },
@@ -531,6 +595,62 @@
                   "de": "Meine Familie hat fünf Personen.",
                   "en": "There are five people in my family."
                 }
+              }
+            },
+            {
+              "target": "爷爷",
+              "sub": "yéye",
+              "meaning": {
+                "de": "Opa",
+                "en": "grandpa"
+              }
+            },
+            {
+              "target": "奶奶",
+              "sub": "nǎinai",
+              "meaning": {
+                "de": "Oma",
+                "en": "grandma"
+              }
+            },
+            {
+              "target": "儿子",
+              "sub": "érzi",
+              "meaning": {
+                "de": "Sohn",
+                "en": "son"
+              }
+            },
+            {
+              "target": "女儿",
+              "sub": "nǚ'ér",
+              "meaning": {
+                "de": "Tochter",
+                "en": "daughter"
+              }
+            },
+            {
+              "target": "女朋友",
+              "sub": "nǚpéngyou",
+              "meaning": {
+                "de": "Freundin (Partnerin)",
+                "en": "girlfriend"
+              }
+            },
+            {
+              "target": "男朋友",
+              "sub": "nánpéngyou",
+              "meaning": {
+                "de": "Freund (Partner)",
+                "en": "boyfriend"
+              }
+            },
+            {
+              "target": "同学",
+              "sub": "tóngxué",
+              "meaning": {
+                "de": "Mitschüler/in, Kommilitone/in",
+                "en": "classmate"
               }
             }
           ]
@@ -703,6 +823,118 @@
                   "en": "We eat dumplings at Spring Festival."
                 }
               }
+            },
+            {
+              "target": "面包",
+              "sub": "miànbāo",
+              "meaning": {
+                "de": "Brot",
+                "en": "bread"
+              }
+            },
+            {
+              "target": "包子",
+              "sub": "bāozi",
+              "meaning": {
+                "de": "gedämpftes Brötchen",
+                "en": "steamed bun"
+              }
+            },
+            {
+              "target": "汤",
+              "sub": "tāng",
+              "meaning": {
+                "de": "Suppe",
+                "en": "soup"
+              }
+            },
+            {
+              "target": "鸡肉",
+              "sub": "jīròu",
+              "meaning": {
+                "de": "Hähnchenfleisch",
+                "en": "chicken"
+              }
+            },
+            {
+              "target": "牛肉",
+              "sub": "niúròu",
+              "meaning": {
+                "de": "Rindfleisch",
+                "en": "beef"
+              }
+            },
+            {
+              "target": "猪肉",
+              "sub": "zhūròu",
+              "meaning": {
+                "de": "Schweinefleisch",
+                "en": "pork"
+              }
+            },
+            {
+              "target": "羊肉",
+              "sub": "yángròu",
+              "meaning": {
+                "de": "Lammfleisch",
+                "en": "lamb"
+              }
+            },
+            {
+              "target": "鸡蛋",
+              "sub": "jīdàn",
+              "meaning": {
+                "de": "Ei",
+                "en": "egg"
+              }
+            },
+            {
+              "target": "蔬菜",
+              "sub": "shūcài",
+              "meaning": {
+                "de": "Gemüse",
+                "en": "vegetables"
+              }
+            },
+            {
+              "target": "香蕉",
+              "sub": "xiāngjiāo",
+              "meaning": {
+                "de": "Banane",
+                "en": "banana"
+              }
+            },
+            {
+              "target": "牛奶",
+              "sub": "niúnǎi",
+              "meaning": {
+                "de": "Milch",
+                "en": "milk"
+              }
+            },
+            {
+              "target": "啤酒",
+              "sub": "píjiǔ",
+              "meaning": {
+                "de": "Bier",
+                "en": "beer"
+              }
+            },
+            {
+              "target": "辣",
+              "sub": "là",
+              "meaning": {
+                "de": "scharf",
+                "en": "spicy"
+              }
+            },
+            {
+              "target": "甜",
+              "sub": "tián",
+              "meaning": {
+                "de": "süß",
+                "en": "sweet"
+              }
             }
           ]
         },
@@ -841,6 +1073,14 @@
                   "de": "Ihr Handy ist rosa.",
                   "en": "Her phone is pink."
                 }
+              }
+            },
+            {
+              "target": "紫色",
+              "sub": "zǐsè",
+              "meaning": {
+                "de": "lila",
+                "en": "purple"
               }
             }
           ]
@@ -1015,6 +1255,629 @@
               }
             }
           ]
+        },
+        {
+          "id": "pronouns",
+          "emoji": "👥",
+          "name": {
+            "de": "Personen & Pronomen",
+            "en": "People & pronouns",
+            "zh": "人 & 代词"
+          },
+          "words": [
+            {
+              "target": "我",
+              "sub": "wǒ",
+              "meaning": {
+                "de": "ich",
+                "en": "I / me"
+              }
+            },
+            {
+              "target": "你",
+              "sub": "nǐ",
+              "meaning": {
+                "de": "du",
+                "en": "you"
+              }
+            },
+            {
+              "target": "您",
+              "sub": "nín",
+              "meaning": {
+                "de": "Sie (höflich)",
+                "en": "you (polite)"
+              }
+            },
+            {
+              "target": "他",
+              "sub": "tā",
+              "meaning": {
+                "de": "er",
+                "en": "he"
+              }
+            },
+            {
+              "target": "她",
+              "sub": "tā",
+              "meaning": {
+                "de": "sie",
+                "en": "she"
+              }
+            },
+            {
+              "target": "我们",
+              "sub": "wǒmen",
+              "meaning": {
+                "de": "wir",
+                "en": "we"
+              }
+            },
+            {
+              "target": "你们",
+              "sub": "nǐmen",
+              "meaning": {
+                "de": "ihr",
+                "en": "you (plural)"
+              }
+            },
+            {
+              "target": "他们",
+              "sub": "tāmen",
+              "meaning": {
+                "de": "sie (Plural)",
+                "en": "they"
+              }
+            },
+            {
+              "target": "人",
+              "sub": "rén",
+              "meaning": {
+                "de": "Mensch, Person",
+                "en": "person"
+              }
+            },
+            {
+              "target": "男人",
+              "sub": "nánrén",
+              "meaning": {
+                "de": "Mann",
+                "en": "man"
+              }
+            },
+            {
+              "target": "女人",
+              "sub": "nǚrén",
+              "meaning": {
+                "de": "Frau",
+                "en": "woman"
+              }
+            },
+            {
+              "target": "大家",
+              "sub": "dàjiā",
+              "meaning": {
+                "de": "alle",
+                "en": "everyone"
+              }
+            }
+          ]
+        },
+        {
+          "id": "questions",
+          "emoji": "❓",
+          "name": {
+            "de": "Fragewörter",
+            "en": "Question words",
+            "zh": "疑问词"
+          },
+          "words": [
+            {
+              "target": "什么",
+              "sub": "shénme",
+              "meaning": {
+                "de": "was",
+                "en": "what"
+              }
+            },
+            {
+              "target": "谁",
+              "sub": "shéi",
+              "meaning": {
+                "de": "wer",
+                "en": "who"
+              }
+            },
+            {
+              "target": "哪儿",
+              "sub": "nǎr",
+              "meaning": {
+                "de": "wo",
+                "en": "where"
+              }
+            },
+            {
+              "target": "什么时候",
+              "sub": "shénme shíhou",
+              "meaning": {
+                "de": "wann",
+                "en": "when"
+              }
+            },
+            {
+              "target": "为什么",
+              "sub": "wèishénme",
+              "meaning": {
+                "de": "warum",
+                "en": "why"
+              }
+            },
+            {
+              "target": "怎么",
+              "sub": "zěnme",
+              "meaning": {
+                "de": "wie",
+                "en": "how"
+              }
+            },
+            {
+              "target": "怎么样",
+              "sub": "zěnmeyàng",
+              "meaning": {
+                "de": "wie ist / wie wäre es",
+                "en": "how about / how is"
+              }
+            },
+            {
+              "target": "几",
+              "sub": "jǐ",
+              "meaning": {
+                "de": "wie viele (kleine Zahl)",
+                "en": "how many (small)"
+              }
+            },
+            {
+              "target": "哪个",
+              "sub": "nǎge",
+              "meaning": {
+                "de": "welche(r/s)",
+                "en": "which"
+              }
+            }
+          ]
+        },
+        {
+          "id": "verbs",
+          "emoji": "⚡",
+          "name": {
+            "de": "Wichtige Verben",
+            "en": "Common verbs",
+            "zh": "动词"
+          },
+          "words": [
+            {
+              "target": "是",
+              "sub": "shì",
+              "meaning": {
+                "de": "sein",
+                "en": "to be"
+              }
+            },
+            {
+              "target": "有",
+              "sub": "yǒu",
+              "meaning": {
+                "de": "haben",
+                "en": "to have"
+              }
+            },
+            {
+              "target": "要",
+              "sub": "yào",
+              "meaning": {
+                "de": "wollen, brauchen",
+                "en": "to want"
+              }
+            },
+            {
+              "target": "想",
+              "sub": "xiǎng",
+              "meaning": {
+                "de": "möchten, denken",
+                "en": "to want / think"
+              }
+            },
+            {
+              "target": "爱",
+              "sub": "ài",
+              "meaning": {
+                "de": "lieben",
+                "en": "to love"
+              }
+            },
+            {
+              "target": "去",
+              "sub": "qù",
+              "meaning": {
+                "de": "gehen (hin)",
+                "en": "to go"
+              }
+            },
+            {
+              "target": "来",
+              "sub": "lái",
+              "meaning": {
+                "de": "kommen",
+                "en": "to come"
+              }
+            },
+            {
+              "target": "看",
+              "sub": "kàn",
+              "meaning": {
+                "de": "sehen, schauen",
+                "en": "to look / watch"
+              }
+            },
+            {
+              "target": "听",
+              "sub": "tīng",
+              "meaning": {
+                "de": "hören",
+                "en": "to listen"
+              }
+            },
+            {
+              "target": "说",
+              "sub": "shuō",
+              "meaning": {
+                "de": "sprechen, sagen",
+                "en": "to speak"
+              }
+            },
+            {
+              "target": "做",
+              "sub": "zuò",
+              "meaning": {
+                "de": "machen, tun",
+                "en": "to do / make"
+              }
+            },
+            {
+              "target": "坐",
+              "sub": "zuò",
+              "meaning": {
+                "de": "sitzen; (Verkehrsmittel) nehmen",
+                "en": "to sit / take (transport)"
+              }
+            },
+            {
+              "target": "走",
+              "sub": "zǒu",
+              "meaning": {
+                "de": "gehen (zu Fuß), losgehen",
+                "en": "to walk / leave"
+              }
+            },
+            {
+              "target": "学习",
+              "sub": "xuéxí",
+              "meaning": {
+                "de": "lernen",
+                "en": "to study"
+              }
+            },
+            {
+              "target": "知道",
+              "sub": "zhīdào",
+              "meaning": {
+                "de": "wissen",
+                "en": "to know (info)"
+              }
+            },
+            {
+              "target": "认识",
+              "sub": "rènshi",
+              "meaning": {
+                "de": "kennen (Person)",
+                "en": "to know (person)"
+              }
+            },
+            {
+              "target": "会",
+              "sub": "huì",
+              "meaning": {
+                "de": "können (gelernt)",
+                "en": "can / know how"
+              }
+            },
+            {
+              "target": "可以",
+              "sub": "kěyǐ",
+              "meaning": {
+                "de": "dürfen, können",
+                "en": "may / can"
+              }
+            },
+            {
+              "target": "给",
+              "sub": "gěi",
+              "meaning": {
+                "de": "geben",
+                "en": "to give"
+              }
+            },
+            {
+              "target": "等",
+              "sub": "děng",
+              "meaning": {
+                "de": "warten",
+                "en": "to wait"
+              }
+            },
+            {
+              "target": "帮",
+              "sub": "bāng",
+              "meaning": {
+                "de": "helfen",
+                "en": "to help"
+              }
+            }
+          ]
+        },
+        {
+          "id": "adjectives",
+          "emoji": "🎈",
+          "name": {
+            "de": "Adjektive",
+            "en": "Adjectives",
+            "zh": "形容词"
+          },
+          "words": [
+            {
+              "target": "大",
+              "sub": "dà",
+              "meaning": {
+                "de": "groß",
+                "en": "big"
+              }
+            },
+            {
+              "target": "小",
+              "sub": "xiǎo",
+              "meaning": {
+                "de": "klein",
+                "en": "small"
+              }
+            },
+            {
+              "target": "好",
+              "sub": "hǎo",
+              "meaning": {
+                "de": "gut",
+                "en": "good"
+              }
+            },
+            {
+              "target": "多",
+              "sub": "duō",
+              "meaning": {
+                "de": "viel(e)",
+                "en": "many"
+              }
+            },
+            {
+              "target": "少",
+              "sub": "shǎo",
+              "meaning": {
+                "de": "wenig(e)",
+                "en": "few"
+              }
+            },
+            {
+              "target": "高",
+              "sub": "gāo",
+              "meaning": {
+                "de": "groß, hoch",
+                "en": "tall / high"
+              }
+            },
+            {
+              "target": "长",
+              "sub": "cháng",
+              "meaning": {
+                "de": "lang",
+                "en": "long"
+              }
+            },
+            {
+              "target": "新",
+              "sub": "xīn",
+              "meaning": {
+                "de": "neu",
+                "en": "new"
+              }
+            },
+            {
+              "target": "旧",
+              "sub": "jiù",
+              "meaning": {
+                "de": "alt (Dinge)",
+                "en": "old (things)"
+              }
+            },
+            {
+              "target": "快",
+              "sub": "kuài",
+              "meaning": {
+                "de": "schnell",
+                "en": "fast"
+              }
+            },
+            {
+              "target": "慢",
+              "sub": "màn",
+              "meaning": {
+                "de": "langsam",
+                "en": "slow"
+              }
+            },
+            {
+              "target": "漂亮",
+              "sub": "piàoliang",
+              "meaning": {
+                "de": "hübsch, schön",
+                "en": "pretty"
+              }
+            },
+            {
+              "target": "饿",
+              "sub": "è",
+              "meaning": {
+                "de": "hungrig",
+                "en": "hungry"
+              }
+            },
+            {
+              "target": "渴",
+              "sub": "kě",
+              "meaning": {
+                "de": "durstig",
+                "en": "thirsty"
+              }
+            },
+            {
+              "target": "忙",
+              "sub": "máng",
+              "meaning": {
+                "de": "beschäftigt",
+                "en": "busy"
+              }
+            },
+            {
+              "target": "难",
+              "sub": "nán",
+              "meaning": {
+                "de": "schwierig",
+                "en": "difficult"
+              }
+            }
+          ]
+        },
+        {
+          "id": "survival",
+          "emoji": "🆘",
+          "name": {
+            "de": "Survival-Sätze",
+            "en": "Survival phrases",
+            "zh": "生存句子"
+          },
+          "words": [
+            {
+              "target": "我是德国人。",
+              "sub": "Wǒ shì Déguórén.",
+              "meaning": {
+                "de": "Ich bin Deutsche/r.",
+                "en": "I am German."
+              }
+            },
+            {
+              "target": "我听不懂。",
+              "sub": "Wǒ tīng bu dǒng.",
+              "meaning": {
+                "de": "Ich verstehe (akustisch) nicht.",
+                "en": "I don't understand (what I hear)."
+              }
+            },
+            {
+              "target": "请说慢一点。",
+              "sub": "Qǐng shuō màn yìdiǎn.",
+              "meaning": {
+                "de": "Bitte sprich langsamer.",
+                "en": "Please speak more slowly."
+              }
+            },
+            {
+              "target": "请再说一遍。",
+              "sub": "Qǐng zài shuō yí biàn.",
+              "meaning": {
+                "de": "Bitte sag es noch einmal.",
+                "en": "Please say it again."
+              }
+            },
+            {
+              "target": "这个多少钱？",
+              "sub": "Zhège duōshao qián?",
+              "meaning": {
+                "de": "Wie viel kostet das?",
+                "en": "How much is this?"
+              }
+            },
+            {
+              "target": "太贵了！",
+              "sub": "Tài guì le!",
+              "meaning": {
+                "de": "Zu teuer!",
+                "en": "Too expensive!"
+              }
+            },
+            {
+              "target": "便宜一点，好吗？",
+              "sub": "Piányi yìdiǎn, hǎo ma?",
+              "meaning": {
+                "de": "Etwas billiger, okay?",
+                "en": "A little cheaper, okay?"
+              }
+            },
+            {
+              "target": "洗手间在哪儿？",
+              "sub": "Xǐshǒujiān zài nǎr?",
+              "meaning": {
+                "de": "Wo ist die Toilette?",
+                "en": "Where is the restroom?"
+              }
+            },
+            {
+              "target": "我要这个。",
+              "sub": "Wǒ yào zhège.",
+              "meaning": {
+                "de": "Ich möchte dieses hier.",
+                "en": "I want this one."
+              }
+            },
+            {
+              "target": "我不吃猪肉。",
+              "sub": "Wǒ bù chī zhūròu.",
+              "meaning": {
+                "de": "Ich esse kein Schweinefleisch.",
+                "en": "I don't eat pork."
+              }
+            },
+            {
+              "target": "买单！",
+              "sub": "Mǎidān!",
+              "meaning": {
+                "de": "Die Rechnung, bitte!",
+                "en": "The bill, please!"
+              }
+            },
+            {
+              "target": "可以用微信吗？",
+              "sub": "Kěyǐ yòng Wēixìn ma?",
+              "meaning": {
+                "de": "Kann ich mit WeChat zahlen?",
+                "en": "Can I pay with WeChat?"
+              }
+            },
+            {
+              "target": "我爱你。",
+              "sub": "Wǒ ài nǐ.",
+              "meaning": {
+                "de": "Ich liebe dich. ❤",
+                "en": "I love you."
+              }
+            }
+          ]
         }
       ]
     },
@@ -1162,6 +2025,62 @@
                   "de": "Äpfel kosten fünf Yuan pro Pfund.",
                   "en": "Apples are five yuan per jin."
                 }
+              }
+            },
+            {
+              "target": "元",
+              "sub": "yuán",
+              "meaning": {
+                "de": "Yuan",
+                "en": "yuan"
+              }
+            },
+            {
+              "target": "东西",
+              "sub": "dōngxi",
+              "meaning": {
+                "de": "Ding, Sache",
+                "en": "thing / stuff"
+              }
+            },
+            {
+              "target": "市场",
+              "sub": "shìchǎng",
+              "meaning": {
+                "de": "Markt",
+                "en": "market"
+              }
+            },
+            {
+              "target": "现金",
+              "sub": "xiànjīn",
+              "meaning": {
+                "de": "Bargeld",
+                "en": "cash"
+              }
+            },
+            {
+              "target": "支付宝",
+              "sub": "Zhīfùbǎo",
+              "meaning": {
+                "de": "Alipay",
+                "en": "Alipay"
+              }
+            },
+            {
+              "target": "微信",
+              "sub": "Wēixìn",
+              "meaning": {
+                "de": "WeChat",
+                "en": "WeChat"
+              }
+            },
+            {
+              "target": "打折",
+              "sub": "dǎzhé",
+              "meaning": {
+                "de": "Rabatt geben",
+                "en": "discount"
               }
             }
           ]
@@ -1473,6 +2392,38 @@
                   "en": "What do you want to do at the weekend?"
                 }
               }
+            },
+            {
+              "target": "中午",
+              "sub": "zhōngwǔ",
+              "meaning": {
+                "de": "Mittag",
+                "en": "noon"
+              }
+            },
+            {
+              "target": "下午",
+              "sub": "xiàwǔ",
+              "meaning": {
+                "de": "Nachmittag",
+                "en": "afternoon"
+              }
+            },
+            {
+              "target": "分钟",
+              "sub": "fēnzhōng",
+              "meaning": {
+                "de": "Minute",
+                "en": "minute"
+              }
+            },
+            {
+              "target": "小时",
+              "sub": "xiǎoshí",
+              "meaning": {
+                "de": "Stunde",
+                "en": "hour"
+              }
             }
           ]
         },
@@ -1579,6 +2530,46 @@
                   "de": "Morgen wird es sonnig.",
                   "en": "Tomorrow will be sunny."
                 }
+              }
+            },
+            {
+              "target": "暖和",
+              "sub": "nuǎnhuo",
+              "meaning": {
+                "de": "warm (angenehm)",
+                "en": "warm"
+              }
+            },
+            {
+              "target": "晴",
+              "sub": "qíng",
+              "meaning": {
+                "de": "sonnig",
+                "en": "sunny"
+              }
+            },
+            {
+              "target": "阴",
+              "sub": "yīn",
+              "meaning": {
+                "de": "bewölkt",
+                "en": "cloudy"
+              }
+            },
+            {
+              "target": "风",
+              "sub": "fēng",
+              "meaning": {
+                "de": "Wind",
+                "en": "wind"
+              }
+            },
+            {
+              "target": "太阳",
+              "sub": "tàiyáng",
+              "meaning": {
+                "de": "Sonne",
+                "en": "sun"
               }
             }
           ]
@@ -1858,6 +2849,496 @@
                   "en": "I practice characters every day."
                 }
               }
+            },
+            {
+              "target": "笔",
+              "sub": "bǐ",
+              "meaning": {
+                "de": "Stift",
+                "en": "pen"
+              }
+            },
+            {
+              "target": "课",
+              "sub": "kè",
+              "meaning": {
+                "de": "Unterricht, Lektion",
+                "en": "class / lesson"
+              }
+            },
+            {
+              "target": "作业",
+              "sub": "zuòyè",
+              "meaning": {
+                "de": "Hausaufgaben",
+                "en": "homework"
+              }
+            },
+            {
+              "target": "大学",
+              "sub": "dàxué",
+              "meaning": {
+                "de": "Universität",
+                "en": "university"
+              }
+            }
+          ]
+        },
+        {
+          "id": "week",
+          "emoji": "📅",
+          "name": {
+            "de": "Wochentage",
+            "en": "Days of the week",
+            "zh": "星期"
+          },
+          "words": [
+            {
+              "target": "星期二",
+              "sub": "xīngqī'èr",
+              "meaning": {
+                "de": "Dienstag",
+                "en": "Tuesday"
+              }
+            },
+            {
+              "target": "星期三",
+              "sub": "xīngqīsān",
+              "meaning": {
+                "de": "Mittwoch",
+                "en": "Wednesday"
+              }
+            },
+            {
+              "target": "星期四",
+              "sub": "xīngqīsì",
+              "meaning": {
+                "de": "Donnerstag",
+                "en": "Thursday"
+              }
+            },
+            {
+              "target": "星期五",
+              "sub": "xīngqīwǔ",
+              "meaning": {
+                "de": "Freitag",
+                "en": "Friday"
+              }
+            },
+            {
+              "target": "星期六",
+              "sub": "xīngqīliù",
+              "meaning": {
+                "de": "Samstag",
+                "en": "Saturday"
+              }
+            },
+            {
+              "target": "星期天",
+              "sub": "xīngqītiān",
+              "meaning": {
+                "de": "Sonntag",
+                "en": "Sunday"
+              }
+            }
+          ]
+        },
+        {
+          "id": "restaurant",
+          "emoji": "🍜",
+          "name": {
+            "de": "Im Restaurant",
+            "en": "Restaurant",
+            "zh": "餐厅"
+          },
+          "words": [
+            {
+              "target": "菜单",
+              "sub": "càidān",
+              "meaning": {
+                "de": "Speisekarte",
+                "en": "menu"
+              }
+            },
+            {
+              "target": "点菜",
+              "sub": "diǎn cài",
+              "meaning": {
+                "de": "Essen bestellen",
+                "en": "to order food"
+              }
+            },
+            {
+              "target": "服务员",
+              "sub": "fúwùyuán",
+              "meaning": {
+                "de": "Kellner/in",
+                "en": "waiter"
+              }
+            },
+            {
+              "target": "筷子",
+              "sub": "kuàizi",
+              "meaning": {
+                "de": "Stäbchen",
+                "en": "chopsticks"
+              }
+            },
+            {
+              "target": "碗",
+              "sub": "wǎn",
+              "meaning": {
+                "de": "Schüssel",
+                "en": "bowl"
+              }
+            },
+            {
+              "target": "盘子",
+              "sub": "pánzi",
+              "meaning": {
+                "de": "Teller",
+                "en": "plate"
+              }
+            },
+            {
+              "target": "买单",
+              "sub": "mǎidān",
+              "meaning": {
+                "de": "die Rechnung",
+                "en": "the bill"
+              }
+            },
+            {
+              "target": "吃饭",
+              "sub": "chī fàn",
+              "meaning": {
+                "de": "(eine Mahlzeit) essen",
+                "en": "to eat (a meal)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "places",
+          "emoji": "📍",
+          "name": {
+            "de": "Orte",
+            "en": "Places",
+            "zh": "地点"
+          },
+          "words": [
+            {
+              "target": "饭店",
+              "sub": "fàndiàn",
+              "meaning": {
+                "de": "Restaurant",
+                "en": "restaurant"
+              }
+            },
+            {
+              "target": "酒店",
+              "sub": "jiǔdiàn",
+              "meaning": {
+                "de": "Hotel",
+                "en": "hotel"
+              }
+            },
+            {
+              "target": "洗手间",
+              "sub": "xǐshǒujiān",
+              "meaning": {
+                "de": "Toilette (höflich)",
+                "en": "restroom"
+              }
+            },
+            {
+              "target": "厕所",
+              "sub": "cèsuǒ",
+              "meaning": {
+                "de": "Toilette",
+                "en": "toilet"
+              }
+            },
+            {
+              "target": "车站",
+              "sub": "chēzhàn",
+              "meaning": {
+                "de": "Bahnhof, Haltestelle",
+                "en": "station"
+              }
+            },
+            {
+              "target": "商场",
+              "sub": "shāngchǎng",
+              "meaning": {
+                "de": "Einkaufszentrum",
+                "en": "mall"
+              }
+            }
+          ]
+        },
+        {
+          "id": "directions",
+          "emoji": "🧭",
+          "name": {
+            "de": "Richtungen & Position",
+            "en": "Directions & position",
+            "zh": "方向"
+          },
+          "words": [
+            {
+              "target": "左",
+              "sub": "zuǒ",
+              "meaning": {
+                "de": "links",
+                "en": "left"
+              }
+            },
+            {
+              "target": "右",
+              "sub": "yòu",
+              "meaning": {
+                "de": "rechts",
+                "en": "right"
+              }
+            },
+            {
+              "target": "上",
+              "sub": "shàng",
+              "meaning": {
+                "de": "oben, auf",
+                "en": "up / on"
+              }
+            },
+            {
+              "target": "下",
+              "sub": "xià",
+              "meaning": {
+                "de": "unten, unter",
+                "en": "down / under"
+              }
+            },
+            {
+              "target": "前",
+              "sub": "qián",
+              "meaning": {
+                "de": "vorne",
+                "en": "front"
+              }
+            },
+            {
+              "target": "后",
+              "sub": "hòu",
+              "meaning": {
+                "de": "hinten",
+                "en": "back"
+              }
+            },
+            {
+              "target": "里",
+              "sub": "lǐ",
+              "meaning": {
+                "de": "innen, in",
+                "en": "inside"
+              }
+            },
+            {
+              "target": "外",
+              "sub": "wài",
+              "meaning": {
+                "de": "außen",
+                "en": "outside"
+              }
+            },
+            {
+              "target": "旁边",
+              "sub": "pángbiān",
+              "meaning": {
+                "de": "daneben",
+                "en": "beside"
+              }
+            },
+            {
+              "target": "对面",
+              "sub": "duìmiàn",
+              "meaning": {
+                "de": "gegenüber",
+                "en": "opposite"
+              }
+            },
+            {
+              "target": "这里",
+              "sub": "zhèlǐ",
+              "meaning": {
+                "de": "hier",
+                "en": "here"
+              }
+            },
+            {
+              "target": "那里",
+              "sub": "nàlǐ",
+              "meaning": {
+                "de": "dort",
+                "en": "there"
+              }
+            }
+          ]
+        },
+        {
+          "id": "transport",
+          "emoji": "🚇",
+          "name": {
+            "de": "Verkehr",
+            "en": "Transport",
+            "zh": "交通"
+          },
+          "words": [
+            {
+              "target": "出租车",
+              "sub": "chūzūchē",
+              "meaning": {
+                "de": "Taxi",
+                "en": "taxi"
+              }
+            },
+            {
+              "target": "公交车",
+              "sub": "gōngjiāochē",
+              "meaning": {
+                "de": "Bus",
+                "en": "bus"
+              }
+            },
+            {
+              "target": "火车",
+              "sub": "huǒchē",
+              "meaning": {
+                "de": "Zug",
+                "en": "train"
+              }
+            },
+            {
+              "target": "高铁",
+              "sub": "gāotiě",
+              "meaning": {
+                "de": "Hochgeschwindigkeitszug",
+                "en": "high-speed rail"
+              }
+            },
+            {
+              "target": "飞机",
+              "sub": "fēijī",
+              "meaning": {
+                "de": "Flugzeug",
+                "en": "airplane"
+              }
+            },
+            {
+              "target": "自行车",
+              "sub": "zìxíngchē",
+              "meaning": {
+                "de": "Fahrrad",
+                "en": "bicycle"
+              }
+            },
+            {
+              "target": "票",
+              "sub": "piào",
+              "meaning": {
+                "de": "Ticket, Fahrkarte",
+                "en": "ticket"
+              }
+            }
+          ]
+        },
+        {
+          "id": "countries",
+          "emoji": "🌏",
+          "name": {
+            "de": "Länder & Sprachen",
+            "en": "Countries & languages",
+            "zh": "国家 & 语言"
+          },
+          "words": [
+            {
+              "target": "中国",
+              "sub": "Zhōngguó",
+              "meaning": {
+                "de": "China",
+                "en": "China"
+              }
+            },
+            {
+              "target": "德国",
+              "sub": "Déguó",
+              "meaning": {
+                "de": "Deutschland",
+                "en": "Germany"
+              }
+            },
+            {
+              "target": "美国",
+              "sub": "Měiguó",
+              "meaning": {
+                "de": "USA",
+                "en": "USA"
+              }
+            },
+            {
+              "target": "英国",
+              "sub": "Yīngguó",
+              "meaning": {
+                "de": "Großbritannien",
+                "en": "UK"
+              }
+            },
+            {
+              "target": "法国",
+              "sub": "Fǎguó",
+              "meaning": {
+                "de": "Frankreich",
+                "en": "France"
+              }
+            },
+            {
+              "target": "德国人",
+              "sub": "Déguórén",
+              "meaning": {
+                "de": "Deutsche/r",
+                "en": "a German"
+              }
+            },
+            {
+              "target": "中文",
+              "sub": "Zhōngwén",
+              "meaning": {
+                "de": "Chinesisch (Sprache)",
+                "en": "Chinese (language)"
+              }
+            },
+            {
+              "target": "汉语",
+              "sub": "Hànyǔ",
+              "meaning": {
+                "de": "Chinesisch (Mandarin)",
+                "en": "Chinese (Mandarin)"
+              }
+            },
+            {
+              "target": "英语",
+              "sub": "Yīngyǔ",
+              "meaning": {
+                "de": "Englisch",
+                "en": "English"
+              }
+            },
+            {
+              "target": "德语",
+              "sub": "Déyǔ",
+              "meaning": {
+                "de": "Deutsch",
+                "en": "German"
+              }
             }
           ]
         }
@@ -2007,6 +3488,94 @@
                   "de": "Ich mache jeden Morgen Sport.",
                   "en": "I exercise every morning."
                 }
+              }
+            },
+            {
+              "target": "头",
+              "sub": "tóu",
+              "meaning": {
+                "de": "Kopf",
+                "en": "head"
+              }
+            },
+            {
+              "target": "眼睛",
+              "sub": "yǎnjing",
+              "meaning": {
+                "de": "Augen",
+                "en": "eyes"
+              }
+            },
+            {
+              "target": "鼻子",
+              "sub": "bízi",
+              "meaning": {
+                "de": "Nase",
+                "en": "nose"
+              }
+            },
+            {
+              "target": "耳朵",
+              "sub": "ěrduo",
+              "meaning": {
+                "de": "Ohren",
+                "en": "ears"
+              }
+            },
+            {
+              "target": "嘴",
+              "sub": "zuǐ",
+              "meaning": {
+                "de": "Mund",
+                "en": "mouth"
+              }
+            },
+            {
+              "target": "手",
+              "sub": "shǒu",
+              "meaning": {
+                "de": "Hand",
+                "en": "hand"
+              }
+            },
+            {
+              "target": "脚",
+              "sub": "jiǎo",
+              "meaning": {
+                "de": "Fuß",
+                "en": "foot"
+              }
+            },
+            {
+              "target": "肚子",
+              "sub": "dùzi",
+              "meaning": {
+                "de": "Bauch",
+                "en": "belly / stomach"
+              }
+            },
+            {
+              "target": "生病",
+              "sub": "shēngbìng",
+              "meaning": {
+                "de": "krank sein",
+                "en": "to be sick"
+              }
+            },
+            {
+              "target": "疼",
+              "sub": "téng",
+              "meaning": {
+                "de": "wehtun, schmerzen",
+                "en": "to hurt / ache"
+              }
+            },
+            {
+              "target": "感冒",
+              "sub": "gǎnmào",
+              "meaning": {
+                "de": "Erkältung",
+                "en": "a cold"
               }
             }
           ]
@@ -3812,5 +5381,223 @@
         "zh": "在中国，茶远不只是饮料：给客人倒茶是尊重的表现。倒茶时对方用手指轻敲两下桌面表示“谢谢”——这个无声的手势相传源自帝制时代。"
       }
     }
-  ]
+  ],
+  "pronunciation": {
+    "sections": [
+      {
+        "title": {
+          "de": "Was ist Pinyin?",
+          "en": "What is Pīnyīn?",
+          "zh": "什么是拼音？"
+        },
+        "body": {
+          "de": "Pinyin schreibt chinesische Laute mit lateinischen Buchstaben. Jede Silbe hat 3 Teile: Anlaut (der Konsonant am Anfang, z. B. m in mā), Auslaut (der Vokalteil, z. B. a) und Ton (die Melodie, das Zeichen oben). Gute Nachricht: Mandarin hat keine Konjugationen, keine Plurale, keine Fälle – die einzige Hürde sind Laute und Töne.",
+          "en": "Pīnyīn writes Chinese sounds with Latin letters. Every syllable has 3 parts: initial (starting consonant, e.g. m in mā), final (vowel part, e.g. a) and tone (the melody mark on top). Good news: Mandarin has no conjugations, plurals or cases – the only hurdle is sounds and tones.",
+          "zh": "拼音用拉丁字母书写汉语发音。每个音节有三部分：声母、韵母和声调。"
+        },
+        "examples": [
+          {
+            "target": "mā = m + a + Ton 1",
+            "sub": "Anlaut + Auslaut + Ton",
+            "speak": "妈",
+            "trans": {
+              "de": "mā (Mutter): ändere den Ton und du änderst das Wort komplett",
+              "en": "mā (mother): change the tone and you change the word",
+              "zh": "改变声调就改变了词义"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Die vier Töne",
+          "en": "The four tones",
+          "zh": "四个声调"
+        },
+        "body": {
+          "de": "Ton 1 (ā): hoch und flach, wie eine gesungene Note. Ton 2 (á): steigend, wie eine Rückfrage („hä?“). Ton 3 (ǎ): fällt tief und steigt wieder, wie ein zweifelndes „naaaja“. Ton 4 (à): scharf fallend, wie ein bestimmtes „Nein!“. Neutral: leicht und kurz. Tonzeichen-Regel: a und e gewinnen immer; bei ou aufs o; sonst auf den letzten Vokal.",
+          "en": "Tone 1 (ā): high and flat. Tone 2 (á): rising, like asking “huh?”. Tone 3 (ǎ): dips low then rises. Tone 4 (à): sharp fall, like a firm “No!”. Neutral: light and quick. Mark placement: a and e always win; in ou it goes on o; otherwise on the last vowel.",
+          "zh": "一声高平，二声上扬，三声先降后升，四声急降，轻声又轻又短。"
+        },
+        "examples": [
+          {
+            "target": "mā · má · mǎ · mà · ma",
+            "sub": "Mutter · Hanf · Pferd · schimpfen · (Frage)",
+            "speak": "妈。麻。马。骂。吗。",
+            "trans": {
+              "de": "Fünf Bedeutungen, ein Laut – nur der Ton unterscheidet sie",
+              "en": "Five meanings, one sound – only the tone differs",
+              "zh": "同音不同调，意思完全不同"
+            }
+          },
+          {
+            "target": "nǐ hǎo → ní hǎo",
+            "sub": "3+3-Regel (Sandhi)",
+            "speak": "你好",
+            "trans": {
+              "de": "Zwei dritte Töne hintereinander: der erste wird als 2. Ton gesprochen (geschrieben bleibt er 3.)",
+              "en": "Two 3rd tones in a row: say the first as 2nd tone (writing stays 3rd)",
+              "zh": "两个三声相连，第一个读作二声"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Anlaute 1 – die einfachen",
+          "en": "Initials 1 – the easy ones",
+          "zh": "声母（一）"
+        },
+        "body": {
+          "de": "Die meisten Anlaute klingen fast wie im Deutschen/Englischen. Der Trick: Paare aus weich (ohne Luftstoß) und stark (mit Luftstoß): b/p, d/t, g/k. Halte ein Taschentuch vor den Mund – bei p, t, k muss es sich bewegen, bei b, d, g nicht. Diese eine Gewohnheit behebt die Hälfte aller Aussprachefehler! h ist rauer als im Deutschen, wie in „Bach“.",
+          "en": "Most initials are close to English. Key idea: pairs of soft (no puff) and strong (puff of air): b/p, d/t, g/k. Hold a tissue in front of your mouth – for p, t, k it must move, for b, d, g it must not. This one habit fixes half of all pronunciation mistakes! h is rougher, like German “Bach”.",
+          "zh": "多数声母接近英语。关键是送气与不送气的对立：b/p、d/t、g/k。"
+        },
+        "examples": [
+          {
+            "target": "bā (acht) · pá (klettern)",
+            "sub": "b weich · p mit Luftstoß",
+            "speak": "八。爬。",
+            "trans": {
+              "de": "b wie in „Spy“ (weich) – p wie in „Pie“ (Luftstoß)",
+              "en": "b as in “spy” (soft) – p as in “pie” (puff)",
+              "zh": "不送气 vs 送气"
+            }
+          },
+          {
+            "target": "dà (groß) · tā (er) · gǒu (Hund) · kàn (schauen)",
+            "sub": "d/t · g/k",
+            "speak": "大。他。狗。看。",
+            "trans": {
+              "de": "Gleiche Logik: d wie in „Stop“, t wie in „Top“, g wie in „Sky“, k wie in „Kite“",
+              "en": "Same logic: d as in “stop”, t as in “top”, g as in “sky”, k as in “kite”",
+              "zh": "同样的对立"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Anlaute 2 – die drei Familien",
+          "en": "Initials 2 – the three families",
+          "zh": "声母（二）"
+        },
+        "body": {
+          "de": "Drei Familien klingen ähnlich, entstehen aber an verschiedenen Stellen im Mund. Familie 1: j·q·x – Zunge flach und vorne, lächeln! Familie 2: zh·ch·sh·r – Zunge nach hinten gerollt. Familie 3: z·c·s – Zungenspitze an den Zähnen. Sag langsam xī – shī – sī und spüre, wie deine Zunge jedes Mal weiter nach hinten wandert.",
+          "en": "Three families sound similar but are made in different places. Family 1: j·q·x – tongue flat and forward, smile! Family 2: zh·ch·sh·r – tongue curled back. Family 3: z·c·s – tongue tip at the teeth. Say xī – shī – sī slowly and feel your tongue move backward each time.",
+          "zh": "j·q·x 舌面音，zh·ch·sh·r 卷舌音，z·c·s 舌尖音。"
+        },
+        "examples": [
+          {
+            "target": "jǐ (wie viele) · qù (gehen) · xiè (danke)",
+            "sub": "Familie 1: flach & vorne",
+            "speak": "几。去。谢。",
+            "trans": {
+              "de": "j wie „Jeep“, q wie „Cheese“ + Luft, x wie weiches „sh“ in „Sheep“",
+              "en": "j as in “jeep”, q as “cheese” + puff, x soft “sh” as in “sheep”",
+              "zh": "微笑着发音"
+            }
+          },
+          {
+            "target": "zhè (dies) · chī (essen) · shì (sein) · rè (heiß)",
+            "sub": "Familie 2: Zunge gerollt",
+            "speak": "这。吃。是。热。",
+            "trans": {
+              "de": "Wie j/ch/sh in „jump/church/shirt“, aber mit zurückgerollter Zunge",
+              "en": "Like j/ch/sh in “jump/church/shirt” but with the tongue curled back",
+              "zh": "舌头卷起来"
+            }
+          },
+          {
+            "target": "zài (in/bei) · cài (Gericht) · sān (drei)",
+            "sub": "Familie 3: Zungenspitze",
+            "speak": "在。菜。三。",
+            "trans": {
+              "de": "z wie „ds“ in „reads“, c wie „ts“ in „cats“ + Luft, s wie in „Sonne“",
+              "en": "z as “ds” in “reads”, c as “ts” in “cats” + puff, s as in “sun”",
+              "zh": "舌尖靠近牙齿"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Auslaute – Vokale & Kombinationen",
+          "en": "Finals – vowels & combinations",
+          "zh": "韵母"
+        },
+        "body": {
+          "de": "Sechs Grundvokale: a („ah“), o („aw“), e („öh“, hinten im Mund), i („ie“), u („uh“), ü – exakt das deutsche ü, du kannst es schon! Kombinationen einfach schnell verbinden: ai=„ei“, ao=„au“, ie=„jä“, iu=„jou“, ui=„uäi“, uo=„uo“. Achtung Falle: Nach z, c, s, zh, ch, sh, r ist i KEIN „ie“, sondern ein kurzes Summen: shì = „schrr“, nicht „schie“.",
+          "en": "Six basic vowels: a (“ah”), o (“aw”), e (“uh”, back of mouth), i (“ee”), u (“oo”), ü – exactly the German ü! Combinations glide together: ai=“eye”, ao=“ow”, ie=“yeah”, iu=“yo”, ui=“way”. One trap: after z, c, s, zh, ch, sh, r the letter i is NOT “ee” but a short buzz: shì = “shrr”, not “shee”.",
+          "zh": "六个单韵母加复韵母。z/c/s/zh/ch/sh/r 后的 i 是舌尖元音。"
+        },
+        "examples": [
+          {
+            "target": "hǎo (gut) · gǒu (Hund) · jiā (Zuhause) · huì (können)",
+            "sub": "ao · ou · ia · ui",
+            "speak": "好。狗。家。会。",
+            "trans": {
+              "de": "„hau“ · „gou“ · „djia“ · „chuäi“ – Vokale schnell verbinden",
+              "en": "“how” · “go(h)” · “jyah” · “way” – glide the vowels together",
+              "zh": "快速滑过两个元音"
+            }
+          },
+          {
+            "target": "shì · chī · zì · sì",
+            "sub": "das summende i",
+            "speak": "是。吃。字。四。",
+            "trans": {
+              "de": "„schrr, tschrr, dsss, sss“ – nicht „schie, tschie“!",
+              "en": "“shrr, chrr, dzz, ssz” – not “shee, chee”!",
+              "zh": "整体认读音节"
+            }
+          },
+          {
+            "target": "fàn (Essen) · máng (beschäftigt) · rén (Mensch) · zhōng (Mitte)",
+            "sub": "-n vs. -ng",
+            "speak": "饭。忙。人。中。",
+            "trans": {
+              "de": "Bei -n berührt die Zunge die Zähne (Mund schließt), bei -ng bleibt der Mund offen und es klingt nasal wie am Ende von „Song“",
+              "en": "For -n the tongue touches behind the teeth (mouth closes); for -ng the mouth stays open and it is nasal like the end of “song”",
+              "zh": "前鼻音与后鼻音"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Schreib- & Tonregeln",
+          "en": "Spelling & tone rules",
+          "zh": "拼写与变调规则"
+        },
+        "body": {
+          "de": "Regel 1: Nach j, q, x, y verliert ü seine Punkte, wird aber weiter als ü gesprochen: qù = „q+ü“, xué = „x+üe“. Nach n und l bleiben die Punkte: nǚ, lǜ. Regel 2: Silben beginnen nie mit bloßem i/u/ü – es kommt y oder w davor: yī (eins), wǔ (fünf), yú (Fisch). Regel 3: bù wird zu bú vor einem 4. Ton (bú duì, bú kèqi), yī wird zu yí vor dem 4. Ton (yí gè) und zu yì vor Ton 1/2/3 (yì bēi). Keine Panik – das kommt mit dem Hören von selbst.",
+          "en": "Rule 1: After j, q, x, y the ü loses its dots but is still said as ü: qù = “q+ü”, xué = “x+üe”. After n and l the dots stay: nǚ, lǜ. Rule 2: Syllables never start with bare i/u/ü – add y or w: yī (one), wǔ (five), yú (fish). Rule 3: bù becomes bú before a 4th tone (bú duì, bú kèqi); yī becomes yí before a 4th tone (yí gè) and yì before tones 1/2/3 (yì bēi). Don't panic – this comes naturally with listening.",
+          "zh": "ü 在 j/q/x/y 后省略两点；不、一有变调。"
+        },
+        "examples": [
+          {
+            "target": "qù · xué · lǜ",
+            "sub": "die ü-Regel",
+            "speak": "去。学。绿。",
+            "trans": {
+              "de": "qù und xué verstecken ein ü – bei lǜ bleiben die Punkte (nach l)",
+              "en": "qù and xué hide a ü – in lǜ the dots stay (after l)",
+              "zh": "省略与保留两点"
+            }
+          },
+          {
+            "target": "bù → bú duì · bú kèqi",
+            "sub": "不-Tonwechsel",
+            "speak": "不对。不客气。",
+            "trans": {
+              "de": "Vor einem 4. Ton wird bù zum steigenden bú",
+              "en": "Before a 4th tone bù becomes rising bú",
+              "zh": "不的变调"
+            }
+          }
+        ]
+      }
+    ]
+  }
 }
